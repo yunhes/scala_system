@@ -1,6 +1,6 @@
 
 
-###current progress
+### current progress
 
 1. deleting pMod VGA, for ice40 connecting to Pmod VGA, Pmod can be initialized to Pmod VGA directly.
 
@@ -8,7 +8,7 @@
 
 
 
-###Todo
+### Todo
 
 - [ ] add interface between scala and Defiant
 - [ ] add pll clock list
@@ -18,7 +18,7 @@
 - [ ] add tentative vga interconnect 
 
 
-###Meeting new goals
+### Meeting new goals
 
 - [ ] insert immediate goal
 
