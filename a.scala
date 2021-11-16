@@ -2,12 +2,43 @@
 class Pin():
     def <> (that : Pin) : Unit = ???
 
+abstract class timming
+    class Pll extends timming
+
+    class clk(frequency : Int, pin : Pin) extends timming:
+        val clkFrequency = frequency
+        val clkPin = pin
+
 abstract class Interface
 
-class VGA() extends Interface:
-    val hsync = Pin()
-    val vsync = Pin()
-    val r,g,b = Pin()
+
+
+class vgaMale() extends Interface:
+    //this is only a wiring version of basic vga male port
+    val RED = Pin(1)
+    val GREEN = Pin(2)
+    val BLUE = Pin(3)
+
+    val GND = Pin(5)
+    val hsync = Pin(13)
+    val vsync = Pin(14)
+
+class vgaFemale() extends Interface:
+    val RED = Pin(1)
+    val GREEN = Pin(2)
+    val BLUE = Pin(3)
+    val ID2 = Pin(4)
+    val GND_Hsync = Pin(5)
+    val RED_RTN = Pin(6)
+    val GREEN_RTN = Pin(7)
+    val BLUE_RTN = Pin(8)
+    val PWRE = Pin(9)
+    val GND_Vsync = Pin(10)
+    val ID0 = Pin(11)
+    val ID1 = Pin(12)
+    val hsync = Pin(13)
+    val vsync = Pin(14)
+    val ID3 = Pin(15)
 
 
 class Buttons extends Interface
@@ -31,47 +62,31 @@ class IceBreaker extends Board:
     val fpga = IceBreaker()
     val pmod = PMod_IceBreaker()
     val buttons = Buttons()
+    val clk12 = clk(1200, 35)
 
 
 class PModVGA extends Board:
     val pmod = PMod()
     val vga = VGA()
-    
-    pmod.p1 <> vga.hsync
-    pmod.p10 <> vga.r
+    //pmod.p3 <> vga.blue[1]
+    pmod.p44 <> vga.blue[0]
+    //pmod.p46 <> vga.green[1]
+    pmod.p31 <> vga.green[0]
+    //pmod.p4 <> vga.red[1]
+    pmod.p45 <> vga.red[0]
 
-class IceBreakerVGA extends Board:
-//TODO: connect PmodVGA to IceBreaker Pmod
-// set_io -nowarn hsync       47
-// set_io -nowarn vsync       45
-// set_io -nowarn rrggbb[5]          3
-// set_io -nowarn rrggbb[4]          48
-// set_io -nowarn rrggbb[3]          46
-// set_io -nowarn rrggbb[2]          44
-// set_io -nowarn rrggbb[1]          4
-// set_io -nowarn rrggbb[0]          2
+    pmod.p42 <> vga.hsync
+    pmod.p36 <> vga.vsync
+
 class IceBreaker extends Board:
     val pmod = PModVGA()
     val fpga = IceBreaker()
 
-    pmod.p3 <> vga.blue[1]
-    pmod.p48 <> vga.blue[0]
-    pmod.p46 <> vga.green[1]
-    pmod.p44 <> vga.green[0]
-    pmod.p4 <> vga.red[1]
-    pmod.p2 <> vga.red[0]
 
-    pmod.p47 <> vga.hsync
-    pmod.p45 <> vga.vsync
-
-
-class Pll extends DFDesign
 
 class DE10Board extends Board
     val fpga = DE10Board()
-    //TODO: on board VGA port support
-
-//class IceBreakerBoard extends Board
+    val vga = VGA() //since interface VGA is the same
 
 abstract class DFDesign
 
@@ -95,6 +110,9 @@ class drawLineTest extends ProjectFVGATest
     val vgaRed = Output(UInt(4.W))
     val vgaGreen = Output(UInt(4.W))
     val vgaBlue = Output(UInt(4.W))
+
+    //TODO: connect module with VGA pmod
+    //module pong(clk12, vga_h_sync, vga_v_sync, vga_R, vga_G, vga_B, quadA, quadB);
 
 class framebuffer extends drawLineTest
 //TODO: drawline buffer here and subsequent module???

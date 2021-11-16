@@ -1,0 +1,31 @@
+[0m2021.11.16 17:24:19 INFO  Started: Metals version 0.10.9 in workspace '/Users/shao/Documents/GitHub/scala_system' for client Visual Studio Code 1.62.2.[0m
+[0m2021.11.16 17:24:20 INFO  time: initialize in 0.69s[0m
+[0m2021.11.16 17:24:21 WARN  Build server is not auto-connectable.[0m
+[0m2021.11.16 17:24:21 WARN  no build tool detected in workspace '/Users/shao/Documents/GitHub/scala_system'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.11.16 17:24:21 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:24:25 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2021.11.16 17:24:35 INFO  time: code lens generation in 14s[0m
+[0m2021.11.16 17:24:35 INFO  time: code lens generation in 14s[0m
+[0m2021.11.16 17:24:37 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:25:55 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:29:26 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:30:00 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:37:27 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:39:13 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:42:26 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:43:22 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:43:36 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:43:38 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:47:06 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:55:53 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:56:00 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 17:56:10 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 18:01:43 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+十一月 16, 2021 6:02:08 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 1147
+[0m2021.11.16 18:02:24 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 18:02:41 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 18:09:31 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 18:15:42 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 18:16:41 WARN  no build target for: /Users/shao/Documents/GitHub/scala_system/a.scala[0m
+[0m2021.11.16 18:17:58 INFO  shutting down Metals[0m
