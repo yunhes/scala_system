@@ -15,12 +15,15 @@
 - [x] reconfigure the top graph
 - [ ] add interface to pong.sv
 - [x] add a tentative clock module for board configuration
-- [ ] add tentative vga interconnect 
+- [x] add tentative vga interconnect 
+- [ ] add Sepcifc pin connections for each module
 
 
 ### Meeting new goals
 
 - [ ] insert immediate goal
+- [ ] design interface type
+- [ ] design interconnect list
 
 
 ### issues

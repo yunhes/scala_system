@@ -43,6 +43,8 @@ class vgaFemale() extends Interface:
 
 class Buttons extends Interface
 
+
+//TODO: Sepcifc pin connections for each module
 class PMod extends Interface:
     val p1,p2,p10 = Pin()
 
@@ -67,7 +69,7 @@ class IceBreaker extends Board:
 
 class PModVGA extends Board:
     val pmod = PMod()
-    val vga = VGA()
+    val vga = vgaFemale()
     //pmod.p3 <> vga.blue[1]
     pmod.p44 <> vga.blue[0]
     //pmod.p46 <> vga.green[1]
@@ -86,14 +88,14 @@ class IceBreaker extends Board:
 
 class DE10Board extends Board
     val fpga = DE10Board()
-    val vga = VGA() //since interface VGA is the same
+    val vga = vgaFemale() //since interface VGA is the same
 
 abstract class DFDesign
 
 abstract class DFInterface
 
 abstract class ProjectFApp extends DFDesign:
-    val vga = VGA()
+    val vga = VGA_MALE()
     val buttons = Buttons()
     val clock = Clock() //local clock
     val reset = Reset() //local reset
