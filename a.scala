@@ -60,8 +60,7 @@ class A7Board extends Board:
     fpga.AA <> pmod.p1
     fpga.X2 <> pmod.p10
 
-class IceBreaker extends Board:
-    val fpga = IceBreaker()
+class IceBreaker extends FPGA:
     val pmod = PMod_IceBreaker()
     val buttons = Buttons()
     val clk12 = clk(1200, 35)
@@ -80,7 +79,7 @@ class PModVGA extends Board:
     pmod.p42 <> vga.hsync
     pmod.p36 <> vga.vsync
 
-class IceBreaker extends Board:
+class IceBreakerBoard extends Board:
     val pmod = PModVGA()
     val fpga = IceBreaker()
 

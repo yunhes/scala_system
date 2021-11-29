@@ -17,6 +17,8 @@
 - [x] add a tentative clock module for board configuration
 - [x] add tentative vga interconnect 
 - [ ] add Sepcifc pin connections for each module
+- [ ] add interface class for Pmod list
+- [ ] reconfigure the pmod top and connection module
 
 
 ### Meeting new goals
