@@ -16,18 +16,17 @@
 - [ ] add interface to pong.sv
 - [x] add a tentative clock module for board configuration
 - [x] add tentative vga interconnect 
-- [ ] add Sepcifc pin connections for each module
-- [ ] add interface class for Pmod list
+- [x] add Sepcifc pin connections for each module
+- [x] add interface class for Pmod list
 - [ ] reconfigure the pmod top and connection module
 
 
 ### Meeting new goals
 
-- [ ] insert immediate goal
-- [ ] design interface type
+- [x] design interface type
 - [ ] design interconnect list
-
+- [ ] using standard scala for all different boards
 
 ### issues
 
-- [ ] How interconnect works?
+- [x] How interconnect works?
