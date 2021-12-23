@@ -19,29 +19,43 @@ class Lattice extends FPGA:
     val p1 = Pin()
     //TODO: fill pin by board image
 
-class icebreaker extends Board:
+class Icebreaker extends Board:
     val pmod = Pmod()
     val fpga = lattice()
     val app = IntergratingApp()
 
-    fpga.p1() <> Pmod.p42
-    //TODO: fill pin from fpga to out io pin
+    fpga.p42() <> pmod.P1B7()
+    fpga.p36() <> pmod.P1B8()
+    fpga.p45() <> pmod.P1A4()
+    fpga.p31() <> pmod.P1B4()
+    fpga.p44() <> pmod.P1A10()
+
+class VgaPmod extends Board:
+    val pmod = Pmod()
+    val vga = VGA()
+
+    vga.hsync <> pmod.P1B7()
+    vga.vsync <> pmod.P1B8()
+    vga.RED <> pmod.P1A4()
+    vga.GREEN <> pmod.P1B4()
+    vga.BLUE <> pmod.P1A10()
+
+class ConnectedBoard extends Board:
+    val icebreaker = Icebreaker()
+    val vgapmod = VgaPmod()
+    icebreaker.pmod <> vgapmod.pmod
 
 class Pmod extends Interface:
-    val p42, p45, p36, p31, p44 = Pin()
-    val vga = VGA()
-    //TODO: val hdmi = Hdmi()
+    val P1B7 = Pin()
+    val P1B8 = Pin()
+    val P1A4 = Pin()
+    val P1B4 = Pin()
+    val P1A10 = Pin()
 
-    vga.hsync <> p42
-    vga.vsync <> p36
-    vga.r <> p45
-    vga.g <> p31
-    vga.b <> p44
-
-class IntegrationA7(app : ProjectFApp):
+class IntergratingApp(app : ProjectFApp):
     def build : Unit ={}
     def simulate : Unit = {}
-    val board = A7Board()
+    val board = ConnectedBoard()
     board.vga <> app.vga
 
-val app1ForA7 = IntegrationA7(ProjectFVGATest)
+val app1ForLattice = IntergratingApp(ProjectFVGATest)
