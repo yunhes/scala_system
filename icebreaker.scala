@@ -32,14 +32,15 @@ class Icebreaker extends Board:
     fpga.p44() <> pmod1A.P1A10()
 
 class VgaPmod extends Board:
-    val pmod = Pmod()
+    val pmod1A = Pmod1A()
+    val pmod1B = Pmod1B()
     val vga = VGA()
 
-    vga.hsync <> pmod.P1B7()
-    vga.vsync <> pmod.P1B8()
-    vga.RED <> pmod.P1A4()
-    vga.GREEN <> pmod.P1B4()
-    vga.BLUE <> pmod.P1A10()
+    vga.hsync <> pmod1B.P1B7()
+    vga.vsync <> pmod1B.P1B8()
+    vga.RED <> pmod1A.P1A4()
+    vga.GREEN <> pmod1B.P1B4()
+    vga.BLUE <> pmod1A.P1A10()
 
 class ConnectedBoard extends Board:
     val icebreaker = Icebreaker()
