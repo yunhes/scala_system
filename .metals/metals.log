@@ -8011,3 +8011,18 @@ Caused by: java.lang.IllegalArgumentException: 132 is not a valid line number, a
 2022.02.28 00:57:22 WARN  no build target for: D:\GitHub\scala_system\DE-10.scala
 2022.02.28 00:57:26 WARN  no build target for: D:\GitHub\scala_system\icebreaker.scala
 2022.02.28 01:00:31 INFO  shutting down Metals
+2022.02.28 01:02:52 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.02.28 01:02:53 INFO  logging to file D:\GitHub\scala_system\.metals\metals.log
+2022.02.28 01:02:53 INFO  Started: Metals version 0.11.1 in workspace 'D:\GitHub\scala_system' for client Visual Studio Code 1.64.2.
+2022.02.28 01:02:53 INFO  Parse release: 1.8.0_292
+2022.02.28 01:02:54 INFO  time: initialize in 1.33s
+2022.02.28 01:02:55 WARN  Build server is not auto-connectable.
+2022.02.28 01:02:55 WARN  no build tool detected in workspace 'D:\GitHub\scala_system'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.02.28 01:02:55 WARN  no build target for: D:\GitHub\scala_system\icebreaker.scala
+2022.02.28 01:02:57 INFO  no build target found for D:\GitHub\scala_system\icebreaker.scala. Using presentation compiler with project's scala-library version: 3.1.0
+2022.02.28 01:03:00 INFO  time: code lens generation in 3.96s
+2022.02.28 01:03:00 INFO  time: code lens generation in 3.96s
+2022.02.28 01:03:00 INFO  time: code lens generation in 3.86s
+2022.02.28 01:03:00 INFO  time: code lens generation in 3.86s
+2022.02.28 01:03:02 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala
+2022.02.28 01:03:03 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala
