@@ -1,45 +1,149 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:71:4 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m70 |[0m				lx0 := x0 ly0 := y0[0m
-[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m				lx1 := x1 ly1 := y0[0m
-[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y0` needs to be enabled[0m
-[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
-[0m[[0m[31merror[0m] [0m[0m   |----[0m
-[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
-[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
-[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
-[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:74:4 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m				lx0 := x1 ly0 := y0[0m
-[0m[[0m[31merror[0m] [0m[0m[31m74 |[0m				lx1 := x1 ly1 := y1[0m
-[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y1` needs to be enabled[0m
-[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
-[0m[[0m[31merror[0m] [0m[0m   |----[0m
-[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
-[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
-[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
-[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:77:4 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m				lx0 := x1 ly0 := y1[0m
-[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m				lx1 := x0 ly1 := y1[0m
-[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y1` needs to be enabled[0m
-[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
-[0m[[0m[31merror[0m] [0m[0m   |----[0m
-[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
-[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
-[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
-[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:80:4 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m				lx0 := x0 ly0 := y1[0m
-[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m				lx1 := x0 ly1 := y0[0m
-[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y0` needs to be enabled[0m
-[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
-[0m[[0m[31merror[0m] [0m[0m   |----[0m
-[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
-[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
-[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
-[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:72:20 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m  state := state.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:76:12 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m  x := x.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:77:12 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m  y := y.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |            [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:78:16 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m  err := err.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |                [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:79:18 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m  busy := busy.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:80:18 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m  done := done.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |                  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:81:20 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m81 |[0m  x_end := x_end.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:82:20 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m82 |[0m  y_end := y_end.reg[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:93:27 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m93 |[0m              x := x.reg([31m1[0m) + [31m1[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:95:27 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m95 |[0m              x := x.reg([31m1[0m) - [31m1[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:96:27 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m          err := err.reg([31m1[0m) + dy.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:96:39 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m          err := err.reg([31m1[0m) + dy.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:99:25 --[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m            y := y.reg([31m1[0m) + [31m1[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:100:29 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m            err := err.reg([31m1[0m) + dx.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                             [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:100:41 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m            err := err.reg([31m1[0m) + dx.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:104:27 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m              x := x.reg([31m1[0m) + [31m1[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:106:27 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m106 |[0m              x := x.reg([31m1[0m) - [31m1[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                           [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:107:25 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m107 |[0m            y := y.reg([31m1[0m) + [31m1[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:108:29 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m            err := err.reg([31m1[0m) + dy.reg([31m1[0m) + dx.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                             [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:108:41 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m            err := err.reg([31m1[0m) + dy.reg([31m1[0m) + dx.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:108:53 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m            err := err.reg([31m1[0m) + dy.reg([31m1[0m) + dx.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                                     [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:111:23 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m111 |[0m        dx := xb.reg([31m1[0m) - xa.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:111:35 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m111 |[0m        dx := xb.reg([31m1[0m) - xa.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                   [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:113:23 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m113 |[0m        dx := xa.reg([31m1[0m) - xb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:113:35 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m113 |[0m        dx := xa.reg([31m1[0m) - xb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                   [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:114:21 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m114 |[0m      dy := ya.reg([31m1[0m) - yb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                     [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:114:33 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m114 |[0m      dy := ya.reg([31m1[0m) - yb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                 [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:116:22 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m116 |[0m      err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:116:34 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m116 |[0m      err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                  [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:117:20 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m117 |[0m      x := xa.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:118:20 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m118 |[0m      y := ya.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:119:24 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m119 |[0m      x_end := xb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:120:24 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m120 |[0m      y_end := yb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:124:24 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m        err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:124:36 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m        err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:126:26 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m126 |[0m        right := xa.reg([31m1[0m) < xb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                          [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:126:38 -[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m126 |[0m        right := xa.reg([31m1[0m) < xb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
+[0m[[0m[31merror[0m] [0m[0m37 errors found[0m

@@ -69,62 +69,51 @@ class draw_line(
   
     // ============== TODO: so.... how to do this? ==============
 
-  state := state.reg
   state := nextState
-
   
-  x := x.reg
-  y := y.reg
-  err := err.reg
-  busy := busy.reg
-  done := done.reg
-  x_end := x_end.reg
-  y_end := y_end.reg
-
   state match
     case DRAW() => 
       if (oe) 
         if (x == x_end && y == y_end) 
-          state := IDLE
           busy := 0
           done := 1
         else 
           if (movx) 
             if (right)
-              x := x + 1
+              x := x.reg(1) + 1
             else
-              x := x - 1
-          err := err + dy
+              x := x.reg(1) - 1
+          err := err.reg(1) + dy.reg(1)
 
           if (movy) 
-            y := y + 1
-            err := err + dx
+            y := y.reg(1) + 1
+            err := err.reg(1) + dx.reg(1)
 
           if (movx && movy) 
             if (right)
-              x := x + 1
+              x := x.reg(1) + 1
             else
-              x := x - 1
-            y := y + 1
-            err := err + dy + dx
+              x := x.reg(1) - 1
+            y := y.reg(1) + 1
+            err := err.reg(1) + dy.reg(1) + dx.reg(1)
     case INIT_0() => 
       if (right)
-        dx := xb - xa
+        dx := xb.reg(1) - xa.reg(1)
       else
-        dx := xa - xb
-      dy := ya - yb
+        dx := xa.reg(1) - xb.reg(1)
+      dy := ya.reg(1) - yb.reg(1)
     case INIT_1() => 
-      err := dx + dy
-      x := xa
-      y := ya
-      x_end := xb
-      y_end := yb
+      err := dx.reg(1) + dy.reg(1)
+      x := xa.reg(1)
+      y := ya.reg(1)
+      x_end := xb.reg(1)
+      y_end := yb.reg(1)
     case _ => 
       done := false
       if (start)
-        err := dx + dy
+        err := dx.reg(1) + dy.reg(1)
         busy := true
-        right := xa < xb
+        right := xa.reg(1) < xb.reg(1)
       
 // @main def hello: Unit = 
 //   import DFiant.compiler.stages.printCodeString

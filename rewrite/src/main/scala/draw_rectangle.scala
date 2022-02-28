@@ -7,6 +7,7 @@ class draw_rectangle(
 	// val clk = DFBit <> IN
   val start = DFBool <> IN
   val oe = DFBool <> IN
+  
   val x0 = DFSInt(CORDW) <> IN
   val y0 = DFSInt(CORDW) <> IN
   val x1 = DFSInt(CORDW) <> IN
@@ -44,47 +45,36 @@ class draw_rectangle(
   //   case DRAW() 
     // if line_done
     //     if line_id == 3 => IDLE
-    //     else => IDLE
-    // ============ so.... how to do this? ==============
+    //     else => INIT
+    // ============== TODO: so.... how to do this? ==============
   case _ 
     if (start) => INIT
 
-  state := state.reg
   state := nextState
-
-  lx0 := lx0.reg
-  ly0 := ly0.reg
-  lx1 := lx1.reg
-  ly1 := ly1.reg
-
-  busy := busy.reg
-  done := done.reg
-  line_id := line_id.reg
-  line_start := line_start.reg
 
   state match
     case INIT() =>
       line_start := 1
       if (line_id == 0)
-        lx0 := x0 
-        ly0 := y0
-        lx1 := x1 
-        ly1 := y0
+        lx0 := x0.reg(1)
+        ly0 := y0.reg(1)
+        lx1 := x1.reg(1)
+        ly1 := y0.reg(1)
       else if (line_id == 1)
-        lx0 := x1 
-        ly0 := y0
-        lx1 := x1 
-        ly1 := y1
+        lx0 := x1.reg(1) 
+        ly0 := y0.reg(1)
+        lx1 := x1.reg(1) 
+        ly1 := y1.reg(1)
       else if (line_id == 2)
-        lx0 := x1 
-        ly0 := y1
-        lx1 := x0 
-        ly1 := y1
+        lx0 := x1.reg(1)
+        ly0 := y1.reg(1)
+        lx1 := x0.reg(1)
+        ly1 := y1.reg(1)
       else
-        lx0 := x0 
-        ly0 := y1
-        lx1 := x0 
-        ly1 := y0
+        lx0 := x0.reg(1)
+        ly0 := y1.reg(1)
+        lx1 := x0.reg(1) 
+        ly1 := y0.reg(1)
     case DRAW() =>
       line_start := 0
       if (line_done) 
@@ -92,7 +82,7 @@ class draw_rectangle(
           busy := 0
           done := 1
         else 
-          line_id := line_id + 1
+          line_id := line_id.reg(1) + 1
     case _ =>
       done := 0
       if (start) 
