@@ -67,7 +67,7 @@ class draw_line(
   case _ 
     if (start) => INIT_0
   
-    // ============ so.... no default? ==============
+    // ============== TODO: so.... how to do this? ==============
 
   state := state.reg
   state := nextState
