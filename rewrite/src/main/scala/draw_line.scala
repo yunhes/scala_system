@@ -1,8 +1,6 @@
 import DFiant.*
 import compiler._
 
-extension (x : DFUInt.type)
-  def until(sup : Int) = DFUInt((sup-1).bitsWidth(false))
 class draw_line(
     val CORDW : Int = 16
 )(using DFC) extends RTDesign:
@@ -16,8 +14,8 @@ class draw_line(
   val x = DFSInt(CORDW) <> OUT
   val y = DFSInt(CORDW) <> OUT
   val drawing = DFBool <> OUT
-  val busy = DFBool <> OUT
-  val done = DFBool <> OUT
+  val busy = DFBool <> OUT init 0
+  val done = DFBool <> OUT init 0
 
   val swap = DFBool <> VAR
   val right = DFBool <> VAR
@@ -60,20 +58,16 @@ class draw_line(
       if (oe) drawing := true
       else drawing := false
     case _ => drawing := false
-
-  // val nextState: State <> VAL = (state, oe, condition0, start) match
-  //   case (DRAW(), 1, 1, _) => IDLE
-  //   case (INIT_0(), _, _, _) => INIT_1
-  //   case (INIT_1(), _, _, _) => DRAW
-  //   case (_, _, _, 1) => INIT_0
   
   val nextState: State <> VAL = state match
   case DRAW() 
     if (oe) => IDLE
   case INIT_0() => INIT_1
   case INIT_1() => DRAW
-  case _
+  case _ 
     if (start) => INIT_0
+  
+    // ============ so.... no default? ==============
 
   state := state.reg
   state := nextState
@@ -132,7 +126,7 @@ class draw_line(
         busy := true
         right := xa < xb
       
-@main def hello: Unit = 
-  import DFiant.compiler.stages.printCodeString
-  val top = new draw_line
-  top.printCodeString
+// @main def hello: Unit = 
+//   import DFiant.compiler.stages.printCodeString
+//   val top = new draw_line
+//   top.printCodeString

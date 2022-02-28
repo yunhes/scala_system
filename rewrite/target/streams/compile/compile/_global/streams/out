@@ -1,0 +1,45 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:71:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m70 |[0m				lx0 := x0 ly0 := y0[0m
+[0m[[0m[31merror[0m] [0m[0m[31m71 |[0m				lx1 := x1 ly1 := y0[0m
+[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y0` needs to be enabled[0m
+[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
+[0m[[0m[31merror[0m] [0m[0m   |----[0m
+[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
+[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
+[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:74:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m73 |[0m				lx0 := x1 ly0 := y0[0m
+[0m[[0m[31merror[0m] [0m[0m[31m74 |[0m				lx1 := x1 ly1 := y1[0m
+[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y1` needs to be enabled[0m
+[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
+[0m[[0m[31merror[0m] [0m[0m   |----[0m
+[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
+[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
+[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:77:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m				lx0 := x1 ly0 := y1[0m
+[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m				lx1 := x0 ly1 := y1[0m
+[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y1` needs to be enabled[0m
+[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
+[0m[[0m[31merror[0m] [0m[0m   |----[0m
+[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
+[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
+[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:80:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m				lx0 := x0 ly0 := y1[0m
+[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m				lx1 := x0 ly1 := y0[0m
+[0m[[0m[31merror[0m] [0m[0m   |				[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |postfix operator `y0` needs to be enabled[0m
+[0m[[0m[31merror[0m] [0m[0m   |by making the implicit value scala.language.postfixOps visible.[0m
+[0m[[0m[31merror[0m] [0m[0m   |----[0m
+[0m[[0m[31merror[0m] [0m[0m   |This can be achieved by adding the import clause 'import scala.language.postfixOps'[0m
+[0m[[0m[31merror[0m] [0m[0m   |or by setting the compiler option -language:postfixOps.[0m
+[0m[[0m[31merror[0m] [0m[0m   |See the Scaladoc for value scala.language.postfixOps for a discussion[0m
+[0m[[0m[31merror[0m] [0m[0m   |why the feature needs to be explicitly enabled.[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

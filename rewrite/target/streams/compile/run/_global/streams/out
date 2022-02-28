@@ -1,0 +1,57 @@
+[0m[[0m[31merror[0m] [0m[0mjava.lang.IllegalArgumentException: Unsupported net connection to top.draw_line_inst.y0 at D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:33:3[0m
+[0m[[0m[31merror[0m] [0m[0mAlready connected to net at D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:32:3[0m
+[0m[[0m[31merror[0m] [0m[0mtop.draw_line_inst.y0 <> top.ly1[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.ir.DB.getConnToDcls(DB.scala:294)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.ir.DB.connectionTable(DB.scala:325)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.analysis.DFValAnalysis$package$.getConnectionTo(DFValAnalysis.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer.csDFNet(Printer.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer.csDFMember(Printer.scala:48)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer$package$.codeString(Printer.scala:75)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.DFOwnerPrinter.csDFMembers$$anonfun$3(DFOwnerPrinter.scala:34)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator$$anon$9.next(Iterator.scala:577)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.Iterator$$anon$6.hasNext(Iterator.scala:471)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.addString(IterableOnce.scala:1185)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.addString$(IterableOnce.scala:1179)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.addString(Iterable.scala:926)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.mkString(IterableOnce.scala:1129)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.mkString$(IterableOnce.scala:1127)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.mkString(Iterable.scala:926)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.mkString(IterableOnce.scala:1142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.IterableOnceOps.mkString$(IterableOnce.scala:1142)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.AbstractIterable.mkString(Iterable.scala:926)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.DFOwnerPrinter.csDFMembers(DFOwnerPrinter.scala:36)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.DFOwnerPrinter.csDFMembers$(DFOwnerPrinter.scala:8)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer.csDFMembers(Printer.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.DFOwnerPrinter.csDFOwnerBody(DFOwnerPrinter.scala:10)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.DFOwnerPrinter.csDFDesignBlockDcl(DFOwnerPrinter.scala:45)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.DFOwnerPrinter.csDFDesignBlockDcl$(DFOwnerPrinter.scala:8)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer.csDFDesignBlockDcl(Printer.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer.$anonfun$3(Printer.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.flatMap(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer.csDB(Printer.scala:66)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.printing.Printer$package$.codeString(Printer.scala:78)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.stages.PrintCodeString.codeString(PrintCodeString.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.stages.PrintCodeString.transform(PrintCodeString.scala:11)[0m
+[0m[[0m[31merror[0m] [0m[0m	at DFiant.compiler.stages.PrintCodeString$package$.printCodeString(PrintCodeString.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at draw_rectangle$package$.hello(draw_rectangle.scala:67)[0m
+[0m[[0m[31merror[0m] [0m[0m	at hello.main(draw_rectangle.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.reflect.Method.invoke(Method.java:498)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.invokeMain(Run.scala:143)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.execute$1(Run.scala:93)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.$anonfun$runWithLoader$5(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run$.executeSuccess(Run.scala:186)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Run.runWithLoader(Run.scala:120)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$bgRunTask$6(Defaults.scala:1983)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$termWrapper$2(Defaults.scala:1922)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Try$.apply(Try.scala:213)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.BackgroundThreadPool$BackgroundRunnable.run(DefaultBackgroundJobService.scala:369)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.lang.IllegalArgumentException: Unsupported net connection to top.draw_line_inst.y0 at D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:33:3[0m
+[0m[[0m[31merror[0m] [0m[0mAlready connected to net at D:\GitHub\scala_system\rewrite\src\main\scala\draw_rectangle.scala:32:3[0m
+[0m[[0m[31merror[0m] [0m[0mtop.draw_line_inst.y0 <> top.ly1[0m
