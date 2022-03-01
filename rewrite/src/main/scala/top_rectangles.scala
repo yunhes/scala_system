@@ -70,29 +70,31 @@ class top_rectangles(using DFC) extends RTDesign:
   
   val nextState: State <> VAL = state match
   case INIT() => DRAW
-  //   case DRAW() 
-    // if draw_done
-    //     if shape_id == SHAPE_CNT-1 => DONE
-    //     else => INIT
-    // ============== TODO: so.... how to do this? ==============
+  case DRAW() => 
+    if (draw_done)
+      if (shape_id == SHAPE_CNT-1)
+        DONE
+      else 
+        INIT
+    else
+      DRAW
   case DONE() => DONE
   case _ 
     if (frame_sys) => INIT
 
-  //TODO: how to make vx0s register
-  vx0 := vx0.reg
-  vy0 := vy0.reg
-  vx1 := vx1.reg
-  vy1 := vy1.reg
-  fb_cidx := fb_cidx.reg
   state match
     case INIT() =>
       draw_start := 1
-      vx0 :=  60 + shape_id
-      vy0 :=  15 + shape_id
-      vx1 := 260 - shape_id
-      vy1 := 165 - shape_id
-      fb_cidx := shape_id.bits(3:0)
+      vx0 :=  60 + shape_id.reg(1)
+      vy0 :=  15 + shape_id.reg(1)
+      vx1 := 260 - shape_id.reg(1)
+      vy1 := 165 - shape_id.reg(1)
+      fb_cidx := shape_id.reg(1).bits(3:0)
+    case DRAW() =>
+      draw_start := 0
+      if (draw_done)
+        if (shape_id != SHAPE_CNT-1)
+          shape_id := shape_id.reg(1) + 1
 
   // control drawing speed with output enable
   val FRAME_WAIT = 300
@@ -101,20 +103,22 @@ class top_rectangles(using DFC) extends RTDesign:
   val cnt_pix_frame = DFUInt(PIX_FRAME.bitsWidth(false)) <> VAR
   val draw_req = DFBit <> VAR
 
-  draw_req := draw_req.reg
-  // always_ff @(posedge clk_100m) begin
-  //     draw_req <= 0;
-  //     if (frame_sys) begin
-  //         if (cnt_frame_wait != FRAME_WAIT-1) cnt_frame_wait <= cnt_frame_wait + 1;
-  //         cnt_pix_frame <= 0;  // reset pixel counter every frame
-  //     end
-  //     if (!fb_busy) begin
-  //         if (cnt_frame_wait == FRAME_WAIT-1 && cnt_pix_frame != PIX_FRAME-1) begin
-  //             draw_req <= 1;
-  //             cnt_pix_frame <= cnt_pix_frame + 1;
-  //         end
-  //     end
-  // end
+
+  // TODO any good ways of doing it
+  if (frame_sys) 
+      if (cnt_frame_wait != FRAME_WAIT-1) 
+        cnt_frame_wait := cnt_frame_wait.reg(1) + 1
+      cnt_pix_frame := 0
+  else
+      draw_req := 0
+  if (!fb_busy) 
+    if (cnt_frame_wait == FRAME_WAIT-1 && cnt_pix_frame != PIX_FRAME-1) 
+      draw_req := 1
+      cnt_pix_frame := cnt_pix_frame.reg(1) + 1
+    else
+      draw_req := 0
+  else
+        draw_req := 0
 
   val draw_rectangle = new draw_rectangle
   draw_rectangle.start <> draw_start
