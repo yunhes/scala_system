@@ -13,7 +13,7 @@ class display_timings_480p(
   val V_BP : Int = 16,
   val H_POL : Boolean = false,
   val V_POL : Boolean = false
-)(using DFC) extends DFDesign:
+)(using DFC) extends RTDesign:
   val hsync = DFBit <> OUT
   val vsync = DFBit <> OUT
   val de = DFBit <> OUT

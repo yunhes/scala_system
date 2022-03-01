@@ -48,6 +48,9 @@ class top_rectangles(using DFC) extends RTDesign:
   val fb_green = DFSInt(FB_CHANW) <> VAR
   val fb_blue = DFSInt(FB_CHANW) <> VAR
 
+  // TODO generate pixel clock
+
+  // TODO framebuffer (FB)
   // val fb_inst = new framebuffer_bram
 
   // draw rectangles in framebuffer
@@ -89,7 +92,7 @@ class top_rectangles(using DFC) extends RTDesign:
       vy0 :=  15 + shape_id.reg(1)
       vx1 := 260 - shape_id.reg(1)
       vy1 := 165 - shape_id.reg(1)
-      fb_cidx := shape_id.reg(1).bits(3:0)
+      fb_cidx := shape_id.reg(1).bits(3,0)
     case DRAW() =>
       draw_start := 0
       if (draw_done)
@@ -104,7 +107,7 @@ class top_rectangles(using DFC) extends RTDesign:
   val draw_req = DFBit <> VAR
 
 
-  // TODO any good ways of doing it
+  // TODO any good ways of doing it? if not mentioned, default
   if (frame_sys) 
       if (cnt_frame_wait != FRAME_WAIT-1) 
         cnt_frame_wait := cnt_frame_wait.reg(1) + 1
@@ -118,7 +121,7 @@ class top_rectangles(using DFC) extends RTDesign:
     else
       draw_req := 0
   else
-        draw_req := 0
+    draw_req := 0
 
   val draw_rectangle = new draw_rectangle
   draw_rectangle.start <> draw_start
@@ -141,12 +144,12 @@ class top_rectangles(using DFC) extends RTDesign:
   vsync_p1 := vsync.reg(1)
   vga_hsync := hsync_p1.reg(1)
   vga_vsync := vsync_p1.reg(1)
-  vga_r := fb_red.reg(1)
-  vga_g := fb_green.reg(1)
-  vga_b := fb_blue.reg(1)
+  vga_r := fb_red.reg(1).bits
+  vga_g := fb_green.reg(1).bits
+  vga_b := fb_blue.reg(1).bits
 
 
 @main def hello: Unit = 
   import DFiant.compiler.stages.printCodeString
-  val top = new top_rectangles
+  val top = new display_timings_480p
   top.printCodeString

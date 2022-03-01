@@ -1,7 +1,7 @@
 import DFiant.*
 import compiler._
 
-class xd(using DFC) extends DFDesign:
+class xd(using DFC) extends RTDesign:
 	// val clk = DFBit <> IN
   val i = DFBit <> IN
   val o = DFBit <> OUT
