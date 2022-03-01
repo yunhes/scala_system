@@ -1,9 +1,51 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\xd.scala:12:29 ---------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m  toggle_i := toggle_i.reg([31m1[0m) ^ i[0m
-[0m[[0m[31merror[0m] [0m[0m   |                             [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\xd.scala:13:11 ---------[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m13 |[0m  shr_o := (shr_o.reg([31m1[0m).bits([31m2[0m,[31m0[0m), toggle_i.reg([31m1[0m))[0m
-[0m[[0m[31merror[0m] [0m[0m   |           [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:102:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m102 |[0m      vx0 := [31md"7'60"[0m + shape_id.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |      no implicit argument of type DFiant.core.DFXInt.Token.Candidate[[0m
+[0m[[0m[31merror[0m] [0m[0m    |        DFiant.core.DFVal[[0m
+[0m[[0m[31merror[0m] [0m[0m    |          DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.Args3[([31mfalse[0m : Boolean), Int, ([31m0[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |          ][0m
+[0m[[0m[31merror[0m] [0m[0m    |        , DFiant.compiler.ir.DFVal.ModifierAny][0m
+[0m[[0m[31merror[0m] [0m[0m    |      ] was found for parameter icR of [33mmethod[0m [35m+[0m in [33mpackage[0m [35mDFiant[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:103:38 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m103 |[0m      vy0 := [31md"7'15"[0m + shape_id.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                      [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |      no implicit argument of type DFiant.core.DFXInt.Token.Candidate[[0m
+[0m[[0m[31merror[0m] [0m[0m    |        DFiant.core.DFVal[[0m
+[0m[[0m[31merror[0m] [0m[0m    |          DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.Args3[([31mfalse[0m : Boolean), Int, ([31m0[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |          ][0m
+[0m[[0m[31merror[0m] [0m[0m    |        , DFiant.compiler.ir.DFVal.ModifierAny][0m
+[0m[[0m[31merror[0m] [0m[0m    |      ] was found for parameter icR of [33mmethod[0m [35m+[0m in [33mpackage[0m [35mDFiant[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:104:13 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m      vx1 := [31md"7'260"[0m - shape_id.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |             [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Explicit given width (7) is smaller than the actual width (9)[0m
+[0m[[0m[31merror[0m] [0m[0m    | This location contains code that was inlined from top_rectangles.scala:104[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:104:39 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m      vx1 := [31md"7'260"[0m - shape_id.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |ambiguous implicit arguments: both [33mgiven instance[0m [35msameValType[0m in [33mtrait[0m [35mTCLP[0m and [33mgiven instance[0m [35msameValAndTokenType[0m in [33mtrait[0m [35mTCLP[0m match type DFiant.core.CompanionsDFVal.TC[[0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.Args3[([31mtrue[0m : Boolean), (top_rectangles.this.CORDW : Int), [0m
+[0m[[0m[31merror[0m] [0m[0m    |      ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    |    ][0m
+[0m[[0m[31merror[0m] [0m[0m    |  ][0m
+[0m[[0m[31merror[0m] [0m[0m    |, R] of parameter tc of [33mmethod[0m [35m:=[0m in [33mpackage[0m [35mDFiant[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:105:13 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m      vy1 := [31md"7'165"[0m - shape_id.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |             [31m^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |         Explicit given width (7) is smaller than the actual width (8)[0m
+[0m[[0m[31merror[0m] [0m[0m    | This location contains code that was inlined from top_rectangles.scala:105[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:105:39 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m      vy1 := [31md"7'165"[0m - shape_id.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                                       [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |ambiguous implicit arguments: both [33mgiven instance[0m [35msameValType[0m in [33mtrait[0m [35mTCLP[0m and [33mgiven instance[0m [35msameValAndTokenType[0m in [33mtrait[0m [35mTCLP[0m match type DFiant.core.CompanionsDFVal.TC[[0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.Args3[([31mtrue[0m : Boolean), (top_rectangles.this.CORDW : Int), [0m
+[0m[[0m[31merror[0m] [0m[0m    |      ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    |    ][0m
+[0m[[0m[31merror[0m] [0m[0m    |  ][0m
+[0m[[0m[31merror[0m] [0m[0m    |, R] of parameter tc of [33mmethod[0m [35m:=[0m in [33mpackage[0m [35mDFiant[0m[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

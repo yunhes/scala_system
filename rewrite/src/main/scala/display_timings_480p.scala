@@ -3,14 +3,14 @@ import compiler._
 
 class display_timings_480p(
   val CORDW : Int = 16,
-  val H_RES : Int = 16,
-  val V_RES : Int = 16,
+  val H_RES : Int = 640,
+  val V_RES : Int = 480,
   val H_FP : Int = 16,
-  val H_SYNC : Int = 16,
-  val H_BP : Int = 16,
-  val V_FP : Int = 16,
-  val V_SYNC : Int = 16,
-  val V_BP : Int = 16,
+  val H_SYNC : Int = 96,
+  val H_BP : Int = 48,
+  val V_FP : Int = 10,
+  val V_SYNC : Int = 2,
+  val V_BP : Int = 33,
   val H_POL : Boolean = false,
   val V_POL : Boolean = false
 )(using DFC) extends RTDesign:
@@ -19,8 +19,8 @@ class display_timings_480p(
   val de = DFBit <> OUT
   val frame = DFBit <> OUT init 0
   val line = DFBit <> OUT
-  val sx = DFSInt(CORDW) <> IN init H_STA
-  val sy = DFSInt(CORDW) <> IN init V_STA
+  val sx = DFSInt(CORDW) <> OUT init H_STA
+  val sy = DFSInt(CORDW) <> OUT init V_STA
 
   val H_STA  = 0 - H_FP - H_SYNC - H_BP    
   val HS_STA = H_STA + H_FP                

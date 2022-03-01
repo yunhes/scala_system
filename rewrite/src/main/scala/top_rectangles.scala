@@ -17,7 +17,18 @@ class top_rectangles(using DFC) extends RTDesign:
   val frame = DFBit <> VAR
   val line = DFBit <> VAR
 
-  val display_timings_inst = new display_timings_480p
+  val display_timings_inst = new display_timings_480p(
+  CORDW = 16,
+  H_RES = 640,
+  V_RES = 480,
+  H_FP = 16,
+  H_SYNC = 96,
+  H_BP = 48,
+  V_FP = 10,
+  V_SYNC = 2,
+  V_BP = 33,
+  H_POL = false,
+  V_POL = false)
   display_timings_inst.sx <> sx
   display_timings_inst.sy <> sy
   display_timings_inst.hsync <> hsync
@@ -43,10 +54,10 @@ class top_rectangles(using DFC) extends RTDesign:
   val fb_busy = DFBit <> VAR
   val fbx = DFSInt(CORDW) <> VAR
   val fby = DFSInt(CORDW) <> VAR
-  val fb_cidx = DFSInt(FB_CIDXW) <> VAR
-  val fb_red = DFSInt(FB_CHANW) <> VAR
-  val fb_green = DFSInt(FB_CHANW) <> VAR
-  val fb_blue = DFSInt(FB_CHANW) <> VAR
+  val fb_cidx = DFUInt(FB_CIDXW) <> VAR
+  val fb_red = DFUInt(FB_CHANW) <> VAR
+  val fb_green = DFUInt(FB_CHANW) <> VAR
+  val fb_blue = DFUInt(FB_CHANW) <> VAR
 
   // TODO generate pixel clock
 
@@ -61,8 +72,23 @@ class top_rectangles(using DFC) extends RTDesign:
   val vx1 = DFSInt(CORDW) <> VAR
   val vy1 = DFSInt(CORDW) <> VAR
   val draw_start = DFBit <> VAR
-  val drawing = DFBit <> VAR
-  val draw_done = DFBit <> VAR
+  
+  // control drawing speed with output enable
+  val FRAME_WAIT = 300
+  val PIX_FRAME = 200
+  val cnt_frame_wait = DFUInt(FRAME_WAIT.bitsWidth(false)) <> VAR
+  val cnt_pix_frame = DFUInt(PIX_FRAME.bitsWidth(false)) <> VAR
+  val draw_req = DFBit <> VAR
+
+  val draw_rectangle = new draw_rectangle
+  draw_rectangle.start <> draw_start
+  draw_rectangle.oe <> (draw_req && !fb_busy)
+  draw_rectangle.x0 <> vx0
+  draw_rectangle.y0 <> vy0
+  draw_rectangle.x1 <> vx1
+  draw_rectangle.y1 <> vy1
+  draw_rectangle.x <> fbx
+  draw_rectangle.y <> fby
 
   // draw state machine
   enum State extends DFEnum:
@@ -74,7 +100,7 @@ class top_rectangles(using DFC) extends RTDesign:
   val nextState: State <> VAL = state match
   case INIT() => DRAW
   case DRAW() => 
-    if (draw_done)
+    if (draw_rectangle.done)
       if (shape_id == SHAPE_CNT-1)
         DONE
       else 
@@ -88,24 +114,16 @@ class top_rectangles(using DFC) extends RTDesign:
   state match
     case INIT() =>
       draw_start := 1
-      vx0 :=  60 + shape_id.reg(1)
-      vy0 :=  15 + shape_id.reg(1)
-      vx1 := 260 - shape_id.reg(1)
-      vy1 := 165 - shape_id.reg(1)
+      vx0 := shape_id.reg(1) +^ 60 
+      vy0 := shape_id.reg(1) +^ 15 
+      vx1 := shape_id.reg(1) -^ 260 
+      vy1 := shape_id.reg(1) -^ 165 
       fb_cidx := shape_id.reg(1).bits(3,0)
     case DRAW() =>
       draw_start := 0
-      if (draw_done)
+      if (draw_rectangle.done)
         if (shape_id != SHAPE_CNT-1)
           shape_id := shape_id.reg(1) + 1
-
-  // control drawing speed with output enable
-  val FRAME_WAIT = 300
-  val PIX_FRAME = 200
-  val cnt_frame_wait = DFUInt(FRAME_WAIT.bitsWidth(false)) <> VAR
-  val cnt_pix_frame = DFUInt(PIX_FRAME.bitsWidth(false)) <> VAR
-  val draw_req = DFBit <> VAR
-
 
   // TODO any good ways of doing it? if not mentioned, default
   if (frame_sys) 
@@ -123,19 +141,7 @@ class top_rectangles(using DFC) extends RTDesign:
   else
     draw_req := 0
 
-  val draw_rectangle = new draw_rectangle
-  draw_rectangle.start <> draw_start
-  draw_rectangle.oe <> (draw_req && !fb_busy)
-  draw_rectangle.x0 <> vx0
-  draw_rectangle.y0 <> vy0
-  draw_rectangle.x1 <> vx1
-  draw_rectangle.y1 <> vy1
-  draw_rectangle.x <> fbx
-  draw_rectangle.y <> fby
-  draw_rectangle.drawing <> drawing
-  draw_rectangle.done <> draw_done
-
-  fb_we := drawing
+  fb_we := draw_rectangle.drawing
 
   val hsync_p1 = DFBit <> VAR 
   val vsync_p1 = DFBit <> VAR
@@ -151,5 +157,5 @@ class top_rectangles(using DFC) extends RTDesign:
 
 @main def hello: Unit = 
   import DFiant.compiler.stages.printCodeString
-  val top = new display_timings_480p
+  val top = new top_rectangles
   top.printCodeString
