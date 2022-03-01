@@ -1,149 +1,206 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:72:20 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m  state := state.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:76:12 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m76 |[0m  x := x.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |            [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:77:12 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m77 |[0m  y := y.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |            [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:78:16 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m78 |[0m  err := err.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |                [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:79:18 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m79 |[0m  busy := busy.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |                  [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:80:18 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m80 |[0m  done := done.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |                  [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:81:20 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m81 |[0m  x_end := x_end.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:82:20 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m82 |[0m  y_end := y_end.reg[0m
-[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:93:27 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m93 |[0m              x := x.reg([31m1[0m) + [31m1[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |                           [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:95:27 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m95 |[0m              x := x.reg([31m1[0m) - [31m1[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |                           [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:96:27 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m          err := err.reg([31m1[0m) + dy.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m   |                           [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:96:39 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m96 |[0m          err := err.reg([31m1[0m) + dy.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                       [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:99:25 --[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m99 |[0m            y := y.reg([31m1[0m) + [31m1[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |                         [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:100:29 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m            err := err.reg([31m1[0m) + dx.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                             [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:100:41 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m            err := err.reg([31m1[0m) + dx.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                         [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:104:27 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m              x := x.reg([31m1[0m) + [31m1[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |                           [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:106:27 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m106 |[0m              x := x.reg([31m1[0m) - [31m1[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |                           [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:107:25 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m107 |[0m            y := y.reg([31m1[0m) + [31m1[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |                         [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:108:29 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m            err := err.reg([31m1[0m) + dy.reg([31m1[0m) + dx.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                             [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:108:41 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m            err := err.reg([31m1[0m) + dy.reg([31m1[0m) + dx.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                         [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:108:53 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m            err := err.reg([31m1[0m) + dy.reg([31m1[0m) + dx.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                                     [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:111:23 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m111 |[0m        dx := xb.reg([31m1[0m) - xa.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                       [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:111:35 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m111 |[0m        dx := xb.reg([31m1[0m) - xa.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                   [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:113:23 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m113 |[0m        dx := xa.reg([31m1[0m) - xb.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                       [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:113:35 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m113 |[0m        dx := xa.reg([31m1[0m) - xb.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                   [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:114:21 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m114 |[0m      dy := ya.reg([31m1[0m) - yb.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                     [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:114:33 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m114 |[0m      dy := ya.reg([31m1[0m) - yb.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                 [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:116:22 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m116 |[0m      err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                      [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:116:34 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m116 |[0m      err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                  [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:117:20 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m117 |[0m      x := xa.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                    [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:118:20 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m118 |[0m      y := ya.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                    [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:119:24 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m119 |[0m      x_end := xb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E007] Type Mismatch Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:95:31 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m95 |[0m      fb_cidx := shape_id.bits([31m3[0m:[35m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                               [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Found:    ([31m[1m[31m3[0m[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |Required: ([31m[1m[32m0[0m[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |One of the following imports might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.CompanionsDFVal.Conversions.DFValConversionExact[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFVal.DFValConversionExact[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.internals.Exactly.fromExactTypes[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFToken.TupleValues.fromValue[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFToken.Value.fromValue[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFToken.fromTC[0m
+[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.internals.Exactly.fromRegularTypes[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:95:35 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m95 |[0m      fb_cidx := shape_id.bits([31m3[0m:[35m0[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                                   [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |no implicit argument of type DFiant.core.CompanionsDFVal.TC[[0m
+[0m[[0m[31merror[0m] [0m[0m   |  DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m   |    DFiant.core.Args3[([31mtrue[0m : Boolean), (top_rectangles.this.FB_CIDXW : Int), [0m
+[0m[[0m[31merror[0m] [0m[0m   |      ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |    ][0m
+[0m[[0m[31merror[0m] [0m[0m   |  ][0m
+[0m[[0m[31merror[0m] [0m[0m   |, [0m
+[0m[[0m[31merror[0m] [0m[0m   |  DFiant.core.DFVal[DFiant.core.DFBit, [0m
+[0m[[0m[31merror[0m] [0m[0m   |    DFiant.compiler.ir.DFVal.Modifier[Any, Any, Any][0m
+[0m[[0m[31merror[0m] [0m[0m   |  ][0m
+[0m[[0m[31merror[0m] [0m[0m   |] was found for parameter tc of [33mmethod[0m [35m:=[0m in [33mpackage[0m [35mDFiant[0m.[0m
+[0m[[0m[31merror[0m] [0m[0m   |I found:[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |    DFiant.core.CompanionsDFVal.TC.errorDMZ[[0m
+[0m[[0m[31merror[0m] [0m[0m   |      [35m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m   |          DFiant.core.Args3[([31mtrue[0m : Boolean), (top_rectangles.this.FB_CIDXW : Int), [0m
+[0m[[0m[31merror[0m] [0m[0m   |            ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |          ][0m
+[0m[[0m[31merror[0m] [0m[0m   |        ][0m
+[0m[[0m[31merror[0m] [0m[0m   |      [0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    , [35mR[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m   |      {[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [33mfinal[0m [33mclass[0m [35m$anon[0m()[33m extends[0m [35mObject[0m(), [35mDFiant.core.ShowType[0m[[0m
+[0m[[0m[31merror[0m] [0m[0m   |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m   |            DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m   |              DFiant.core.Args3[([31mtrue[0m : Boolean), [0m
+[0m[[0m[31merror[0m] [0m[0m   |                (top_rectangles.this.FB_CIDXW : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |              , ([31m0[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m   |            ][0m
+[0m[[0m[31merror[0m] [0m[0m   |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        ] {[0m
+[0m[[0m[31merror[0m] [0m[0m   |          [33mtype[0m [35mOut[0m = [35m([32m"DFSInt[top_rectangles.this.FB_CIDXW.type]"[0m : String)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        }[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [33mnew [0m[35m$anon[0m():[0m
+[0m[[0m[31merror[0m] [0m[0m   |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m   |            DFiant.core.ShowType[[0m
+[0m[[0m[31merror[0m] [0m[0m   |              DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m   |                DFiant.core.Args3[([31mtrue[0m : Boolean), [0m
+[0m[[0m[31merror[0m] [0m[0m   |                  (top_rectangles.this.FB_CIDXW : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m   |                , ([31m0[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m   |              ][0m
+[0m[[0m[31merror[0m] [0m[0m   |            ]{Out = ([32m"DFSInt[top_rectangles.this.FB_CIDXW.type]"[0m : String)}[0m
+[0m[[0m[31merror[0m] [0m[0m   |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |      }[0m
+[0m[[0m[31merror[0m] [0m[0m   |    , ???)[0m
+[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m   |But [33mgiven instance[0m [35mgiven_ShowType_T[0m in [33mobject[0m [35mShowType[0m does not match type DFiant.core.ShowType[R].[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:140:24 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m140 |[0m  vga_r := fb_red.reg([31m1[0m)[0m
 [0m[[0m[31merror[0m] [0m[0m    |                        [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:120:24 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m120 |[0m      y_end := yb.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                        [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:124:24 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m        err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                        [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:124:36 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m124 |[0m        err := dx.reg([31m1[0m) + dy.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                    [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:126:26 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m126 |[0m        right := xa.reg([31m1[0m) < xb.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |no implicit argument of type DFiant.core.CompanionsDFVal.TC[[0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFType[DFiant.compiler.ir.DFBits, DFiant.core.Args1[([31m4[0m : Int)]][0m
+[0m[[0m[31merror[0m] [0m[0m    |, [0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFVal[[0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m    |      DFiant.core.Args3[([31mtrue[0m : Boolean), (top_rectangles.this.FB_CHANW : Int), [0m
+[0m[[0m[31merror[0m] [0m[0m    |        ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    |      ][0m
+[0m[[0m[31merror[0m] [0m[0m    |    ][0m
+[0m[[0m[31merror[0m] [0m[0m    |  , DFiant.compiler.ir.DFVal.ModifierAny][0m
+[0m[[0m[31merror[0m] [0m[0m    |] was found for parameter tc of [33mmethod[0m [35m:=[0m in [33mpackage[0m [35mDFiant[0m.[0m
+[0m[[0m[31merror[0m] [0m[0m    |I found:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.CompanionsDFVal.TC.errorDMZ[[0m
+[0m[[0m[31merror[0m] [0m[0m    |      [35mDFiant.core.DFType[DFiant.compiler.ir.DFBits, DFiant.core.Args1[([31m4[0m : Int)]][0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |    , [35mR[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m    |      {[0m
+[0m[[0m[31merror[0m] [0m[0m    |        [33mfinal[0m [33mclass[0m [35m$anon[0m()[33m extends[0m [35mObject[0m(), [35mDFiant.core.ShowType[0m[[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.DFType[DFiant.compiler.ir.DFBits, [0m
+[0m[[0m[31merror[0m] [0m[0m    |              DFiant.core.Args1[([31m4[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |            ][0m
+[0m[[0m[31merror[0m] [0m[0m    |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |        ] {[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [33mtype[0m [35mOut[0m = [35m([32m"DFBits[4]"[0m : String)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |        }[0m
+[0m[[0m[31merror[0m] [0m[0m    |        [33mnew [0m[35m$anon[0m():[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.ShowType[[0m
+[0m[[0m[31merror[0m] [0m[0m    |              DFiant.core.DFType[DFiant.compiler.ir.DFBits, [0m
+[0m[[0m[31merror[0m] [0m[0m    |                DFiant.core.Args1[([31m4[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |              ][0m
+[0m[[0m[31merror[0m] [0m[0m    |            ]{Out = ([32m"DFBits[4]"[0m : String)}[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |      }[0m
+[0m[[0m[31merror[0m] [0m[0m    |    , ???)[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |But [33mgiven instance[0m [35mgiven_ShowType_T[0m in [33mobject[0m [35mShowType[0m does not match type DFiant.core.ShowType[R].[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import DFiant.core.CompanionsDFBits.Val.TC.DFBitsFromCandidate[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:141:26 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m141 |[0m  vga_g := fb_green.reg([31m1[0m)[0m
 [0m[[0m[31merror[0m] [0m[0m    |                          [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line.scala:126:38 -[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m126 |[0m        right := xa.reg([31m1[0m) < xb.reg([31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                                      [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |This construct is only available in a high-level register-transfer domain.[0m
-[0m[[0m[31merror[0m] [0m[0m37 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m    |no implicit argument of type DFiant.core.CompanionsDFVal.TC[[0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFType[DFiant.compiler.ir.DFBits, DFiant.core.Args1[([31m4[0m : Int)]][0m
+[0m[[0m[31merror[0m] [0m[0m    |, [0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFVal[[0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m    |      DFiant.core.Args3[([31mtrue[0m : Boolean), (top_rectangles.this.FB_CHANW : Int), [0m
+[0m[[0m[31merror[0m] [0m[0m    |        ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    |      ][0m
+[0m[[0m[31merror[0m] [0m[0m    |    ][0m
+[0m[[0m[31merror[0m] [0m[0m    |  , DFiant.compiler.ir.DFVal.ModifierAny][0m
+[0m[[0m[31merror[0m] [0m[0m    |] was found for parameter tc of [33mmethod[0m [35m:=[0m in [33mpackage[0m [35mDFiant[0m.[0m
+[0m[[0m[31merror[0m] [0m[0m    |I found:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.CompanionsDFVal.TC.errorDMZ[[0m
+[0m[[0m[31merror[0m] [0m[0m    |      [35mDFiant.core.DFType[DFiant.compiler.ir.DFBits, DFiant.core.Args1[([31m4[0m : Int)]][0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |    , [35mR[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m    |      {[0m
+[0m[[0m[31merror[0m] [0m[0m    |        [33mfinal[0m [33mclass[0m [35m$anon[0m()[33m extends[0m [35mObject[0m(), [35mDFiant.core.ShowType[0m[[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.DFType[DFiant.compiler.ir.DFBits, [0m
+[0m[[0m[31merror[0m] [0m[0m    |              DFiant.core.Args1[([31m4[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |            ][0m
+[0m[[0m[31merror[0m] [0m[0m    |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |        ] {[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [33mtype[0m [35mOut[0m = [35m([32m"DFBits[4]"[0m : String)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |        }[0m
+[0m[[0m[31merror[0m] [0m[0m    |        [33mnew [0m[35m$anon[0m():[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.ShowType[[0m
+[0m[[0m[31merror[0m] [0m[0m    |              DFiant.core.DFType[DFiant.compiler.ir.DFBits, [0m
+[0m[[0m[31merror[0m] [0m[0m    |                DFiant.core.Args1[([31m4[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |              ][0m
+[0m[[0m[31merror[0m] [0m[0m    |            ]{Out = ([32m"DFBits[4]"[0m : String)}[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |      }[0m
+[0m[[0m[31merror[0m] [0m[0m    |    , ???)[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |But [33mgiven instance[0m [35mgiven_ShowType_T[0m in [33mobject[0m [35mShowType[0m does not match type DFiant.core.ShowType[R].[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import DFiant.core.CompanionsDFBits.Val.TC.DFBitsFromCandidate[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:142:25 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m142 |[0m  vga_b := fb_blue.reg([31m1[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m    |                         [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |no implicit argument of type DFiant.core.CompanionsDFVal.TC[[0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFType[DFiant.compiler.ir.DFBits, DFiant.core.Args1[([31m4[0m : Int)]][0m
+[0m[[0m[31merror[0m] [0m[0m    |, [0m
+[0m[[0m[31merror[0m] [0m[0m    |  DFiant.core.DFVal[[0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.DFType[DFiant.compiler.ir.DFDecimal, [0m
+[0m[[0m[31merror[0m] [0m[0m    |      DFiant.core.Args3[([31mtrue[0m : Boolean), (top_rectangles.this.FB_CHANW : Int), [0m
+[0m[[0m[31merror[0m] [0m[0m    |        ([31m0[0m : Int)[0m
+[0m[[0m[31merror[0m] [0m[0m    |      ][0m
+[0m[[0m[31merror[0m] [0m[0m    |    ][0m
+[0m[[0m[31merror[0m] [0m[0m    |  , DFiant.compiler.ir.DFVal.ModifierAny][0m
+[0m[[0m[31merror[0m] [0m[0m    |] was found for parameter tc of [33mmethod[0m [35m:=[0m in [33mpackage[0m [35mDFiant[0m.[0m
+[0m[[0m[31merror[0m] [0m[0m    |I found:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |    DFiant.core.CompanionsDFVal.TC.errorDMZ[[0m
+[0m[[0m[31merror[0m] [0m[0m    |      [35mDFiant.core.DFType[DFiant.compiler.ir.DFBits, DFiant.core.Args1[([31m4[0m : Int)]][0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |    , [35mR[0m]([0m
+[0m[[0m[31merror[0m] [0m[0m    |      {[0m
+[0m[[0m[31merror[0m] [0m[0m    |        [33mfinal[0m [33mclass[0m [35m$anon[0m()[33m extends[0m [35mObject[0m(), [35mDFiant.core.ShowType[0m[[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.DFType[DFiant.compiler.ir.DFBits, [0m
+[0m[[0m[31merror[0m] [0m[0m    |              DFiant.core.Args1[([31m4[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |            ][0m
+[0m[[0m[31merror[0m] [0m[0m    |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |        ] {[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [33mtype[0m [35mOut[0m = [35m([32m"DFBits[4]"[0m : String)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |        }[0m
+[0m[[0m[31merror[0m] [0m[0m    |        [33mnew [0m[35m$anon[0m():[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [35m[0m
+[0m[[0m[31merror[0m] [0m[0m    |            DFiant.core.ShowType[[0m
+[0m[[0m[31merror[0m] [0m[0m    |              DFiant.core.DFType[DFiant.compiler.ir.DFBits, [0m
+[0m[[0m[31merror[0m] [0m[0m    |                DFiant.core.Args1[([31m4[0m : Int)][0m
+[0m[[0m[31merror[0m] [0m[0m    |              ][0m
+[0m[[0m[31merror[0m] [0m[0m    |            ]{Out = ([32m"DFBits[4]"[0m : String)}[0m
+[0m[[0m[31merror[0m] [0m[0m    |          [0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |      }[0m
+[0m[[0m[31merror[0m] [0m[0m    |    , ???)[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |But [33mgiven instance[0m [35mgiven_ShowType_T[0m in [33mobject[0m [35mShowType[0m does not match type DFiant.core.ShowType[R].[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |The following import might make progress towards fixing the problem:[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m    |  import DFiant.core.CompanionsDFBits.Val.TC.DFBitsFromCandidate[0m
+[0m[[0m[31merror[0m] [0m[0m    |[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

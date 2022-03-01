@@ -51,12 +51,12 @@ class display_timings_480p(
     if y == VA_END then
       y := V_STA
     else
-      y := y.prev(1) + 1
+      y := y.reg(1) + 1
   else
-    x := x.prev(1) + 1
+    x := x.reg(1) + 1
 
-  sx := x.prev(1)
-  sy := y.prev(1)
+  sx := x.reg(1)
+  sy := y.reg(1)
   
 // @main def hello: Unit = 
 //   import DFiant.compiler.stages.printCodeString

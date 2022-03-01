@@ -42,11 +42,14 @@ class draw_rectangle(
 
   val nextState: State <> VAL = state match
   case INIT() => DRAW
-  //   case DRAW() 
-    // if line_done
-    //     if line_id == 3 => IDLE
-    //     else => INIT
-    // ============== TODO: so.... how to do this? ==============
+  case DRAW() => 
+    if (line_done)
+        if (line_id == 3) 
+          IDLE
+        else 
+          INIT
+    else
+      DRAW
   case _ 
     if (start) => INIT
 
@@ -89,7 +92,7 @@ class draw_rectangle(
         line_id := 0
         busy := 1
 
-@main def hello: Unit = 
-  import DFiant.compiler.stages.printCodeString
-  val top = new draw_rectangle
-  top.printCodeString
+// @main def hello: Unit = 
+//   import DFiant.compiler.stages.printCodeString
+//   val top = new draw_rectangle
+//   top.printCodeString
