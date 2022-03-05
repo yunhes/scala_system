@@ -108,8 +108,9 @@ class top_rectangles(using DFC) extends RTDesign:
     else
       DRAW
   case DONE() => DONE
-  case _ 
-    if (frame_sys) => INIT
+  case _ if (frame_sys) => INIT
+
+  state := nextState
 
   state match
     case INIT() =>
@@ -126,30 +127,24 @@ class top_rectangles(using DFC) extends RTDesign:
           shape_id := shape_id.reg(1) + 1
 
   // TODO any good ways of doing it? if not mentioned, default
+  draw_req := 0
   if (frame_sys) 
       if (cnt_frame_wait != FRAME_WAIT-1) 
         cnt_frame_wait := cnt_frame_wait.reg(1) + 1
       cnt_pix_frame := 0
-  else
-      draw_req := 0
   if (!fb_busy) 
     if (cnt_frame_wait == FRAME_WAIT-1 && cnt_pix_frame != PIX_FRAME-1) 
       draw_req := 1
       cnt_pix_frame := cnt_pix_frame.reg(1) + 1
-    else
-      draw_req := 0
-  else
-    draw_req := 0
+
 
   fb_we := draw_rectangle.drawing
 
   val hsync_p1 = DFBit <> VAR 
   val vsync_p1 = DFBit <> VAR
 
-  hsync_p1 := hsync.reg(1)
-  vsync_p1 := vsync.reg(1)
-  vga_hsync := hsync_p1.reg(1)
-  vga_vsync := vsync_p1.reg(1)
+  vga_hsync := hsync.reg(2)
+  vga_vsync := vsync.reg(2)
   vga_r := fb_red.reg(1).bits
   vga_g := fb_green.reg(1).bits
   vga_b := fb_blue.reg(1).bits

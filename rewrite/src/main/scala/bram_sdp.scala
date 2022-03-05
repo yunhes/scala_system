@@ -4,21 +4,23 @@ import compiler._
 class bram_sdp (
     val WIDTH : Int = 8, 
     val DEPTH : Int = 256, 
-    val INIT_F : Char = "",
-    val ADDRW : 16) (using DFC) extends RTDesign:
+    val INIT_F : String = ""
+) (using DFC) extends RTDesign:
+    val ADDRW = (DEPTH-1).bitsWidth(false)
 //cal clk 
-    val addr_write = DFBit <> IN
-    val addr_read = DFBit <> IN
-    val data_in = DFBit <> IN
-    val data_out = DFBit <> OUT
+    val addr_write = DFBits(ADDRW) <> IN
+    val addr_read = DFBits(ADDRW) <> IN
+    val data_in = DFBits(WIDTH) <> IN
+    val data_out = DFBits(WIDTH) <> OUT
     val we = DFBit <> IN
-
-    var memory = new Array[Int](WIDTH * DEPTH)
-
-    if we then
-        memory[addr_write] := data_in
-
-    data_out := memory[addr_read]
-
+    
+    val initVector : Vector[DFBits[Int] <> TOKEN] = ???
+    val done = DFBit <> WIRE
+    val memory = DFBits(WIDTH).X(DEPTH) <> REG init initVector
+    
+    if (we)
+      memory(addr_write) := data_in
+    
+    data_out := memory(addr_read)
 
     
