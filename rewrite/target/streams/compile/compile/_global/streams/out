@@ -1,14 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala:40:23 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m  display_timings_inst.drawing <> drawing[0m
-[0m[[0m[31merror[0m] [0m[0m   |  [31m^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |value drawing is not a member of display_timings_480p, but could be made available as an extension method.[0m
-[0m[[0m[31merror[0m] [0m[0m   |[0m
-[0m[[0m[31merror[0m] [0m[0m   |One of the following imports might make progress towards fixing the problem:[0m
-[0m[[0m[31merror[0m] [0m[0m   |[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFType.conv[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFToken.Value.fromValue[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFToken.fromTC[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.core.DFToken.TupleValues.fromValue[0m
-[0m[[0m[31merror[0m] [0m[0m   |  import DFiant.internals.Exactly.fromRegularTypes[0m
-[0m[[0m[31merror[0m] [0m[0m   |[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\draw_line_df.scala:72:20 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m72 |[0m  state := nextState[0m
+[0m[[0m[31merror[0m] [0m[0m   |                    [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |Unsupported value of type `scala.Unit` for dataflow receiver type `draw_line_df.this.State`.[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

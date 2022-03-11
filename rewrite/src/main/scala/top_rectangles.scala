@@ -150,7 +150,7 @@ class top_rectangles(using DFC) extends RTDesign:
   vga_b := fb_blue.reg(1).bits
 
 
-@main def hello: Unit = 
-  import DFiant.compiler.stages.printCodeString
-  val top = new top_rectangles
-  top.printCodeString
+// @main def hello: Unit = 
+//   import DFiant.compiler.stages.printCodeString
+//   val top = new top_rectangles
+//   top.printCodeString
