@@ -21496,3 +21496,41 @@ Caused by: java.lang.IllegalArgumentException: 33 is not a valid line number, al
 2022.03.11 03:15:37 WARN  no build target for: G:\research\scala_system\rewrite\src\main\scala\draw_line_df.scala
 2022.03.11 03:16:14 WARN  no build target for: G:\research\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
 2022.03.11 03:25:05 WARN  no build target for: G:\research\scala_system\rewrite\src\main\scala\linebuffer.scala
+2022.03.11 11:01:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.03.11 11:01:04 INFO  logging to file D:\GitHub\scala_system\.metals\metals.log
+2022.03.11 11:01:04 INFO  Started: Metals version 0.11.2 in workspace 'D:\GitHub\scala_system' for client Visual Studio Code 1.65.1.
+2022.03.11 11:01:04 INFO  Parse release: 1.8.0_292
+2022.03.11 11:01:05 INFO  time: initialize in 1.5s
+2022.03.11 11:01:10 WARN  Build server is not auto-connectable.
+2022.03.11 11:01:10 WARN  no build tool detected in workspace 'D:\GitHub\scala_system'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.11 11:01:10 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\rom_async.scala
+2022.03.11 11:01:15 INFO  no build target found for D:\GitHub\scala_system\rewrite\src\main\scala\rom_async.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.11 11:01:18 INFO  time: code lens generation in 7.33s
+2022.03.11 11:01:18 INFO  time: code lens generation in 7.33s
+2022.03.11 11:01:44 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\rom_async_df.scala
+2022.03.11 11:01:46 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala
+2022.03.11 11:02:03 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\display_timings_480p.scala
+2022.03.12 00:42:53 INFO  shutting down Metals
+2022.03.20 22:16:28 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.03.20 22:16:29 INFO  logging to file D:\GitHub\scala_system\.metals\metals.log
+2022.03.20 22:16:29 INFO  Started: Metals version 0.11.2 in workspace 'D:\GitHub\scala_system' for client Visual Studio Code 1.65.2.
+2022.03.20 22:16:29 INFO  Parse release: 1.8.0_292
+2022.03.20 22:16:31 INFO  time: initialize in 2.07s
+2022.03.20 22:16:31 WARN  Build server is not auto-connectable.
+2022.03.20 22:16:31 WARN  no build tool detected in workspace 'D:\GitHub\scala_system'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2022.03.20 22:16:32 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.03.20 22:16:32 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\display_timings_480p.scala
+2022.03.20 22:16:37 INFO  no build target found for D:\GitHub\scala_system\rewrite\src\main\scala\display_timings_480p.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.03.20 22:16:40 INFO  time: code lens generation in 7.18s
+2022.03.20 22:16:40 INFO  time: code lens generation in 7.2s
+2022.03.20 22:16:40 INFO  time: code lens generation in 8.35s
+2022.03.20 22:16:40 INFO  time: code lens generation in 8.35s
+2022.03.20 22:16:40 INFO  time: code lens generation in 8.35s
+2022.03.20 22:18:04 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala
+2022.03.20 22:18:26 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\rom_async_df.scala
+2022.03.20 22:18:26 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala
+2022.03.20 22:18:34 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\rom_async_df.scala
+2022.03.20 22:18:35 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\rom_async.scala
+2022.03.20 22:18:48 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles.scala
+2022.03.20 22:19:12 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\bram_sdp_df.scala
+2022.03.20 22:19:13 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\bram_sdp.scala
