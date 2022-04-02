@@ -19,8 +19,11 @@ class display_timings_480p_df(
   val de = DFBit <> OUT
   val frame = DFBit <> OUT init 0
   val line = DFBit <> OUT
-  val sx = DFSInt(CORDW) <> OUT init H_STA
-  val sy = DFSInt(CORDW) <> OUT init V_STA
+
+  object videoDefs extends VideoDefs(CORDW)
+  val coord_out = videoDefs.Coord <> OUT init videoDefs.Coord(H_STA,V_STA)
+
+  val coord = videoDefs.Coord <> VAR init videoDefs.Coord(H_STA,V_STA)
 
   val H_STA  = 0 - H_FP - H_SYNC - H_BP    
   val HS_STA = H_STA + H_FP                
@@ -34,31 +37,27 @@ class display_timings_480p_df(
   val VA_STA = 0                           
   val VA_END = V_RES - 1 
 
-  val x = DFSInt(CORDW) <> VAR init H_STA
-  val y = DFSInt(CORDW) <> VAR init V_STA
+  if H_POL then hsync := (coord.x > HS_STA && coord.x <= HS_END)
+  else hsync := !(coord.x > HS_STA && coord.x <= HS_END)
+  if V_POL then vsync := (coord.y > VS_STA && coord.y <= VS_END)
+  else vsync := !(coord.y > VS_STA && coord.y <= VS_END)
 
-  if H_POL then hsync := (x > HS_STA && x <= HS_END)
-  else hsync := !(x > HS_STA && x <= HS_END)
-  if V_POL then vsync := (y > VS_STA && y <= VS_END)
-  else vsync := !(y > VS_STA && y <= VS_END)
+  de := (coord.y >= VA_STA && coord.x >= HA_STA)
+  frame := (coord.y == V_STA  && coord.x == H_STA)
+  line := (coord.y >= VA_STA && coord.x == H_STA)
 
-  de := (y >= VA_STA && x >= HA_STA)
-  frame := (y == V_STA  && x == H_STA)
-  line := (y >= VA_STA && x == H_STA)
-
-  if x == HA_END then 
-    x := H_STA
-    if y == VA_END then
-      y := V_STA
+  if coord.x == HA_END then 
+    coord.x := H_STA
+    if coord.y == VA_END then
+      coord.y := V_STA
     else
-      y := y.prev(1) + 1
+      coord.y := coord.y.prev(1) + 1
   else
-    x := x.prev(1) + 1
+    coord.x := coord.x.prev(1) + 1
 
-  sx := x.prev(1)
-  sy := y.prev(1)
+  coord_out:= coord.prev(1)
   
-@main def hello: Unit = 
-  import DFiant.compiler.stages.printCodeString
-  val top = new display_timings_480p_df
-  top.printCodeString
+// @main def hello: Unit = 
+//   import DFiant.compiler.stages.printCodeString
+//   val top = new display_timings_480p_df
+//   top.printCodeString
