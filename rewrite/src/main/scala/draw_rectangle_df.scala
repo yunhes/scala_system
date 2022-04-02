@@ -7,11 +7,11 @@ class draw_rectangle_df(
 	// val clk = DFBit <> IN
   val start = DFBool <> IN
   val oe = DFBool <> IN
+
+  object rectDefs extends RectDefs(CORDW)
+  import rectDefs.DiagnolCoord
+  val diagCoord = DiagnolCoord <> IN init ?//rectDefs.DiagnolCoord(?,?,?,?)
   
-  val x0 = DFSInt(CORDW) <> IN init ?
-  val y0 = DFSInt(CORDW) <> IN init ?
-  val x1 = DFSInt(CORDW) <> IN init ?
-  val y1 = DFSInt(CORDW) <> IN init ?
   val x = DFSInt(CORDW) <> OUT
   val y = DFSInt(CORDW) <> OUT
   val drawing = DFBool <> OUT
@@ -22,17 +22,10 @@ class draw_rectangle_df(
   val line_start = DFBool <> VAR init 0
   val line_done = DFBool <> VAR
   val line_ = DFBool <> VAR
-  val lx0 = DFSInt(CORDW) <> VAR
-  val ly0 = DFSInt(CORDW) <> VAR
-  val lx1 = DFSInt(CORDW) <> VAR
-  val ly1 = DFSInt(CORDW) <> VAR
+  val ldiagCoord = rectDefs.DiagnolCoord <> VAR
 
-  val draw_line_inst = new draw_line
-  draw_line_inst.x0 <> lx0
-  draw_line_inst.x1 <> lx1
-  draw_line_inst.y0 <> ly0
-  draw_line_inst.y1 <> ly1
-  draw_line_inst.done <> line_done
+  val draw_line_inst = new draw_line_df
+  draw_line_inst.diagCoord_in <> ldiagCoord
 
   enum State extends DFEnum:
     case IDLE, INIT, DRAW
@@ -58,26 +51,28 @@ class draw_rectangle_df(
   state match
     case INIT() =>
       line_start := 1
+      ldiagCoord := diagCoord.prev
       if (line_id == 0)
-        lx0 := x0.prev(1)
-        ly0 := y0.prev(1)
-        lx1 := x1.prev(1)
-        ly1 := y0.prev(1)
+        val dp = diagCoord.prev
+        ldiagCoord.x0 := dp.x0
+        ldiagCoord.y0 := dp.y0
+        ldiagCoord.x1 := diagCoord.x1.prev(1)
+        ldiagCoord.y1 := diagCoord.y0.prev(1)
       else if (line_id == 1)
-        lx0 := x1.prev(1) 
-        ly0 := y0.prev(1)
-        lx1 := x1.prev(1) 
-        ly1 := y1.prev(1)
+        ldiagCoord.x0 := diagCoord.x1.prev(1) 
+        ldiagCoord.y0 := diagCoord.y0.prev(1)
+        ldiagCoord.x1 := diagCoord.x1.prev(1) 
+        ldiagCoord.y1 := diagCoord.y0.prev(1)
       else if (line_id == 2)
-        lx0 := x1.prev(1)
-        ly0 := y1.prev(1)
-        lx1 := x0.prev(1)
-        ly1 := y1.prev(1)
+        ldiagCoord.x0 := diagCoord.x1.prev(1)
+        ldiagCoord.y0 := diagCoord.y0.prev(1)
+        ldiagCoord.x1 := diagCoord.x0.prev(1)
+        ldiagCoord.y1 := diagCoord.y0.prev(1)
       else
-        lx0 := x0.prev(1)
-        ly0 := y1.prev(1)
-        lx1 := x0.prev(1) 
-        ly1 := y0.prev(1)
+        ldiagCoord.x0 := diagCoord.x0.prev(1)
+        ldiagCoord.y0 := diagCoord.y0.prev(1)
+        ldiagCoord.x1 := diagCoord.x0.prev(1) 
+        ldiagCoord.y1 := diagCoord.y0.prev(1)
     case DRAW() =>
       line_start := 0
       if (line_done) 
