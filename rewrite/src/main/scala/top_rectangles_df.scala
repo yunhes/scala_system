@@ -1,5 +1,32 @@
 import DFiant.*
-import compiler._
+
+class VideoDefs(val CORDW: Int):
+  case class Coord(
+    x: DFSInt[CORDW.type] <> VAL,
+    y: DFSInt[CORDW.type] <> VAL
+  ) extends DFStruct
+
+class FBDefs(val FB_CHANW: Int):
+  case class Color(
+    red: DFUInt[FB_CHANW.type] <> VAL,
+    green: DFUInt[FB_CHANW.type] <> VAL,
+    blue: DFUInt[FB_CHANW.type] <> VAL
+  ) extends DFStruct
+
+class RectDefs(protected val CORDW: Int):
+  case class DiagnolCoord(
+    x0: DFSInt[CORDW.type] <> VAL,
+    x1: DFSInt[CORDW.type] <> VAL,
+    y0: DFSInt[CORDW.type] <> VAL,
+    y1: DFSInt[CORDW.type] <> VAL
+  ) extends DFStruct
+  extension (dc : DiagnolCoord <> VAL)(using DFC)
+    def swapF : DiagnolCoord <> VAL = 
+      val ret = DiagnolCoord <> VAR
+      ret := dc
+      ret.x0 := dc.x1
+      ret.x1 := dc.x0
+      ret
 
 class top_rectangles_df(using DFC) extends DFDesign: 
   val vga_hsync = DFBit <> OUT
@@ -10,14 +37,16 @@ class top_rectangles_df(using DFC) extends DFDesign:
 
   // display timings
   val CORDW = 16
-  val sx = DFSInt(CORDW) <> VAR
-  val sy = DFSInt(CORDW) <> VAR
+  object videoDefs extends VideoDefs(CORDW)
+  object rectDefs extends RectDefs(CORDW)
+  // export videoDefs.*
+  val sCoord = videoDefs.Coord <> VAR
   val hsync = DFBit <> VAR
   val vsync = DFBit <> VAR
   val frame = DFBit <> VAR
   val line = DFBit <> VAR
 
-  val display_timings_inst = new display_timings_480p(
+  val display_timings_inst = new display_timings_480p_df(
   CORDW = 16,
   H_RES = 640,
   V_RES = 480,
@@ -29,15 +58,14 @@ class top_rectangles_df(using DFC) extends DFDesign:
   V_BP = 33,
   H_POL = false,
   V_POL = false)
-  display_timings_inst.sx <> sx
-  display_timings_inst.sy <> sy
+  display_timings_inst.coord_out <> sCoord
   display_timings_inst.hsync <> hsync
   display_timings_inst.vsync <> vsync
   display_timings_inst.frame <> frame
   display_timings_inst.line <> line
 
   val frame_sys = DFBit <> VAR
-  val xd_frame = new xd
+  val xd_frame = new xd_df
   xd_frame.i <> frame
   xd_frame.o <> frame_sys
 
@@ -49,15 +77,13 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val FB_SCALE   = 2
   val FB_IMAGE   = ""
   val FB_PALETTE = "16_colr_4bit_palette.mem"
+  object fbDefs extends FBDefs(FB_CHANW)
 
   val fb_we = DFBit <> VAR
   val fb_busy = DFBit <> VAR
-  val fbx = DFSInt(CORDW) <> VAR
-  val fby = DFSInt(CORDW) <> VAR
+  val fb_coord = videoDefs.Coord <> VAR
   val fb_cidx = DFUInt(FB_CIDXW) <> VAR
-  val fb_red = DFUInt(FB_CHANW) <> VAR
-  val fb_green = DFUInt(FB_CHANW) <> VAR
-  val fb_blue = DFUInt(FB_CHANW) <> VAR
+  val fb_color = fbDefs.Color <> VAR
 
   // TODO generate pixel clock
 
@@ -67,10 +93,7 @@ class top_rectangles_df(using DFC) extends DFDesign:
   // draw rectangles in framebuffer
   val SHAPE_CNT = 64
   val shape_id = DFUInt(SHAPE_CNT.bitsWidth(false)) <> VAR init 0
-  val vx0 = DFSInt(CORDW) <> VAR
-  val vy0 = DFSInt(CORDW) <> VAR
-  val vx1 = DFSInt(CORDW) <> VAR
-  val vy1 = DFSInt(CORDW) <> VAR
+  val v = rectDefs.DiagnolCoord <> VAR
   val draw_start = DFBit <> VAR
   
   // control drawing speed with output enable
@@ -79,16 +102,12 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val cnt_frame_wait = DFUInt(FRAME_WAIT.bitsWidth(false)) <> VAR init 0
   val cnt_pix_frame = DFUInt(PIX_FRAME.bitsWidth(false)) <> VAR init 0
   val draw_req = DFBit <> VAR
-
-  val draw_rectangle = new draw_rectangle
+  val draw_rectangle = new draw_rectangle_df
   draw_rectangle.start <> draw_start
   draw_rectangle.oe <> (draw_req && !fb_busy)
-  draw_rectangle.x0 <> vx0
-  draw_rectangle.y0 <> vy0
-  draw_rectangle.x1 <> vx1
-  draw_rectangle.y1 <> vy1
-  draw_rectangle.x <> fbx
-  draw_rectangle.y <> fby
+  draw_rectangle.diagCoord <> v
+  // draw_rectangle.x <> fb_coord.x
+  // draw_rectangle.y <> fb_coord.y
 
   // draw state machine
   enum State extends DFEnum:
@@ -115,10 +134,10 @@ class top_rectangles_df(using DFC) extends DFDesign:
   state match
     case INIT() =>
       draw_start := 1
-      vx0 := shape_id.prev(1) +^ 60 
-      vy0 := shape_id.prev(1) +^ 15 
-      vx1 := shape_id.prev(1) -^ 260 
-      vy1 := shape_id.prev(1) -^ 165 
+      v.x0 := shape_id.prev(1) +^ 60 
+      v.y0 := shape_id.prev(1) +^ 15 
+      v.x1 := shape_id.prev(1) -^ 260 
+      v.y1 := shape_id.prev(1) -^ 165 
       fb_cidx := shape_id.prev(1).bits(3,0)
     case DRAW() =>
       draw_start := 0
@@ -145,12 +164,11 @@ class top_rectangles_df(using DFC) extends DFDesign:
 
   vga_hsync := hsync.pipe(2)
   vga_vsync := vsync.pipe(2)
-  vga_r := fb_red.pipe(1).bits
-  vga_g := fb_green.pipe(1).bits
-  vga_b := fb_blue.pipe(1).bits
+  vga_r := fb_color.red.pipe(1).bits
+  vga_g := fb_color.green.pipe(1).bits
+  vga_b := fb_color.blue.pipe(1).bits
 
 
-// @main def hello: Unit = 
-//   import DFiant.compiler.stages.printCodeString
-//   val top = new top_rectangles_df
-//   top.printCodeString
+@main def hello: Unit = 
+  val top = new top_rectangles_df
+  top.printCodeString
