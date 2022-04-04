@@ -13,7 +13,7 @@ class FBDefs(val FB_CHANW: Int):
     blue: DFUInt[FB_CHANW.type] <> VAL
   ) extends DFStruct
 
-class RectDefs(protected val CORDW: Int):
+class RectDefs(val CORDW: Int):
   case class DiagnolCoord(
     x0: DFSInt[CORDW.type] <> VAL,
     x1: DFSInt[CORDW.type] <> VAL,
@@ -26,6 +26,8 @@ class RectDefs(protected val CORDW: Int):
       ret := dc
       ret.x0 := dc.x1
       ret.x1 := dc.x0
+      ret.y0 := dc.y1
+      ret.y1 := dc.y0
       ret
 
 class top_rectangles_df(using DFC) extends DFDesign: 
@@ -103,11 +105,14 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val cnt_pix_frame = DFUInt(PIX_FRAME.bitsWidth(false)) <> VAR init 0
   val draw_req = DFBit <> VAR
   val draw_rectangle = new draw_rectangle_df
+  val done = DFBool <> VAR
+  val drawing = DFBool <> VAR
   draw_rectangle.start <> draw_start
   draw_rectangle.oe <> (draw_req && !fb_busy)
   draw_rectangle.diagCoord <> v
-  // draw_rectangle.x <> fb_coord.x
-  // draw_rectangle.y <> fb_coord.y
+  draw_rectangle.coord <> fb_coord
+  draw_rectangle.done <> done
+  draw_rectangle.drawing <> drawing
 
   // draw state machine
   enum State extends DFEnum:
@@ -115,35 +120,30 @@ class top_rectangles_df(using DFC) extends DFDesign:
 
   import State.*
   val state = State <> VAR init IDLE
-  
-  val nextState: State <> VAL = state match
-  case INIT() => DRAW
-  case DRAW() => 
-    if (draw_rectangle.done)
-      if (shape_id == SHAPE_CNT-1)
-        DONE
-      else 
-        INIT
-    else
-      DRAW
-  case DONE() => DONE
-  case _ if (frame_sys) => INIT
-
-  state := nextState
-
   state match
-    case INIT() =>
+    case INIT =>
+      state := DRAW
       draw_start := 1
       v.x0 := shape_id.prev(1) +^ 60 
       v.y0 := shape_id.prev(1) +^ 15 
       v.x1 := shape_id.prev(1) -^ 260 
       v.y1 := shape_id.prev(1) -^ 165 
       fb_cidx := shape_id.prev(1).bits(3,0)
-    case DRAW() =>
+    case DRAW =>
       draw_start := 0
-      if (draw_rectangle.done)
+      if (done)
         if (shape_id != SHAPE_CNT-1)
+          state := DONE
           shape_id := shape_id.prev(1) + 1
+        else 
+          state := INIT
+      else
+        state := DRAW
+    case DONE => 
+      state := DONE
+    case _ =>
+      if (frame_sys) 
+        state := INIT
 
   // TODO any good ways of doing it? if not mentioned, default
   draw_req := 0
@@ -157,7 +157,7 @@ class top_rectangles_df(using DFC) extends DFDesign:
       cnt_pix_frame := cnt_pix_frame.prev(1) + 1
 
 
-  fb_we := draw_rectangle.drawing
+  fb_we := drawing
 
   val hsync_p1 = DFBit <> VAR 
   val vsync_p1 = DFBit <> VAR

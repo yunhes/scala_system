@@ -8,7 +8,7 @@ class draw_line_df(
   val start = DFBool <> IN
   val oe = DFBool <> IN
   object rectDefs extends RectDefs(CORDW)
-  val diagCoord_in = rectDefs.DiagnolCoord <> IN
+  val diagCoord_in = rectDefs.DiagnolCoord <> IN init ?
 
   object videoDefs extends VideoDefs(CORDW)
   val coord = videoDefs.Coord <> OUT init videoDefs.Coord(0,0)
@@ -23,7 +23,7 @@ class draw_line_df(
   import rectDefs.swapF
   swap := diagCoord_in.y0 > diagCoord_in.y1
   if (swap)
-    diagCoord := diagCoord_in.swapF
+    diagCoord := diagCoord_in.swapF //TODO: confusion... do we need .prev?
     // diagCoord.x0 := diagCoord_in.x1
     // diagCoord.x1 := diagCoord_in.x0
     // diagCoord.y0 := diagCoord_in.y1
@@ -46,26 +46,10 @@ class draw_line_df(
   val state = State <> VAR init IDLE
   
   state match
-    case DRAW() => 
-      if (oe) drawing := true
-      else drawing := false
-    case _ => drawing := false
-  
-  val nextState: State <> VAL = state match
-  case DRAW() => 
-    if (oe) IDLE
-    else state
-  case INIT_0() => INIT_1
-  case INIT_1() => DRAW
-  case _ =>
-    if (start) INIT_0
-    else state
-
-  state := nextState
-  
-  state match
-    case DRAW() => 
+    case DRAW => 
       if (oe) 
+        state := IDLE
+        drawing := true
         if (coord == endCoord) 
           busy := 0
           done := 1
@@ -88,26 +72,36 @@ class draw_line_df(
               coord.x := coord.x.prev(1) - 1
             coord.y := coord.y.prev(1) + 1
             err := err.prev(1) + dy.prev(1) + dx.prev(1)
-    case INIT_0() => 
+      else 
+        drawing := false
+        state := state.prev(1) // TODO: how to do this globally?
+    case INIT_0 => 
+      state := INIT_1
+      drawing := false // TODO: how to do this globally?
       if (right)
         dx := diagCoord.x1.prev(1) - diagCoord.x0.prev(1)
       else
         dx := diagCoord.x0.prev(1) - diagCoord.x1.prev(1)
       dy := diagCoord.y0.prev(1) - diagCoord.y1.prev(1)
-    case INIT_1() => 
+    case INIT_1 => 
+      state := DRAW
+      drawing := false
       err := dx.prev(1) + dy.prev(1)
       coord.x := diagCoord.x0.prev(1)
       coord.y := diagCoord.y0.prev(1)
       endCoord.x := diagCoord.x1.prev(1)
       endCoord.y := diagCoord.y1.prev(1)
     case _ => 
+      drawing := false
       done := false
       if (start)
+        state := INIT_0
         err := dx.prev(1) + dy.prev(1)
         busy := true
         right := diagCoord.x0.prev(1) < diagCoord.x1.prev(1)
+      else
+        state := state.prev(1)
       
 // @main def hello: Unit = 
-//   import DFiant.compiler.stages.printCodeString
 //   val top = new draw_line_df
 //   top.printCodeString

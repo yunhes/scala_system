@@ -1,0 +1,586 @@
+2022.04.04 11:55:15 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\spring_break\scala\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.04 11:55:16 INFO  logging to file C:\spring_break\scala\scala_system\rewrite\.metals\metals.log
+2022.04.04 11:55:16 INFO  Started: Metals version 0.11.2 in workspace 'C:\spring_break\scala\scala_system\rewrite' for client Visual Studio Code 1.66.0.
+2022.04.04 11:55:16 INFO  Parse release: 1.8.0_292
+2022.04.04 11:55:18 INFO  time: initialize in 1.93s
+2022.04.04 11:55:19 WARN  Build server is not auto-connectable.
+2022.04.04 11:55:19 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 11:55:26 INFO  no build target found for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.04 11:55:30 INFO  time: code lens generation in 6.73s
+2022.04.04 11:55:30 INFO  time: code lens generation in 9.36s
+2022.04.04 11:55:58 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 11:56:34 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 11:56:51 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 11:57:10 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\build.sbt
+2022.04.04 11:57:15 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 11:57:46 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\bram_sdp_df.scala
+2022.04.04 11:57:49 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\bram_sdp.scala
+2022.04.04 11:57:52 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 11:57:55 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\linebuffer.scala
+2022.04.04 11:58:14 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\linebuffer.scala
+2022.04.04 11:58:23 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\bram_sdp.scala
+2022.04.04 11:58:26 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\bram_sdp.scala
+2022.04.04 11:59:06 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\rom_async_df.scala
+2022.04.04 11:59:07 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\rom_async.scala
+2022.04.04 11:59:28 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\rom_async.scala
+2022.04.04 11:59:31 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\rom_async_df.scala
+2022.04.04 12:03:23 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 12:09:22 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\bram_sdp_df.scala
+2022.04.04 12:09:24 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 12:09:26 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:09:27 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 12:09:29 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\xd_df.scala
+2022.04.04 12:09:45 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 12:12:12 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 12:12:18 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:12:22 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:12:54 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:13:05 INFO  shutting down Metals
+2022.04.04 12:13:44 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\spring_break\scala\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.04 12:13:45 INFO  logging to file C:\spring_break\scala\scala_system\rewrite\.metals\metals.log
+2022.04.04 12:13:45 INFO  Started: Metals version 0.11.2 in workspace 'C:\spring_break\scala\scala_system\rewrite' for client Visual Studio Code 1.66.0.
+2022.04.04 12:13:45 INFO  Parse release: 1.8.0_292
+2022.04.04 12:13:47 INFO  time: initialize in 1.91s
+2022.04.04 12:13:48 WARN  Build server is not auto-connectable.
+2022.04.04 12:13:48 INFO  skipping build import with status 'Requested'
+2022.04.04 12:13:49 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:13:51 INFO  no build target found for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.04 12:13:55 INFO  time: code lens generation in 3.03s
+2022.04.04 12:13:55 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:13:57 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:13:57 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:13:59 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:13:59 WARN  no build target for: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:14:03 INFO  running 'C:\Users\xuepi\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\xuepi\AppData\Local\Temp\metals6830891369292372262\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.04.04 12:14:06 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)
+2022.04.04 12:14:10 INFO  [info] loading settings for project rewrite-build-build from metals.sbt ...
+2022.04.04 12:14:11 INFO  [info] loading project definition from C:\spring_break\scala\scala_system\rewrite\project\project
+2022.04.04 12:14:15 INFO  [info] loading settings for project rewrite-build from metals.sbt ...
+2022.04.04 12:14:15 INFO  [info] loading project definition from C:\spring_break\scala\scala_system\rewrite\project
+2022.04.04 12:14:21 INFO  [success] Generated .bloop\rewrite-build.json
+2022.04.04 12:14:21 INFO  [success] Total time: 6 s, completed Apr 4, 2022 12:14:21 PM
+2022.04.04 12:14:23 INFO  [info] loading settings for project root from build.sbt ...
+2022.04.04 12:14:23 INFO  [info] set current project to dfiantdemo (in build file:/C:/spring_break/scala/scala_system/rewrite/)
+2022.04.04 12:14:26 INFO  [success] Generated .bloop\root-test.json
+2022.04.04 12:14:26 INFO  [success] Generated .bloop\root.json
+2022.04.04 12:14:26 INFO  [success] Total time: 3 s, completed Apr 4, 2022 12:14:26 PM
+2022.04.04 12:14:26 INFO  time: ran 'sbt bloopInstall' in 22s
+2022.04.04 12:14:26 INFO  Attempting to connect to the build server...
+2022.04.04 12:14:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 12:14:43 INFO  Attempting to connect to the build server...
+2022.04.04 12:14:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 12:14:45 INFO  time: Connected to build server in 18s
+2022.04.04 12:14:45 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.04 12:14:45 INFO  time: Imported build in 0.23s
+2022.04.04 12:14:53 INFO  time: indexed workspace in 7.88s
+2022.04.04 12:14:53 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 10.843s)
+2022.04.04 12:14:53 INFO  compiling root (10 scala sources)
+2022.04.04 12:14:53 INFO  compiling root (10 scala sources)
+2022.04.04 12:15:16 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 33.429s)
+2022.04.04 12:15:16 INFO  compiling root (10 scala sources)
+2022.04.04 12:15:24 INFO  time: compiled root in 8.31s
+2022.04.04 12:15:24 WARN  Disconnecting from deduplication of ongoing compilation for 'root'
+No progress update for 30 seconds caused bloop to cancel compilation and schedule a new compile.
+                  
+2022.04.04 12:15:24 INFO  compiling root (10 scala sources)
+2022.04.04 12:15:39 INFO  time: compiled root in 15s
+2022.04.04 12:16:53 INFO  compiling root (1 scala source)
+2022.04.04 12:16:59 INFO  time: compiled root in 5.93s
+2022.04.04 12:17:24 INFO  compiling root (1 scala source)
+2022.04.04 12:17:29 INFO  time: compiled root in 4.35s
+2022.04.04 12:17:29 INFO  compiling root (3 scala sources)
+2022.04.04 12:17:41 INFO  time: compiled root in 12s
+2022.04.04 12:19:47 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:19:47 INFO  compiling root (1 scala source)
+2022.04.04 12:19:52 INFO  time: compiled root in 4.62s
+2022.04.04 12:19:52 INFO  compiling root (1 scala source)
+2022.04.04 12:19:57 INFO  time: compiled root in 5.02s
+2022.04.04 12:22:01 INFO  compiling root (1 scala source)
+2022.04.04 12:22:06 INFO  time: compiled root in 5.28s
+2022.04.04 12:24:35 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 12:24:35 INFO  compiling root (1 scala source)
+2022.04.04 12:24:41 INFO  time: compiled root in 5.89s
+2022.04.04 12:26:09 INFO  compiling root (1 scala source)
+2022.04.04 12:26:14 INFO  time: compiled root in 4.94s
+2022.04.04 12:26:20 INFO  compiling root (2 scala sources)
+2022.04.04 12:26:29 INFO  time: compiled root in 8.96s
+2022.04.04 12:26:31 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 11m 48.889s)
+2022.04.04 12:26:36 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 12:26:36 WARN  Expression evaluation will not work.
+2022.04.04 12:26:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 12:26:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 12:26:37 INFO  Starting debug proxy for [hello]
+2022.04.04 12:26:45 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50242 .
+2022.04.04 12:26:45 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 12:26:46 ERROR Exception in thread "main" DFiant.core.DFError$Derived: This value of enum is no meant to be accessed.
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFMember$.asIR(DFMember.scala:16)
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFType$package$.dfValDFType(DFType.scala:237)
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFVal$Alias$AsIs$.ident(DFVal.scala:306)
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFIf$.singleBranch(DFIf.scala:24)
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFIf$.fromBranches(DFIf.scala:42)
+2022.04.04 12:26:46 ERROR 	at draw_line_df.$init$$$anonfun$6(draw_line_df.scala:51)
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFMatch$.$anonfun$1(DFMatch.scala:46)
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFMatch$.singleCase(DFMatch.scala:23)
+2022.04.04 12:26:46 ERROR 	at DFiant.core.DFMatch$.fromCases(DFMatch.scala:49)
+2022.04.04 12:26:46 ERROR 	at draw_line_df.<init>(draw_line_df.scala:51)
+2022.04.04 12:26:46 ERROR 	at draw_line_df$package$.hello(draw_line_df.scala:112)
+2022.04.04 12:26:46 ERROR 	at hello.main(draw_line_df.scala:110)
+2022.04.04 12:26:46 INFO  Closing debug server tcp://0.0.0.0:50238
+2022.04.04 12:26:47 INFO  Canceling debug proxy for [hello]
+Apr 04, 2022 12:26:47 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1(DebugProxy.scala:186)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleServerMessage$1$adapted(DebugProxy.scala:160)
+	at scala.meta.internal.metals.debug.ServerAdapter.$anonfun$onReceived$1(ServerAdapter.scala:25)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.ServerAdapter.onReceived(ServerAdapter.scala:18)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToServer$1(DebugProxy.scala:67)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 23 more
+
+2022.04.04 12:32:54 INFO  compiling root (1 scala source)
+2022.04.04 12:32:59 INFO  time: compiled root in 4.59s
+2022.04.04 12:33:07 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 18m 25.071s)
+2022.04.04 12:33:12 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 12:33:12 WARN  Expression evaluation will not work.
+2022.04.04 12:33:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 12:33:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 12:33:12 INFO  Starting debug proxy for [hello]
+2022.04.04 12:33:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:50264 .
+2022.04.04 12:33:14 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 12:33:15 ERROR Exception in thread "main" DFiant.core.DFError$Derived: This value of enum is no meant to be accessed.
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFMember$.asIR(DFMember.scala:16)
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFType$package$.dfValDFType(DFType.scala:237)
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFVal$Alias$AsIs$.ident(DFVal.scala:306)
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFIf$.singleBranch(DFIf.scala:24)
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFIf$.fromBranches(DFIf.scala:42)
+2022.04.04 12:33:15 ERROR 	at draw_line_df.$init$$$anonfun$6(draw_line_df.scala:51)
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFMatch$.$anonfun$1(DFMatch.scala:46)
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFMatch$.singleCase(DFMatch.scala:23)
+2022.04.04 12:33:15 ERROR 	at DFiant.core.DFMatch$.fromCases(DFMatch.scala:49)
+2022.04.04 12:33:15 ERROR 	at draw_line_df.<init>(draw_line_df.scala:51)
+2022.04.04 12:33:15 ERROR 	at draw_line_df$package$.hello(draw_line_df.scala:111)
+2022.04.04 12:33:15 ERROR 	at hello.main(draw_line_df.scala:110)
+2022.04.04 12:33:15 INFO  Closing debug server tcp://0.0.0.0:50261
+Apr 04, 2022 12:33:15 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Software caused connection abort: socket write error
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Software caused connection abort: socket write error
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:138)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:63)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Software caused connection abort: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 21 more
+
+2022.04.04 12:33:16 INFO  Canceling debug proxy for [hello]
+2022.04.04 12:40:45 INFO  compiling root (1 scala source)
+2022.04.04 12:40:50 INFO  time: compiled root in 4.98s
+2022.04.04 13:00:40 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 13:00:40 INFO  compiling root (1 scala source)
+2022.04.04 13:00:45 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 13:00:45 INFO  time: compiled root in 4.77s
+2022.04.04 13:00:50 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 46m 7.682s)
+2022.04.04 13:00:54 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 13:00:54 WARN  Expression evaluation will not work.
+2022.04.04 13:00:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 13:00:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 13:00:54 INFO  Starting debug proxy for [hello]
+2022.04.04 13:00:56 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57700 .
+2022.04.04 13:00:56 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 13:00:57 ERROR Exception in thread "main" DFiant.core.DFError$Derived: This value of enum is no meant to be accessed.
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFMember$.asIR(DFMember.scala:16)
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFType$package$.dfValDFType(DFType.scala:237)
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFVal$Alias$AsIs$.ident(DFVal.scala:306)
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFIf$.singleBranch(DFIf.scala:24)
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFIf$.fromBranches(DFIf.scala:42)
+2022.04.04 13:00:57 ERROR 	at draw_line_df.$init$$$anonfun$4(draw_line_df.scala:57)
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFMatch$.$anonfun$1(DFMatch.scala:46)
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFMatch$.singleCase(DFMatch.scala:23)
+2022.04.04 13:00:57 ERROR 	at DFiant.core.DFMatch$.fromCases(DFMatch.scala:49)
+2022.04.04 13:00:57 ERROR 	at draw_line_df.<init>(draw_line_df.scala:57)
+2022.04.04 13:00:57 ERROR 	at draw_line_df$package$.hello(draw_line_df.scala:111)
+2022.04.04 13:00:57 ERROR 	at hello.main(draw_line_df.scala:110)
+2022.04.04 13:00:57 INFO  Closing debug server tcp://0.0.0.0:57696
+2022.04.04 13:00:58 INFO  Canceling debug proxy for [hello]
+2022.04.04 13:03:45 INFO  compiling root (1 scala source)
+2022.04.04 13:03:49 INFO  time: compiled root in 4.03s
+2022.04.04 13:03:49 INFO  compiling root (1 scala source)
+2022.04.04 13:03:51 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 49m 8.456s)
+2022.04.04 13:03:51 INFO  compiling root (1 scala source)
+2022.04.04 13:03:51 INFO  time: compiled root in 5ms
+2022.04.04 13:03:51 INFO  compiling root (1 scala source)
+2022.04.04 13:03:53 INFO  time: compiled root in 2.42s
+2022.04.04 13:03:55 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 49m 12.998s)
+2022.04.04 13:03:55 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 49m 12.998s)
+2022.04.04 13:03:58 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 13:03:58 WARN  Expression evaluation will not work.
+2022.04.04 13:03:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 13:03:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 13:03:59 INFO  Starting debug proxy for [hello]
+2022.04.04 13:04:00 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 13:04:00 WARN  Expression evaluation will not work.
+2022.04.04 13:04:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 13:04:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 13:04:01 INFO  Starting debug proxy for [hello]
+2022.04.04 13:04:02 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57743 .
+2022.04.04 13:04:02 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57742 .
+2022.04.04 13:04:02 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 13:04:02 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 13:04:04 INFO  Canceling debug proxy for [hello]
+2022.04.04 13:04:04 INFO  Canceling debug proxy for [hello]
+2022.04.04 13:04:04 INFO  Closing debug server tcp://0.0.0.0:57733
+2022.04.04 13:04:04 INFO  Closing debug server tcp://0.0.0.0:57738
+2022.04.04 13:04:30 INFO  compiling root (1 scala source)
+2022.04.04 13:04:34 INFO  time: compiled root in 4.74s
+2022.04.04 13:04:42 INFO  compiling root (1 scala source)
+2022.04.04 13:04:45 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 13:04:47 INFO  time: compiled root in 4.57s
+2022.04.04 13:04:50 INFO  compiling root (1 scala source)
+2022.04.04 13:04:55 INFO  time: compiled root in 4.85s
+2022.04.04 13:05:16 INFO  compiling root (1 scala source)
+2022.04.04 13:05:17 INFO  time: compiled root in 1.08s
+Apr 04, 2022 1:05:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 588
+2022.04.04 13:05:58 INFO  compiling root (1 scala source)
+2022.04.04 13:06:03 INFO  time: compiled root in 4.46s
+2022.04.04 13:06:05 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 13:06:06 INFO  compiling root (1 scala source)
+2022.04.04 13:06:07 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 13:06:11 INFO  time: compiled root in 4.52s
+2022.04.04 13:06:27 INFO  compiling root (1 scala source)
+2022.04.04 13:06:32 INFO  time: compiled root in 4.99s
+2022.04.04 13:06:42 INFO  compiling root (1 scala source)
+2022.04.04 13:06:46 INFO  time: compiled root in 4.6s
+2022.04.04 13:06:48 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 6.102s)
+2022.04.04 13:06:54 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 13:06:54 WARN  Expression evaluation will not work.
+2022.04.04 13:06:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 13:06:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 13:06:54 INFO  Starting debug proxy for [hello]
+2022.04.04 13:06:56 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57799 .
+2022.04.04 13:06:56 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 13:06:58 INFO  Canceling debug proxy for [hello]
+2022.04.04 13:06:58 INFO  Closing debug server tcp://0.0.0.0:57796
+2022.04.04 13:07:18 INFO  compiling root (1 scala source)
+2022.04.04 13:07:22 INFO  time: compiled root in 4.66s
+2022.04.04 13:07:52 INFO  compiling root (1 scala source)
+2022.04.04 13:07:53 INFO  time: compiled root in 1.91s
+2022.04.04 13:07:56 INFO  compiling root (1 scala source)
+2022.04.04 13:08:00 INFO  time: compiled root in 4.63s
+2022.04.04 13:08:16 INFO  compiling root (1 scala source)
+2022.04.04 13:08:18 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 13:08:21 INFO  time: compiled root in 4.8s
+2022.04.04 13:08:29 INFO  compiling root (1 scala source)
+2022.04.04 13:08:34 INFO  time: compiled root in 4.45s
+2022.04.04 13:08:40 INFO  compiling root (1 scala source)
+2022.04.04 13:08:42 INFO  time: compiled root in 2.12s
+2022.04.04 13:08:45 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 54m 2.663s)
+2022.04.04 13:08:45 INFO  compiling root (1 scala source)
+2022.04.04 13:08:45 INFO  compiling root (1 scala source)
+2022.04.04 13:08:47 INFO  time: compiled root in 2.18s
+2022.04.04 13:08:49 INFO  compiling root (1 scala source)
+2022.04.04 13:08:51 INFO  time: compiled root in 1.93s
+2022.04.04 13:08:59 INFO  compiling root (1 scala source)
+2022.04.04 13:09:05 INFO  time: compiled root in 5.19s
+2022.04.04 13:09:07 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 54m 24.596s)
+2022.04.04 13:09:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 54m 28.113s)
+2022.04.04 13:09:12 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 13:09:12 WARN  Expression evaluation will not work.
+2022.04.04 13:09:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 13:09:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 13:09:13 INFO  Starting debug proxy for [hello]
+2022.04.04 13:09:15 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 13:09:15 WARN  Expression evaluation will not work.
+2022.04.04 13:09:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 13:09:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 13:09:15 INFO  Starting debug proxy for [hello]
+2022.04.04 13:09:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57855 .
+2022.04.04 13:09:15 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 13:09:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57857 .
+2022.04.04 13:09:15 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 13:09:17 INFO  Canceling debug proxy for [hello]
+2022.04.04 13:09:17 INFO  Closing debug server tcp://0.0.0.0:57849
+2022.04.04 13:09:17 ERROR Read data from io exception: java.net.SocketException: Socket closed
+2022.04.04 13:09:17 INFO  Canceling debug proxy for [hello]
+2022.04.04 13:09:17 INFO  Closing debug server tcp://0.0.0.0:57852
+2022.04.04 13:09:25 INFO  compiling root (1 scala source)
+2022.04.04 13:09:27 INFO  time: compiled root in 2.08s
+2022.04.04 13:09:29 INFO  compiling root (1 scala source)
+2022.04.04 13:09:31 INFO  time: compiled root in 2.08s
+2022.04.04 13:09:34 INFO  compiling root (1 scala source)
+2022.04.04 13:09:35 INFO  time: compiled root in 1.96s
+2022.04.04 13:09:57 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 13:09:57 INFO  compiling root (2 scala sources)
+2022.04.04 13:10:05 INFO  time: compiled root in 7.37s
+2022.04.04 13:10:05 INFO  compiling root (2 scala sources)
+2022.04.04 13:10:13 INFO  time: compiled root in 8.53s
+2022.04.04 13:13:46 INFO  compiling root (1 scala source)
+2022.04.04 13:13:51 INFO  time: compiled root in 5.09s
+2022.04.04 13:14:00 INFO  compiling root (1 scala source)
+2022.04.04 13:14:05 INFO  time: compiled root in 5.08s
+2022.04.04 17:12:26 INFO  compiling root (1 scala source)
+2022.04.04 17:12:30 INFO  time: compiled root in 3.61s
+2022.04.04 17:12:36 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 17:12:37 INFO  compiling root (1 scala source)
+2022.04.04 17:12:37 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 17:12:42 INFO  time: compiled root in 5.21s
+2022.04.04 17:12:45 INFO  compiling root (1 scala source)
+2022.04.04 17:12:45 INFO  time: compiled root in 42ms
+2022.04.04 17:13:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 4h 58m 27.602s)
+2022.04.04 17:13:14 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 17:13:14 WARN  Expression evaluation will not work.
+2022.04.04 17:13:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 17:13:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 17:13:15 INFO  Starting debug proxy for [hello]
+2022.04.04 17:13:16 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56849 .
+2022.04.04 17:13:16 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 17:13:18 INFO  Canceling debug proxy for [hello]
+2022.04.04 17:13:18 INFO  Closing debug server tcp://0.0.0.0:56846
+2022.04.04 17:13:24 INFO  compiling root (1 scala source)
+2022.04.04 17:13:29 INFO  time: compiled root in 4.83s
+2022.04.04 17:14:00 INFO  compiling root (1 scala source)
+2022.04.04 17:14:03 INFO  time: compiled root in 3.41s
+2022.04.04 17:14:15 INFO  compiling root (1 scala source)
+2022.04.04 17:14:17 INFO  time: compiled root in 2s
+2022.04.04 17:14:21 INFO  compiling root (1 scala source)
+2022.04.04 17:14:24 INFO  time: compiled root in 3.47s
+2022.04.04 17:14:27 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:14:28 INFO  compiling root (1 scala source)
+2022.04.04 17:14:29 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:14:31 INFO  time: compiled root in 3.36s
+2022.04.04 17:14:38 INFO  compiling root (1 scala source)
+2022.04.04 17:14:42 INFO  time: compiled root in 3.17s
+2022.04.04 17:14:53 INFO  compiling root (1 scala source)
+2022.04.04 17:14:56 INFO  time: compiled root in 2.9s
+2022.04.04 17:14:56 INFO  compiling root (1 scala source)
+2022.04.04 17:15:01 INFO  time: compiled root in 4.8s
+2022.04.04 17:15:05 INFO  compiling root (1 scala source)
+2022.04.04 17:15:05 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:05 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:08 INFO  time: compiled root in 3.22s
+2022.04.04 17:15:29 INFO  compiling root (1 scala source)
+2022.04.04 17:15:32 INFO  time: compiled root in 3.38s
+2022.04.04 17:15:34 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:38 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:39 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:41 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:46 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:53 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:15:53 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:02 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:17 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:17 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:18 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:18 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:16:23 INFO  compiling root (1 scala source)
+2022.04.04 17:16:26 INFO  time: compiled root in 3.32s
+2022.04.04 17:16:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 5h 1m 52.334s)
+2022.04.04 17:16:39 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 17:16:39 WARN  Expression evaluation will not work.
+2022.04.04 17:16:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 17:16:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 17:16:39 INFO  Starting debug proxy for [hello]
+2022.04.04 17:16:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56915 .
+2022.04.04 17:16:41 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 17:16:43 INFO  Canceling debug proxy for [hello]
+2022.04.04 17:16:43 INFO  Closing debug server tcp://0.0.0.0:56912
+2022.04.04 17:16:53 INFO  compiling root (1 scala source)
+2022.04.04 17:16:57 INFO  time: compiled root in 3.28s
+2022.04.04 17:17:29 INFO  compiling root (1 scala source)
+2022.04.04 17:17:32 INFO  time: compiled root in 3.35s
+2022.04.04 17:17:36 INFO  compiling root (1 scala source)
+2022.04.04 17:17:39 INFO  time: compiled root in 3.65s
+2022.04.04 17:17:42 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:17:45 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:00 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:10 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:10 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:19 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:20 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:21 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala
+2022.04.04 17:18:22 INFO  compiling root (1 scala source)
+2022.04.04 17:18:26 INFO  time: compiled root in 4.34s
+2022.04.04 17:21:58 INFO  compiling root (1 scala source)
+2022.04.04 17:22:00 INFO  time: compiled root in 1.42s
+2022.04.04 17:22:02 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:14 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:22 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:22 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:24 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:24 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:24 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:25 INFO  compiling root (1 scala source)
+2022.04.04 17:22:28 INFO  time: compiled root in 2.88s
+2022.04.04 17:22:28 INFO  compiling root (1 scala source)
+2022.04.04 17:22:28 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:30 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:30 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:30 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:30 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:33 INFO  time: compiled root in 4.78s
+2022.04.04 17:22:37 INFO  compiling root (1 scala source)
+2022.04.04 17:22:40 INFO  time: compiled root in 3.49s
+2022.04.04 17:22:43 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:44 INFO  compiling root (1 scala source)
+2022.04.04 17:22:44 INFO  time: compiled root in 0.74s
+2022.04.04 17:22:46 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:47 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:47 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:47 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_rectangle_df.scala
+2022.04.04 17:22:58 INFO  compiling root (1 scala source)
+2022.04.04 17:23:01 INFO  time: compiled root in 3.33s
+2022.04.04 17:23:21 INFO  compiling root (1 scala source)
+2022.04.04 17:23:25 INFO  time: compiled root in 4.24s
+2022.04.04 17:24:01 INFO  compiling root (1 scala source)
+2022.04.04 17:24:03 INFO  time: compiled root in 1.95s
+2022.04.04 17:24:30 INFO  compiling root (1 scala source)
+2022.04.04 17:24:34 INFO  time: compiled root in 4.35s
+2022.04.04 17:24:39 INFO  compiling root (1 scala source)
+2022.04.04 17:24:40 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 17:24:44 INFO  time: compiled root in 4.6s
+2022.04.04 17:24:48 INFO  compiling root (1 scala source)
+2022.04.04 17:24:51 INFO  time: compiled root in 3.83s
+2022.04.04 17:24:59 INFO  compiling root (1 scala source)
+2022.04.04 17:25:04 INFO  time: compiled root in 4.67s
+2022.04.04 17:25:07 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 5h 10m 25.291s)
+2022.04.04 17:25:12 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 17:25:12 WARN  Expression evaluation will not work.
+2022.04.04 17:25:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 17:25:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 17:25:12 INFO  Starting debug proxy for [hello]
+2022.04.04 17:25:15 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57035 .
+2022.04.04 17:25:15 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 17:25:17 ERROR Exception in thread "main" DFiant.core.DFError$Derived: This value of enum is no meant to be accessed.
+2022.04.04 17:25:17 ERROR 	at DFiant.core.DFMember$.asIR(DFMember.scala:16)
+2022.04.04 17:25:17 ERROR 	at DFiant.core.DFType$package$.dfValDFType(DFType.scala:237)
+2022.04.04 17:25:17 ERROR 	at DFiant.core.DFVal$Alias$AsIs$.ident(DFVal.scala:306)
+2022.04.04 17:25:17 ERROR 	at DFiant.core.DFMatch$.singleCase(DFMatch.scala:27)
+2022.04.04 17:25:17 ERROR 	at DFiant.core.DFMatch$.fromCases(DFMatch.scala:49)
+2022.04.04 17:25:17 ERROR 	at top_rectangles_df.<init>(top_rectangles_df.scala:129)
+2022.04.04 17:25:17 ERROR 	at top_rectangles_df$package$.hello(top_rectangles_df.scala:176)
+2022.04.04 17:25:17 ERROR 	at hello.main(top_rectangles_df.scala:175)
+2022.04.04 17:25:17 INFO  Closing debug server tcp://0.0.0.0:57032
+2022.04.04 17:25:17 INFO  Canceling debug proxy for [hello]
+2022.04.04 17:25:39 INFO  compiling root (1 scala source)
+2022.04.04 17:25:44 INFO  time: compiled root in 4.52s
+2022.04.04 17:25:53 INFO  compiling root (1 scala source)
+2022.04.04 17:25:57 INFO  time: compiled root in 4.55s
+2022.04.04 17:26:08 INFO  compiling root (1 scala source)
+2022.04.04 17:26:13 INFO  time: compiled root in 4.65s
+2022.04.04 17:26:20 INFO  compiling root (1 scala source)
+2022.04.04 17:26:24 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 17:26:24 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.04 17:26:26 INFO  time: compiled root in 5.4s
+2022.04.04 17:26:40 INFO  compiling root (1 scala source)
+2022.04.04 17:26:44 INFO  time: compiled root in 4.85s
+2022.04.04 17:26:53 INFO  compiling root (1 scala source)
+2022.04.04 17:26:58 INFO  time: compiled root in 4.62s
+2022.04.04 17:27:06 INFO  compiling root (1 scala source)
+2022.04.04 17:27:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 5h 12m 27.93s)
+2022.04.04 17:27:10 INFO  compiling root (1 scala source)
+2022.04.04 17:27:10 INFO  time: compiled root in 0.59s
+2022.04.04 17:27:13 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:27:13 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 5h 12m 31.315s)
+2022.04.04 17:27:13 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:27:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 5h 12m 42.073s)
+2022.04.04 17:27:24 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:27:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 5h 12m 42.089s)
+2022.04.04 17:27:24 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:27:26 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 5h 12m 44.151s)
+2022.04.04 17:27:26 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:27:28 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\xuepi\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.04 17:27:28 WARN  Expression evaluation will not work.
+2022.04.04 17:27:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.04 17:27:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.04 17:27:29 INFO  Starting debug proxy for [hello]
+2022.04.04 17:27:30 INFO  Trying to attach to remote debuggee VM 127.0.0.1:57083 .
+2022.04.04 17:27:30 INFO  Attaching to debuggee VM succeeded.
+2022.04.04 17:27:32 INFO  Canceling debug proxy for [hello]
+2022.04.04 17:27:32 INFO  Closing debug server tcp://0.0.0.0:57080
+2022.04.04 17:30:54 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:31:27 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:31:30 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 17:32:51 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 17:32:52 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala

@@ -57,7 +57,7 @@ class display_timings_480p_df(
 
   coord_out:= coord.prev(1)
   
-// @main def hello: Unit = 
-//   import DFiant.compiler.stages.printCodeString
+
+// @main def hello: Unit =
 //   val top = new display_timings_480p_df
 //   top.printCodeString

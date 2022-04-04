@@ -9,11 +9,11 @@ class draw_rectangle_df(
   val oe = DFBool <> IN
 
   object rectDefs extends RectDefs(CORDW)
-  import rectDefs.DiagnolCoord
-  val diagCoord = DiagnolCoord <> IN init ?//rectDefs.DiagnolCoord(?,?,?,?)
-  
-  val x = DFSInt(CORDW) <> OUT
-  val y = DFSInt(CORDW) <> OUT
+  object videoDefs extends VideoDefs(CORDW)
+  import rectDefs.*
+  import videoDefs.*
+  val diagCoord = DiagnolCoord <> IN init ?
+  val coord = videoDefs.Coord <> OUT
   val drawing = DFBool <> OUT
   val busy = DFBool <> OUT init 0
   val done = DFBool <> OUT init 0
@@ -26,6 +26,7 @@ class draw_rectangle_df(
 
   val draw_line_inst = new draw_line_df
   draw_line_inst.diagCoord_in <> ldiagCoord
+  draw_line_inst.coord <> coord
 
   enum State extends DFEnum:
     case IDLE, INIT, DRAW
@@ -33,23 +34,9 @@ class draw_rectangle_df(
   import State.*
   val state = State <> VAR init IDLE
 
-  val nextState: State <> VAL = state match
-  case INIT() => DRAW
-  case DRAW() => 
-    if (line_done)
-        if (line_id == 3) 
-          IDLE
-        else 
-          INIT
-    else
-      DRAW
-  case _ 
-    if (start) => INIT
-
-  state := nextState
-
   state match
-    case INIT() =>
+    case INIT =>
+      state := DRAW
       line_start := 1
       ldiagCoord := diagCoord.prev
       if (line_id == 0)
@@ -73,21 +60,26 @@ class draw_rectangle_df(
         ldiagCoord.y0 := diagCoord.y0.prev(1)
         ldiagCoord.x1 := diagCoord.x0.prev(1) 
         ldiagCoord.y1 := diagCoord.y0.prev(1)
-    case DRAW() =>
+    case DRAW =>
       line_start := 0
       if (line_done) 
         if (line_id == 3)
+          state := IDLE
           busy := 0
           done := 1
         else 
+          state := INIT
           line_id := line_id.prev(1) + 1
+      else
+        state := DRAW
     case _ =>
       done := 0
       if (start) 
+        state := INIT
         line_id := 0
         busy := 1
 
+
 // @main def hello: Unit = 
-//   import DFiant.compiler.stages.printCodeString
 //   val top = new draw_rectangle_df
 //   top.printCodeString
