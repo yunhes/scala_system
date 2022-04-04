@@ -584,3 +584,6 @@ WARNING: Unmatched cancel notification for request id 588
 2022.04.04 17:31:30 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
 2022.04.04 17:32:51 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
 2022.04.04 17:32:52 WARN  Could not load snapshot text for C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala
+2022.04.04 17:34:12 INFO  shutting down Metals
+2022.04.04 17:34:12 INFO  Shut down connection with build server.
+2022.04.04 17:34:12 INFO  Shut down connection with build server.
