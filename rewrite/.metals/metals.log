@@ -587,3 +587,99 @@ WARNING: Unmatched cancel notification for request id 588
 2022.04.04 17:34:12 INFO  shutting down Metals
 2022.04.04 17:34:12 INFO  Shut down connection with build server.
 2022.04.04 17:34:12 INFO  Shut down connection with build server.
+2022.04.04 17:38:39 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\spring_break\scala\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.04 17:38:40 INFO  logging to file C:\spring_break\scala\scala_system\rewrite\.metals\metals.log
+2022.04.04 17:38:40 INFO  Started: Metals version 0.11.2 in workspace 'C:\spring_break\scala\scala_system\rewrite' for client Visual Studio Code 1.66.0.
+2022.04.04 17:38:40 INFO  Parse release: 1.8.0_292
+2022.04.04 17:38:42 INFO  time: initialize in 2.15s
+2022.04.04 17:38:43 INFO  Attempting to connect to the build server...
+2022.04.04 17:38:44 INFO  skipping build import with status 'Installed'
+2022.04.04 17:38:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:38:44 INFO  Attempting to connect to the build server...
+2022.04.04 17:38:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:38:44 INFO  time: Connected to build server in 0.29s
+2022.04.04 17:38:44 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.04 17:38:44 INFO  time: Imported build in 0.12s
+2022.04.04 17:38:46 INFO  no build target found for C:\spring_break\scala\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.04 17:38:49 INFO  time: code lens generation in 5.62s
+2022.04.04 17:38:53 INFO  time: indexed workspace in 8.66s
+2022.04.04 17:38:53 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:38:55 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 11.07s)
+2022.04.04 17:38:55 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:39:15 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 31.052s)
+2022.04.04 17:39:15 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:39:17 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 33.149s)
+2022.04.04 17:39:17 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:39:19 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 35.245s)
+2022.04.04 17:39:19 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:39:22 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 38.108s)
+2022.04.04 17:39:22 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:39:30 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 46.007s)
+2022.04.04 17:39:30 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:39:35 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 51.584s)
+2022.04.04 17:39:35 ERROR Unexpected error when compiling root: 'C:\spring_break\scala\scala_system\rewrite\.bloop\root\root-analysis.bin (The process cannot access the file because it is being used by another process)'
+2022.04.04 17:39:46 INFO  Disconnecting from Bloop session...
+2022.04.04 17:39:46 INFO  Shut down connection with build server.
+2022.04.04 17:39:46 INFO  Shut down connection with build server.
+2022.04.04 17:39:46 INFO  Attempting to connect to the build server...
+2022.04.04 17:39:47 INFO  Attempting to connect to the build server...
+2022.04.04 17:39:52 INFO  Attempting to connect to the build server...
+2022.04.04 17:39:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:39:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:39:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:39:54 INFO  Attempting to connect to the build server...
+2022.04.04 17:39:54 INFO  Attempting to connect to the build server...
+2022.04.04 17:39:54 INFO  Attempting to connect to the build server...
+2022.04.04 17:39:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:39:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:39:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 17:39:54 INFO  time: Connected to build server in 7.34s
+2022.04.04 17:39:54 INFO  time: Connected to build server in 2.77s
+2022.04.04 17:39:54 INFO  time: Connected to build server in 8.82s
+2022.04.04 17:39:54 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.04 17:39:54 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.04 17:39:54 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.04 17:39:54 INFO  time: Imported build in 0.22s
+2022.04.04 17:39:55 INFO  time: Imported build in 0.22s
+2022.04.04 17:39:54 INFO  time: Imported build in 0.22s
+2022.04.04 17:39:57 INFO  time: indexed workspace in 2.06s
+2022.04.04 17:39:57 INFO  time: indexed workspace in 2.18s
+2022.04.04 17:39:57 INFO  time: indexed workspace in 2.29s
+2022.04.04 17:39:57 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 3.192s)
+2022.04.04 17:39:58 INFO  compiling root (5 scala sources)
+2022.04.04 17:39:58 INFO  compiling root (5 scala sources)
+error: C:\spring_break\scala\scala_system\rewrite\.metals\.tmp\.metals\.tmp\Main6752664853082798336.scala is not a file
+error: C:\spring_break\scala\scala_system\rewrite\.metals\.tmp\.metals\.tmp\Main-6763975361378067105.scala is not a file
+error: C:\spring_break\scala\scala_system\rewrite\.metals\.tmp\.metals\.tmp\Main-1354788063269636417.scala is not a file
+error: C:\spring_break\scala\scala_system\rewrite\.metals\.tmp\.metals\.tmp\Main6752664853082798336.scala is not a file
+2022.04.04 17:40:29 INFO  time: compiled root in 30s
+2022.04.04 17:40:29 WARN  Disconnecting from deduplication of ongoing compilation for 'root'
+No progress update for 30 seconds caused bloop to cancel compilation and schedule a new compile.
+                  
+2022.04.04 17:40:29 INFO  compiling root (5 scala sources)
+2022.04.04 17:40:35 INFO  time: compiled root in 5.87s
+2022.04.04 17:40:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 43.171s)
+2022.04.04 17:40:37 INFO  compiling root (5 scala sources)
+2022.04.04 17:40:52 INFO  time: compiled root in 15s
+2022.04.04 17:41:30 INFO  shutting down Metals
+2022.04.04 17:41:30 INFO  Shut down connection with build server.
+2022.04.04 17:41:30 INFO  Shut down connection with build server.
+2022.04.04 18:55:30 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at c:\spring_break\scala\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.04 18:55:31 INFO  logging to file C:\spring_break\scala\scala_system\rewrite\.metals\metals.log
+2022.04.04 18:55:31 INFO  Started: Metals version 0.11.2 in workspace 'C:\spring_break\scala\scala_system\rewrite' for client Visual Studio Code 1.66.0.
+2022.04.04 18:55:31 INFO  Parse release: 1.8.0_292
+2022.04.04 18:55:33 INFO  time: initialize in 2.02s
+2022.04.04 18:55:34 INFO  Attempting to connect to the build server...
+2022.04.04 18:55:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 18:55:34 INFO  skipping build import with status 'Installed'
+2022.04.04 18:55:34 INFO  Attempting to connect to the build server...
+2022.04.04 18:55:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\spring_break\scala\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\xuepi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.04 18:55:35 INFO  time: Connected to build server in 0.31s
+2022.04.04 18:55:35 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.04 18:55:38 INFO  no build target found for C:\spring_break\scala\scala_system\rewrite\src\main\scala\top_rectangles_df.scala. Using presentation compiler with project's scala-library version: 3.1.1
+2022.04.04 18:55:39 INFO  time: code lens generation in 4.4s
+2022.04.04 18:55:39 INFO  time: Imported build in 0.11s
+2022.04.04 18:55:49 INFO  time: indexed workspace in 10s
+2022.04.04 18:57:56 INFO  shutting down Metals
+2022.04.04 18:57:56 INFO  Shut down connection with build server.
+2022.04.04 18:57:56 INFO  Shut down connection with build server.

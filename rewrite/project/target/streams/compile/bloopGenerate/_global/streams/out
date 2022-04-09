@@ -1,4 +1,4 @@
-[debug] [rewrite-build] Classpath dependencies List()
-[debug] [rewrite-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'rewrite-build' to 'C:\spring_break\scala\scala_system\rewrite\project\.bloop\rewrite-build.json'
-[success] Generated .bloop\rewrite-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[rewrite-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[rewrite-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'rewrite-build' to 'C:\spring_break\scala\scala_system\rewrite\project\.bloop\rewrite-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\rewrite-build.json[0m

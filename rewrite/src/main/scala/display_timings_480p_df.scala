@@ -1,6 +1,35 @@
 import DFiant.*
 import compiler._
 
+
+// if structured pair [x,y], more complex timing structure
+extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
+class clk(using DFC) extends DFDesign:
+  val counter = DFBit <> OUT init 0
+  // TODO: CONST for 800
+  val horizontal_timer = 60.Hz*800 // needs to check vivado after returning Ithaca
+  if (pixel_hor_nhz) then
+    counter:= counter.prev + 1
+    counter.maxLag(pixel_hor_nhz, 0.ns)
+
+// if structured pair [x,y], more complex timing structure
+extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
+class clk(using DFC) extends DFDesign:
+  val counter = DFBit <> OUT init 0
+  val pixel_ver_nhz = 60.Hz*800/600 // needs to check vivado after returning Ithaca
+  if (pixel_ver_nhz) then
+    counter:= counter.prev + 1
+    counter.maxLag(pixel_ver_nhz, 0.ns)
+
+extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
+class clk(using DFC) extends DFDesign:
+  object videoDefs extends VideoDefs(CORDW)
+  val coord_out = videoDefs.Coord <> OUT init videoDefs.Coord(H_STA,V_STA)
+  val pixel_clk_nhz = 60.Hz*800 // needs to check vivado after returning Ithaca
+  if (pixel_clk_nhz) then
+    coord_out:=  coord.prev
+    coord_out.maxLag(pixel_clk_nhz, 0.ns)
+
 class display_timings_480p_df(
   val CORDW : Int = 16,
   val H_RES : Int = 640,
@@ -19,9 +48,6 @@ class display_timings_480p_df(
   val de = DFBit <> OUT
   val frame = DFBit <> OUT init 0
   val line = DFBit <> OUT
-
-  object videoDefs extends VideoDefs(CORDW)
-  val coord_out = videoDefs.Coord <> OUT init videoDefs.Coord(H_STA,V_STA)
 
   val coord = videoDefs.Coord <> VAR init videoDefs.Coord(H_STA,V_STA)
 
@@ -55,7 +81,7 @@ class display_timings_480p_df(
   else
     coord.x := coord.x.prev(1) + 1
 
-  coord_out:= coord.prev(1)
+  // coord_out:= coord.prev(1)
   
 
 // @main def hello: Unit =
