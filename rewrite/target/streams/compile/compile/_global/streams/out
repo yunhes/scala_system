@@ -1,5 +1,29 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: C:\spring_break\scala\scala_system\rewrite\src\main\scala\draw_line_df.scala:23:18 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m  [33mimport[0m rectDefs.swapF[0m
-[0m[[0m[31merror[0m] [0m[0m   |                  [31m^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |value swapF is not a member of object draw_line_df.this.rectDefs - did you mean rectDefs.wait?[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[error] -- [E007] Type Mismatch Error: D:\graduate studies cornell\ECE6930\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala:66:5 
+[error] 66 |  if(vertical_timer) then
+[error]    |     ^^^^^^^^^^^^^^
+[error]    |Found:    (display_timings_480p_df.this.vertical_timer : DFiant.core.Timer)
+[error]    |Required: Boolean
+[error]    |
+[error]    |One of the following imports might make progress towards fixing the problem:
+[error]    |
+[error]    |  import DFiant.core.DFType.conv
+[error]    |  import DFiant.core.DFToken.Value.fromValue
+[error]    |  import DFiant.core.DFToken.fromTC
+[error]    |  import DFiant.core.DFToken.TupleValues.fromValue
+[error]    |  import DFiant.internals.Exactly.fromRegularTypes
+[error]    |
+[error] -- [E007] Type Mismatch Error: D:\graduate studies cornell\ECE6930\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala:72:5 
+[error] 72 |  if(horizontal_timer) then
+[error]    |     ^^^^^^^^^^^^^^^^
+[error]    |Found:    (display_timings_480p_df.this.horizontal_timer : DFiant.core.Timer)
+[error]    |Required: Boolean
+[error]    |
+[error]    |One of the following imports might make progress towards fixing the problem:
+[error]    |
+[error]    |  import DFiant.core.DFType.conv
+[error]    |  import DFiant.core.DFToken.Value.fromValue
+[error]    |  import DFiant.core.DFToken.fromTC
+[error]    |  import DFiant.core.DFToken.TupleValues.fromValue
+[error]    |  import DFiant.internals.Exactly.fromRegularTypes
+[error]    |
+[error] two errors found

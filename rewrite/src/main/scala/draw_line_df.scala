@@ -56,51 +56,51 @@ class draw_line_df(
         else 
           if (movx) 
             if (right)
-              coord.x := coord.x.prev(1) + 1
+              coord.x := coord.x.prev + 1
             else
-              coord.x := coord.x.prev(1) - 1
-          err := err.prev(1) + dy.prev(1)
+              coord.x := coord.x.prev - 1
+          err := err.prev + dy.prev
 
           if (movy) 
-            coord.y := coord.y.prev(1) + 1
-            err := err.prev(1) + dx.prev(1)
+            coord.y := coord.y.prev + 1
+            err := err.prev + dx.prev
 
           if (movx && movy) 
             if (right)
-              coord.x := coord.x.prev(1) + 1
+              coord.x := coord.x.prev + 1
             else
-              coord.x := coord.x.prev(1) - 1
-            coord.y := coord.y.prev(1) + 1
-            err := err.prev(1) + dy.prev(1) + dx.prev(1)
+              coord.x := coord.x.prev - 1
+            coord.y := coord.y.prev + 1
+            err := err.prev + dy.prev + dx.prev
       else 
         drawing := false
-        state := state.prev(1) // TODO: how to do this globally?
+        state := state.prev // TODO: how to do this globally?
     case INIT_0 => 
       state := INIT_1
       drawing := false // TODO: how to do this globally?
       if (right)
-        dx := diagCoord.x1.prev(1) - diagCoord.x0.prev(1)
+        dx := diagCoord.x1.prev - diagCoord.x0.prev
       else
-        dx := diagCoord.x0.prev(1) - diagCoord.x1.prev(1)
-      dy := diagCoord.y0.prev(1) - diagCoord.y1.prev(1)
+        dx := diagCoord.x0.prev - diagCoord.x1.prev
+      dy := diagCoord.y0.prev - diagCoord.y1.prev
     case INIT_1 => 
       state := DRAW
       drawing := false
-      err := dx.prev(1) + dy.prev(1)
-      coord.x := diagCoord.x0.prev(1)
-      coord.y := diagCoord.y0.prev(1)
-      endCoord.x := diagCoord.x1.prev(1)
-      endCoord.y := diagCoord.y1.prev(1)
+      err := dx.prev + dy.prev
+      coord.x := diagCoord.x0.prev
+      coord.y := diagCoord.y0.prev
+      endCoord.x := diagCoord.x1.prev
+      endCoord.y := diagCoord.y1.prev
     case _ => 
       drawing := false
       done := false
       if (start)
         state := INIT_0
-        err := dx.prev(1) + dy.prev(1)
+        err := dx.prev + dy.prev
         busy := true
-        right := diagCoord.x0.prev(1) < diagCoord.x1.prev(1)
+        right := diagCoord.x0.prev < diagCoord.x1.prev
       else
-        state := state.prev(1)
+        state := state.prev
       
 // @main def hello: Unit = 
 //   val top = new draw_line_df

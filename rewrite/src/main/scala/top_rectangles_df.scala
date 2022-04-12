@@ -124,17 +124,17 @@ class top_rectangles_df(using DFC) extends DFDesign:
     case INIT =>
       state := DRAW
       draw_start := 1
-      v.x0 := shape_id.prev(1) +^ 60 
-      v.y0 := shape_id.prev(1) +^ 15 
-      v.x1 := shape_id.prev(1) -^ 260 
-      v.y1 := shape_id.prev(1) -^ 165 
-      fb_cidx := shape_id.prev(1).bits(3,0)
+      v.x0 := shape_id.prev +^ 60 
+      v.y0 := shape_id.prev +^ 15 
+      v.x1 := shape_id.prev -^ 260 
+      v.y1 := shape_id.prev -^ 165 
+      fb_cidx := shape_id.prev.bits(3,0)
     case DRAW =>
       draw_start := 0
       if (done)
         if (shape_id != SHAPE_CNT-1)
           state := DONE
-          shape_id := shape_id.prev(1) + 1
+          shape_id := shape_id.prev + 1
         else 
           state := INIT
       else
@@ -149,12 +149,12 @@ class top_rectangles_df(using DFC) extends DFDesign:
   draw_req := 0
   if (frame_sys) 
       if (cnt_frame_wait != FRAME_WAIT-1) 
-        cnt_frame_wait := cnt_frame_wait.prev(1) + 1
+        cnt_frame_wait := cnt_frame_wait.prev + 1
       cnt_pix_frame := 0
   if (!fb_busy) 
     if (cnt_frame_wait == FRAME_WAIT-1 && cnt_pix_frame != PIX_FRAME-1) 
       draw_req := 1
-      cnt_pix_frame := cnt_pix_frame.prev(1) + 1
+      cnt_pix_frame := cnt_pix_frame.prev + 1
 
 
   fb_we := drawing
@@ -164,11 +164,11 @@ class top_rectangles_df(using DFC) extends DFDesign:
 
   vga_hsync := hsync.pipe(2)
   vga_vsync := vsync.pipe(2)
-  vga_r := fb_color.red.pipe(1).bits
-  vga_g := fb_color.green.pipe(1).bits
-  vga_b := fb_color.blue.pipe(1).bits
+  vga_r := fb_color.red.pipe.bits
+  vga_g := fb_color.green.pipe.bits
+  vga_b := fb_color.blue.pipe.bits
 
 
-@main def hello: Unit = 
-  val top = new top_rectangles_df
-  top.printCodeString
+// @main def hello: Unit = 
+//   val top = new top_rectangles_df
+//   top.printCodeString

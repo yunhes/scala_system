@@ -1,36 +1,18 @@
 import DFiant.*
 import compiler._
 
-
-// if structured pair [x,y], more complex timing structure
-extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
+// extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
 class clk(using DFC) extends DFDesign:
-  val counter = DFBit <> OUT init 0
+  val counter = DFUInt(8) <> OUT init 0
   // TODO: CONST for 800
-  val horizontal_timer = 60.Hz*800 // needs to check vivado after returning Ithaca
-  if (pixel_hor_nhz) then
-    counter:= counter.prev + 1
-    counter.maxLag(pixel_hor_nhz, 0.ns)
-
-// if structured pair [x,y], more complex timing structure
-extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
-class clk(using DFC) extends DFDesign:
-  val counter = DFBit <> OUT init 0
-  val pixel_ver_nhz = 60.Hz*800/600 // needs to check vivado after returning Ithaca
-  if (pixel_ver_nhz) then
-    counter:= counter.prev + 1
-    counter.maxLag(pixel_ver_nhz, 0.ns)
-
-extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
-class clk(using DFC) extends DFDesign:
-  object videoDefs extends VideoDefs(CORDW)
-  val coord_out = videoDefs.Coord <> OUT init videoDefs.Coord(H_STA,V_STA)
-  val pixel_clk_nhz = 60.Hz*800 // needs to check vivado after returning Ithaca
-  if (pixel_clk_nhz) then
-    coord_out:=  coord.prev
-    coord_out.maxLag(pixel_clk_nhz, 0.ns)
+  val fps_timer = Timer(60.Hz)
+  val horizontal_timer = fps_timer*800
+  // if (horizontal_timer) then
+  //   counter:= counter.prev + 1
+  //   counter.maxLag(pixel_hor_nhz, 0.ns)
 
 class display_timings_480p_df(
+  val FPS : Int = 60,
   val CORDW : Int = 16,
   val H_RES : Int = 640,
   val V_RES : Int = 480,
@@ -49,7 +31,15 @@ class display_timings_480p_df(
   val frame = DFBit <> OUT init 0
   val line = DFBit <> OUT
 
+  object videoDefs extends VideoDefs(CORDW)
   val coord = videoDefs.Coord <> VAR init videoDefs.Coord(H_STA,V_STA)
+  val coord_out = videoDefs.Coord <> OUT init videoDefs.Coord(H_STA,V_STA)
+
+  val fps_timer = Timer(FPS.Hz)
+  val WIDTH = H_RES+H_FP+H_SYNC+H_BP
+  val HEIGHT = V_RES+V_FP+V_SYNC+V_BP
+  val horizontal_timer = fps_timer*WIDTH*HEIGHT
+  val vertical_timer = horizontal_timer/HEIGHT
 
   val H_STA  = 0 - H_FP - H_SYNC - H_BP    
   val HS_STA = H_STA + H_FP                
@@ -72,18 +62,21 @@ class display_timings_480p_df(
   frame := (coord.y == V_STA  && coord.x == H_STA)
   line := (coord.y >= VA_STA && coord.x == H_STA)
 
-  if coord.x == HA_END then 
-    coord.x := H_STA
-    if coord.y == VA_END then
-      coord.y := V_STA
-    else
-      coord.y := coord.y.prev(1) + 1
-  else
-    coord.x := coord.x.prev(1) + 1
 
-  // coord_out:= coord.prev(1)
+  if(vertical_timer.isActive)
+    if (coord.y == VA_END)
+        coord.y := V_STA
+    else
+      coord.y := coord.y.prev + 1
+
+  if(horizontal_timer.isActive)
+    if (coord.x == HA_END) 
+      coord.x := H_STA
+    else
+      coord.x := coord.x.prev + 1
+    coord_out:= coord.prev
   
 
-// @main def hello: Unit =
-//   val top = new display_timings_480p_df
-//   top.printCodeString
+@main def hello: Unit =
+  val top = new display_timings_480p_df
+  top.printCodeString

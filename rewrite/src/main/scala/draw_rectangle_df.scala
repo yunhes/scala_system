@@ -43,23 +43,23 @@ class draw_rectangle_df(
         val dp = diagCoord.prev
         ldiagCoord.x0 := dp.x0
         ldiagCoord.y0 := dp.y0
-        ldiagCoord.x1 := diagCoord.x1.prev(1)
-        ldiagCoord.y1 := diagCoord.y0.prev(1)
+        ldiagCoord.x1 := diagCoord.x1.prev
+        ldiagCoord.y1 := diagCoord.y0.prev
       else if (line_id == 1)
-        ldiagCoord.x0 := diagCoord.x1.prev(1) 
-        ldiagCoord.y0 := diagCoord.y0.prev(1)
-        ldiagCoord.x1 := diagCoord.x1.prev(1) 
-        ldiagCoord.y1 := diagCoord.y0.prev(1)
+        ldiagCoord.x0 := diagCoord.x1.prev 
+        ldiagCoord.y0 := diagCoord.y0.prev
+        ldiagCoord.x1 := diagCoord.x1.prev 
+        ldiagCoord.y1 := diagCoord.y0.prev
       else if (line_id == 2)
-        ldiagCoord.x0 := diagCoord.x1.prev(1)
-        ldiagCoord.y0 := diagCoord.y0.prev(1)
-        ldiagCoord.x1 := diagCoord.x0.prev(1)
-        ldiagCoord.y1 := diagCoord.y0.prev(1)
+        ldiagCoord.x0 := diagCoord.x1.prev
+        ldiagCoord.y0 := diagCoord.y0.prev
+        ldiagCoord.x1 := diagCoord.x0.prev
+        ldiagCoord.y1 := diagCoord.y0.prev
       else
-        ldiagCoord.x0 := diagCoord.x0.prev(1)
-        ldiagCoord.y0 := diagCoord.y0.prev(1)
-        ldiagCoord.x1 := diagCoord.x0.prev(1) 
-        ldiagCoord.y1 := diagCoord.y0.prev(1)
+        ldiagCoord.x0 := diagCoord.x0.prev
+        ldiagCoord.y0 := diagCoord.y0.prev
+        ldiagCoord.x1 := diagCoord.x0.prev 
+        ldiagCoord.y1 := diagCoord.y0.prev
     case DRAW =>
       line_start := 0
       if (line_done) 
@@ -69,7 +69,7 @@ class draw_rectangle_df(
           done := 1
         else 
           state := INIT
-          line_id := line_id.prev(1) + 1
+          line_id := line_id.prev + 1
       else
         state := DRAW
     case _ =>
