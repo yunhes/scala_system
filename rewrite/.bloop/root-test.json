@@ -2,38 +2,40 @@
     "version": "1.4.0",
     "project": {
         "name": "root-test",
-        "directory": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite",
-        "workspaceDir": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite",
+        "directory": "D:\\GitHub\\scala_system\\rewrite",
+        "workspaceDir": "D:\\GitHub\\scala_system\\rewrite",
         "sources": [
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\src\\test\\scala",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\src\\test\\scala-3",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\src\\test\\java",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\target\\scala-3.1.2-RC1\\src_managed\\test"
+            "D:\\GitHub\\scala_system\\rewrite\\src\\test\\scala",
+            "D:\\GitHub\\scala_system\\rewrite\\src\\test\\scala-3",
+            "D:\\GitHub\\scala_system\\rewrite\\src\\test\\java",
+            "D:\\GitHub\\scala_system\\rewrite\\target\\scala-3.1.2-RC1\\src_managed\\test"
         ],
         "dependencies": [
             "root"
         ],
         "classpath": [
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\.bloop\\root\\scala-3\\classes",
+            "D:\\GitHub\\scala_system\\rewrite\\.bloop\\root\\scala-3\\classes",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala3-library_3\\3.1.2-RC1\\scala3-library_3-3.1.2-RC1.jar",
             "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant_3\\0.2.0-SNAPSHOT\\jars\\dfiant_3.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.8\\scala-library-2.13.8.jar",
             "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-core_3\\0.2.0-SNAPSHOT\\jars\\dfiant-core_3.jar",
             "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-stages_3\\0.2.0-SNAPSHOT\\jars\\dfiant-compiler-stages_3.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scodec\\scodec-bits_3\\1.1.30\\scodec-bits_3-1.1.30.jar",
+            "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\wvlet\\airframe\\airframe-log_3\\22.4.1\\airframe-log_3-22.4.1.jar",
             "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-plugin_3.1.2-RC1\\0.2.0-SNAPSHOT\\jars\\dfiant-plugin_3.1.2-RC1.jar",
             "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-internals_3\\0.2.0-SNAPSHOT\\jars\\dfiant-internals_3.jar",
             "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-ir_3\\0.2.0-SNAPSHOT\\jars\\dfiant-compiler-ir_3.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\scalafmt-dynamic_2.13\\3.3.1\\scalafmt-dynamic_2.13-3.3.1.jar",
+            "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.11\\logback-core-1.2.11.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\scalafmt-interfaces\\3.3.1\\scalafmt-interfaces-3.3.1.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\get-coursier\\interface\\0.0.17\\interface-0.0.17.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.4.1\\config-1.4.1.jar"
         ],
-        "out": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\.bloop\\root",
-        "classesDir": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\.bloop\\root\\scala-3\\test-classes",
+        "out": "D:\\GitHub\\scala_system\\rewrite\\.bloop\\root",
+        "classesDir": "D:\\GitHub\\scala_system\\rewrite\\.bloop\\root\\scala-3\\test-classes",
         "resources": [
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\src\\test\\resources",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\target\\scala-3.1.2-RC1\\resource_managed\\test"
+            "D:\\GitHub\\scala_system\\rewrite\\src\\test\\resources",
+            "D:\\GitHub\\scala_system\\rewrite\\target\\scala-3.1.2-RC1\\resource_managed\\test"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -155,7 +157,7 @@
             "config": {
                 "home": "C:\\Users\\shion\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\AdoptOpenJDK\\openjdk8-binaries\\releases\\download\\jdk8u292-b10\\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\\jdk8u292-b10\\jre",
                 "options": [
-                    "-Duser.dir=D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite"
+                    "-Duser.dir=D:\\GitHub\\scala_system\\rewrite"
                 ]
             },
             "mainClass": [
@@ -233,7 +235,7 @@
                             "name": "dfiant-core_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "15258facd8ec9fb35171c44c4a50f65d3cd06134"
+                                "digest": "0e2272bdcc4c62274abb8be7b60f69b10f46c00f"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-core_3\\0.2.0-SNAPSHOT\\jars\\dfiant-core_3.jar"
                         },
@@ -242,7 +244,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "a0c4a2df1d8e8b5c63d2f6070c449f59ea7d73d4"
+                                "digest": "0672ddd898f9f172999bc43d27f0a15c50a96fdb"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-core_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-core_3-sources.jar"
                         }
@@ -258,7 +260,7 @@
                             "name": "dfiant-compiler-stages_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "d5617eea25fa1c853f6e2f5f7ec6842d24c0c89f"
+                                "digest": "5edae6910d3e62fab2d570cf6917d8198be8fcb8"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-stages_3\\0.2.0-SNAPSHOT\\jars\\dfiant-compiler-stages_3.jar"
                         },
@@ -267,7 +269,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "72de5f02510f273311940a7c1c34c7db664acef1"
+                                "digest": "5c3a69346f5f6aaf23e71aa9559dfccb10f57a0e"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-stages_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-compiler-stages_3-sources.jar"
                         }
@@ -291,6 +293,23 @@
                     ]
                 },
                 {
+                    "organization": "org.wvlet.airframe",
+                    "name": "airframe-log_3",
+                    "version": "22.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "airframe-log_3",
+                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\wvlet\\airframe\\airframe-log_3\\22.4.1\\airframe-log_3-22.4.1.jar"
+                        },
+                        {
+                            "name": "airframe-log_3",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\wvlet\\airframe\\airframe-log_3\\22.4.1\\airframe-log_3-22.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "io.github.dfianthdl",
                     "name": "dfiant-plugin_3.1.2-RC1",
                     "version": "0.2.0-SNAPSHOT",
@@ -300,7 +319,7 @@
                             "name": "dfiant-plugin_3.1.2-RC1",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "842da90cec851e73f24a9dbdee9d06f4a8fdbda2"
+                                "digest": "639b9caeba0a22042eb4e97c5c31c4b3aaaaef3f"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-plugin_3.1.2-RC1\\0.2.0-SNAPSHOT\\jars\\dfiant-plugin_3.1.2-RC1.jar"
                         },
@@ -309,7 +328,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "346609b760621db7fe4049421230c60fbae02169"
+                                "digest": "a9f09bb3f0fd5c7695a57d222b5675ed06558bbb"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-plugin_3.1.2-RC1\\0.2.0-SNAPSHOT\\srcs\\dfiant-plugin_3.1.2-RC1-sources.jar"
                         }
@@ -325,7 +344,7 @@
                             "name": "dfiant-internals_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "4544f87f6851c33b8b8264d3b1e9fa43e1cf192b"
+                                "digest": "055b12bd9bef8afbe0408e1fca20971c345f256c"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-internals_3\\0.2.0-SNAPSHOT\\jars\\dfiant-internals_3.jar"
                         },
@@ -334,7 +353,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "c2ce0a4f5bc6041567494684ebd4c1dc20146193"
+                                "digest": "03b679dd01d0777c968df9a2697b35d6f69eef5b"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-internals_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-internals_3-sources.jar"
                         }
@@ -350,7 +369,7 @@
                             "name": "dfiant-compiler-ir_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "6aa513dda8a96770079ab8b96e0198ee03c64aec"
+                                "digest": "c7511c71bd810acb6232cb57505798f5c3075fbd"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-ir_3\\0.2.0-SNAPSHOT\\jars\\dfiant-compiler-ir_3.jar"
                         },
@@ -359,7 +378,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "b2e1e62f76c83ffd1fb0ea80dd55ccee7d598fbf"
+                                "digest": "40a16eac5dccdcde22c626b1466d47c3425a12b8"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-ir_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-compiler-ir_3-sources.jar"
                         }
@@ -379,6 +398,23 @@
                             "name": "scalafmt-dynamic_2.13",
                             "classifier": "sources",
                             "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalameta\\scalafmt-dynamic_2.13\\3.3.1\\scalafmt-dynamic_2.13-3.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.11\\logback-core-1.2.11.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\qos\\logback\\logback-core\\1.2.11\\logback-core-1.2.11-sources.jar"
                         }
                     ]
                 },

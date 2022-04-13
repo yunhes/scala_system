@@ -14,6 +14,7 @@ class xd_df(using DFC) extends DFDesign:
 
   o := shr_o.bits(3) ^ shr_o.bits(2)
 
+  
 // @main def hello: Unit = 
 //   val top = new xd_df
 //   top.printCodeString

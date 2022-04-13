@@ -2,15 +2,15 @@
     "version": "1.4.0",
     "project": {
         "name": "rewrite-build",
-        "directory": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project",
-        "workspaceDir": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project",
+        "directory": "D:\\GitHub\\scala_system\\rewrite\\project",
+        "workspaceDir": "D:\\GitHub\\scala_system\\rewrite\\project",
         "sources": [
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\src\\main\\scala",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\src\\main\\scala-2.12",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\src\\main\\scala-2",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\src\\main\\java",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\src\\main\\scala-sbt-1.0",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
+            "D:\\GitHub\\scala_system\\rewrite\\project\\src\\main\\scala",
+            "D:\\GitHub\\scala_system\\rewrite\\project\\src\\main\\scala-2.12",
+            "D:\\GitHub\\scala_system\\rewrite\\project\\src\\main\\scala-2",
+            "D:\\GitHub\\scala_system\\rewrite\\project\\src\\main\\java",
+            "D:\\GitHub\\scala_system\\rewrite\\project\\src\\main\\scala-sbt-1.0",
+            "D:\\GitHub\\scala_system\\rewrite\\project\\target\\scala-2.12\\sbt-1.0\\src_managed\\main"
         ],
         "dependencies": [
             
@@ -105,11 +105,11 @@
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\squareup\\okio\\okio\\1.17.2\\okio-1.17.2.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\typesafe\\config\\1.3.3\\config-1.3.3.jar"
         ],
-        "out": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\.bloop\\rewrite-build",
-        "classesDir": "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\.bloop\\rewrite-build\\scala-2.12\\sbt-1.0\\classes",
+        "out": "D:\\GitHub\\scala_system\\rewrite\\project\\.bloop\\rewrite-build",
+        "classesDir": "D:\\GitHub\\scala_system\\rewrite\\project\\.bloop\\rewrite-build\\scala-2.12\\sbt-1.0\\classes",
         "resources": [
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\src\\main\\resources",
-            "D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
+            "D:\\GitHub\\scala_system\\rewrite\\project\\src\\main\\resources",
+            "D:\\GitHub\\scala_system\\rewrite\\project\\target\\scala-2.12\\sbt-1.0\\resource_managed\\main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -201,7 +201,7 @@
             "config": {
                 "home": "C:\\Users\\shion\\AppData\\Local\\Coursier\\cache\\arc\\https\\github.com\\AdoptOpenJDK\\openjdk8-binaries\\releases\\download\\jdk8u292-b10\\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\\jdk8u292-b10\\jre",
                 "options": [
-                    "-Duser.dir=D:\\graduate studies cornell\\ECE6930\\scala_system\\rewrite\\project"
+                    "-Duser.dir=D:\\GitHub\\scala_system\\rewrite\\project"
                 ]
             },
             "mainClass": [

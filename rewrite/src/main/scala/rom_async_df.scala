@@ -1,5 +1,5 @@
-import DFiant.*
-import compiler._
+// import DFiant.*
+// import compiler._
 
 // class rom_async_df(
 //     val WIDTH : Int = 8,

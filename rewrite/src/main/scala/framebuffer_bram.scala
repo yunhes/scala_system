@@ -192,6 +192,6 @@ class framebuffer(
     else 
         blue := 0
 
-@main def hello: Unit =
-  val top = new framebuffer
-  top.printCodeString
+// @main def hello: Unit =
+//   val top = new framebuffer
+//   top.printCodeString

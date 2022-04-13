@@ -1,4 +1,4 @@
 [debug] [rewrite-build] Classpath dependencies List()
 [debug] [rewrite-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'rewrite-build' to 'D:\graduate studies cornell\ECE6930\scala_system\rewrite\project\.bloop\rewrite-build.json'
+[debug] Bloop wrote the configuration of project 'rewrite-build' to 'D:\GitHub\scala_system\rewrite\project\.bloop\rewrite-build.json'
 [success] Generated .bloop\rewrite-build.json
