@@ -9,6 +9,6 @@
 //     val addr = DFBit <> IN
 //     val data = DFBit <> OUT
 
-//     var memory = DFBits(WIDTH).X(DEPTH) <> REG init initVector
+//     var memory = DFBits(WIDTH).X(DEPTH) <> REG init initVector //TODO: init mem vectors
 
 //     data := memory(addr)

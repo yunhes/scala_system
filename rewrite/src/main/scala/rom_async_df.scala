@@ -1,11 +1,11 @@
-// import DFiant.*
-// import compiler._
+import DFiant.*
+import compiler._
 
 // class rom_async_df(
 //     val WIDTH : Int = 8,
 //     val DEPTH : Int = 256, 
 //     val ADDRW : Int = 16
-// ) (using DFC) extends RTDesign:
+// ) (using DFC) extends DFDesign:
 //     val addr = DFBit <> IN
 //     val data = DFBit <> OUT
 

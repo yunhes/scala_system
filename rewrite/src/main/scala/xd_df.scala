@@ -9,8 +9,8 @@ class xd_df(using DFC) extends DFDesign:
   val toggle_i = DFBit <> VAR init 0
   val shr_o = DFBits(4) <> VAR init b"0000"
 
-  toggle_i := toggle_i.prev(1) ^ i
-  shr_o := (shr_o.prev(1).bits(2,0), toggle_i.prev(1))
+  toggle_i := toggle_i.prev ^ i
+  shr_o := (shr_o.prev(1).bits(2,0), toggle_i.prev)
 
   o := shr_o.bits(3) ^ shr_o.bits(2)
 

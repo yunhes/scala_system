@@ -5,7 +5,7 @@
 //     val WIDTH : Int = 8, 
 //     val DEPTH : Int = 256, 
 //     val INIT_F : String = ""
-// ) (using DFC) extends RTDesign:
+// ) (using DFC) extends DFDesign:
 //     val ADDRW = (DEPTH-1).bitsWidth(false)
 // //cal clk 
 //     val addr_write = DFBits(ADDRW) <> IN

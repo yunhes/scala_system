@@ -77,6 +77,6 @@ class display_timings_480p_df(
     coord_out:= coord.prev
   
 
-@main def hello: Unit =
-  val top = new display_timings_480p_df
-  top.printCodeString
+// @main def hello: Unit =
+//   val top = new display_timings_480p_df
+//   top.printCodeString
