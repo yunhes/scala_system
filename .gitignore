@@ -1,0 +1,5 @@
+*
+!*.scala
+!*.gitignore
+!README
+*.json
