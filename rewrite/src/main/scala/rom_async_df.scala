@@ -1,14 +1,19 @@
-// import DFiant.*
-// import compiler._
+import DFiant.*
+import compiler._
 
-// class rom_async_df(
-//     val WIDTH : Int = 8,
-//     val DEPTH : Int = 256, 
-//     val ADDRW : Int = 16
-// ) (using DFC) extends DFDesign:
-//     val addr = DFBit <> IN
-//     val data = DFBit <> OUT
+class rom_async_df(
+    val WIDTH : Int, 
+    val DEPTH : Int, 
+    val INIT_F : String = ""
+) (using DFC) extends DFDesign:
 
-//     var memory = new Array[Int](WIDTH * DEPTH)
+    // val bit_wdith = DFUInt.until(DEPTH)
 
-//     data := memory[addr]
+    val addr = DFUInt.until(DEPTH) <> IN
+    val data = DFUInt.until(DEPTH) <> OUT
+
+
+    var memory = DFUInt.until(DEPTH) X DEPTH <> VAR
+    // memory.fill(DEPTH).(0)
+
+    data := memory(addr)

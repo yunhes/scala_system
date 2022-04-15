@@ -3,7 +3,7 @@ import DFiant.*
 
 class framebuffer(
     val CORDW : Int = 16,
-    val WIDTH : Int = 8,
+    val WIDTH : Int = 320,
     val HEIGHT : Int = 180,
     val CIDXW : Int = 4,
     val CHANW : Int = 4,
@@ -32,21 +32,25 @@ class framebuffer(
 
     //local var
     val FB_PIXELS = WIDTH * HEIGHT
-    val FB_ADDRW  = FB_PIXELS//root 2
+    // val FB_ADDRW  = FB_PIXELS//root 2
     val FB_DEPTH  = FB_PIXELS 
     val FB_DATAW  = CIDXW
     val FB_DUALPORT = true // separate read and write ports?
 
-    val fb_addr_read = DFUInt(FB_ADDRW) <> VAR
-    val fb_addr_write = DFUInt(FB_ADDRW) <> VAR
-    val fb_cidx_read = DFUInt(FB_DATAW) <> VAR
-    val fb_cidx_read_p1 = DFUInt(FB_DATAW) <> VAR
+    val fb_addr_read = DFUInt.until(FB_PIXELS) <> VAR
+    val fb_addr_write = DFUInt.until(FB_PIXELS) <> VAR
+    // val fb_addr_write = DFUInt(18) <> VAR
+
+    val fb_cidx_read = DFUInt.until(FB_PIXELS) <> VAR
+    val fb_cidx_read_p1 = DFUInt.until(FB_PIXELS) <> VAR
 
     val x_add = DFUInt(CORDW) <> VAR
-    val fb_addr_line = DFUInt(FB_ADDRW) <> VAR
+    val fb_addr_line = DFUInt.until(FB_PIXELS)<> VAR
+    // val fb_addr_line = DFUInt(18)<> VAR
+
 
     //clk_sys
-    fb_addr_line := WIDTH * y
+    fb_addr_line := y * WIDTH //TODO: check guide
     x_add := x
     fb_addr_write := fb_addr_line + x_add
 
@@ -67,17 +71,18 @@ class framebuffer(
         fb_we := we_in_p1
     fb_cidx_write := cidx_in_p1;
 
-    // val bram_sdp_inst1 = new bram_sdp(
-    // WIDTH = FB_DATAW,
-    // DEPTH = FB_DEPTH
-    // )
+    val bram_sdp_inst1 = new bram_sdp(
+    WIDTH = FB_DATAW,
+    DEPTH = FB_DEPTH,
+    INIT_F = ""
+    )
     // bram_sdp_inst1.clk_write <> clk_sys
     // bram_sdp_inst1.clk_out <> clk_sys
-    // bram_sdp_inst1.we <> fb_we
-    // bram_sdp_inst1.addr_write <> fb_addr_write
+    bram_sdp_inst1.we <> fb_we
+    bram_sdp_inst1.addr_write <> fb_addr_write
     // bram_sdp_inst1.addr_out <> fb_addr_read
-    // bram_sdp_inst1.data_in <> fb_cidx_write
-    // bram_sdp_inst1.data_out <> fb_cidx_read
+    bram_sdp_inst1.data_in <> fb_cidx_write
+    bram_sdp_inst1.data_out <> fb_cidx_read
 
 
     // val xd_frame = new xd_frame
@@ -107,7 +112,7 @@ class framebuffer(
     
     //TODO: CONCAT
     lb_en_in_sr := (lb_en_in, lb_en_in_sr.bits(LAT-1,1))
-    if (rst_sys) lb_en_in_sr := b"0"
+    // if (rst_sys) lb_en_in_sr := b"0"
 
     if (fb_addr_read < FB_PIXELS-1)
         if (lb_data_req)
@@ -127,7 +132,7 @@ class framebuffer(
         busy := 0;
         cnt_h := LB_LEN;  // don't start reading after reset
     
-    if (lb_en_in_sr == b"1100100") busy := 0;  // LB read done: match latency `LAT`
+    if (lb_en_in_sr == b"100") busy := 0;  // LB read done: match latency `LAT`
 
     val lb_in_0 = DFUInt(LB_BPC) <> VAR 
     val lb_in_1 = DFUInt(LB_BPC) <> VAR 
@@ -162,13 +167,14 @@ class framebuffer(
     val CLUTW =  3*CHANW
     val clut_colr = DFBits(CLUTW) <> VAR 
 
-    // val clut = new rom_async (
-    //     WIDTH = CLUTW, 
-    //     DEPTH = CIDXW*2, //scala.math.pow(2,CIDXW) //TODO: power to 2
-    //     INIT_F = F_PALETTE        
-    // )
-    // clut.addr <> fb_cidx_read_p1
-    // clut.data <> clut_colr
+    val clut = new rom_async_df (
+        WIDTH = CLUTW, 
+        // DEPTH = CIDXW*2, //scala.math.pow(2,CIDXW) //TODO: power to 2
+        DEPTH = scala.math.pow(2,CIDXW),
+        INIT_F = ""        
+    )
+    clut.addr <> fb_cidx_read_p1
+    clut.data <> clut_colr
 
         // map colour index to palette using CLUT and read into LB
     // always_ff @(posedge clk_sys) {lb_in_2, lb_in_1, lb_in_0} <= clut_colr;
@@ -192,6 +198,6 @@ class framebuffer(
     else 
         blue := 0
 
-// @main def hello: Unit =
-//   val top = new framebuffer
-//   top.printCodeString
+@main def hello: Unit =
+  val top = new framebuffer
+  top.printCodeString
