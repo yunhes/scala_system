@@ -14,9 +14,9 @@ class framebuffer(
     val clk_pix = DFBit <> IN    // pixel clock
     val rst_sys = DFBit <> IN    // reset (clk_sys)
     val rst_pix = DFBit <> IN    // reset (clk_pix)
-    val de = DFBit <> IN        // data enable for display (clk_pix)
-    val frame = DFBit <> IN      // start a new frame (clk_pix)
-    val line = DFBit <> IN       // start a new screen line (clk_pix)
+    val de = DFBool <> IN        // data enable for display (clk_pix)
+    val frame = DFBool <> IN      // start a new frame (clk_pix)
+    val line = DFBool <> IN       // start a new screen line (clk_pix)
     val we = DFBool <> IN        // write enable   
     val x = DFUInt(CORDW) <> IN    //
     val y = DFUInt(CORDW) <> IN    //
@@ -32,7 +32,7 @@ class framebuffer(
 
     //local var
     val FB_PIXELS = WIDTH * HEIGHT
-    // val FB_ADDRW  = FB_PIXELS//root 2
+    val FB_ADDRW  = FB_PIXELS >> 2//root 2
     val FB_DEPTH  = FB_PIXELS 
     val FB_DATAW  = CIDXW
     val FB_DUALPORT = true // separate read and write ports?
@@ -99,7 +99,7 @@ class framebuffer(
     val LB_BPC = CHANW 
 
     val lb_data_req = DFBool <> VAR
-    val cnt_h = DFUInt.until(LB_LEN) <> VAR  //DFUInt.until(LB_LEN) unsigned int DFbit until...
+    val cnt_h = DFUInt.until(LB_LEN+1) <> VAR  //DFUInt.until(LB_LEN) unsigned int DFbit until...
 
     val lb_en_in = DFBit <> VAR
     val lb_en_out = DFBool <> VAR

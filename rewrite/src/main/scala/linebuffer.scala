@@ -11,10 +11,10 @@ class line_buffer (
     val rst_in = DFBit <> IN
     val rst_out = DFBit <> IN   
     val data_req = DFBool <> OUT
-    val en_in = DFBit <> IN
-    val en_out = DFBit <> IN
-    val frame = DFBit <> IN
-    val line = DFBit <> IN
+    val en_in = DFBool <> IN
+    val en_out = DFBool <> IN
+    val frame = DFBool <> IN
+    val line = DFBool <> IN
     val din_0 = DFUInt(WIDTH) <> IN
     val din_1 = DFUInt(WIDTH) <> IN
     val din_2 = DFUInt(WIDTH) <> IN
@@ -71,7 +71,7 @@ class line_buffer (
         addr_out := 0
         cnt_h := 0
         cnt_v := 0
-        set_end := 0
+        set_end := 1
     else if(en_out && !set_end)
         if(cnt_h == SCALE-1)
             cnt_h := 0
@@ -79,7 +79,7 @@ class line_buffer (
                 addr_out := 0
                 if(cnt_v == SCALE-1)
                     cnt_v := 0
-                    set_end := 0
+                    set_end := 1
                 else
                     cnt_v := cnt_v+1
             else
@@ -101,7 +101,7 @@ class line_buffer (
         if(addr_in == LEN-1)
             addr_in := 0
         else
-            addr_in := 1
+            addr_in := addr_in + 1
     if(data_req) 
         addr_in := 0
     if(rst_in)
