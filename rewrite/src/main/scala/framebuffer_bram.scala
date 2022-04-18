@@ -123,7 +123,7 @@ class framebuffer(
     line_buffer.clk_out <> clk_pix
     line_buffer.rst_in <> rst_sys
     line_buffer.rst_out<> rst_pix
-    line_buffer.data_req <> lb_data_req
+    // line_buffer.data_req <> lb_data_req
     line_buffer.en_in <> lb_en_in_sr.bits(0)
     line_buffer.en_out <> lb_en_out
     line_buffer.din_0 <> lb_in_0        // data in (clk_in)
@@ -180,9 +180,14 @@ class framebuffer(
         // map colour index to palette using CLUT and read into LB
     // always_ff @(posedge clk_sys) {lb_in_2, lb_in_1, lb_in_0} <= clut_colr;
 
+    // TODO: order of bits
+    lb_in_2 := clut_colr.bits(CLUTW, 2*CHANW)
+    lb_in_1 := clut_colr.bits(2*CHANW-1,CHANW)
+    lb_in_0 := clut_colr.bits(CHANW-1,0)
+
     val lb_en_out_p1 = DFBool <> VAR
-    if (clk_pix) 
-        lb_en_out_p1 := lb_en_out
+
+    lb_en_out_p1 := lb_en_out
     
     if(lb_en_out_p1)
         red := lb_out_2

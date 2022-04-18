@@ -35,29 +35,35 @@ class line_buffer (
     val cnt_v = DFUInt.until(SCALE) <> VAR
     val cnt_h = DFUInt.until(SCALE) <> VAR
 
-    // val bram_sdp_inst1 = new bram_sdp(
-    //     WIDTH = WIDTH,
-    //     DEPTH = LEN
-    // )
-    // bram_sdp_inst1.clk_write <> clk_in
-    // bram_sdp_inst1.clk_out <> clk_out
-    // bram_sdp_inst1.we <> en_in
-    // bram_sdp_inst1.addr_write <> addr_in
-    // bram_sdp_inst1.addr_out <> addr_out
-    // bram_sdp_inst1.data_in <> din_1
-    // bram_sdp_inst1.data_out <> dout_1
+    val bram_sdp_inst0 = new bram_sdp(
+        WIDTH = WIDTH,
+        DEPTH = LEN
+    )
+    bram_sdp_inst0.we <> en_in
+    bram_sdp_inst0.addr_write <> addr_in
+    bram_sdp_inst0.addr_read <> addr_out
+    bram_sdp_inst0.data_in <> din_0
+    bram_sdp_inst0.data_out <> dout_0
 
-    // val bram_sdp_inst2 = new bram_sdp(
-    //     WIDTH = WIDTH,
-    //     DEPTH = LEN
-    // )
-    // bram_sdp_inst1.clk_write <> clk_in
-    // bram_sdp_inst1.clk_out <> clk_out
-    // bram_sdp_inst1.we <> en_in
-    // bram_sdp_inst1.addr_write <> addr_in
-    // bram_sdp_inst1.addr_out <> addr_out
-    // bram_sdp_inst1.data_in <> din_2
-    // bram_sdp_inst1.data_out <> dout_2
+    val bram_sdp_inst1 = new bram_sdp(
+        WIDTH = WIDTH,
+        DEPTH = LEN
+    )
+    bram_sdp_inst1.we <> en_in
+    bram_sdp_inst1.addr_write <> addr_in
+    bram_sdp_inst1.addr_read <> addr_out
+    bram_sdp_inst1.data_in <> din_1
+    bram_sdp_inst1.data_out <> dout_1
+
+    val bram_sdp_inst2 = new bram_sdp(
+        WIDTH = WIDTH,
+        DEPTH = LEN
+    )
+    bram_sdp_inst1.we <> en_in
+    bram_sdp_inst1.addr_write <> addr_in
+    bram_sdp_inst1.addr_read <> addr_out
+    bram_sdp_inst1.data_in <> din_2
+    bram_sdp_inst1.data_out <> dout_2
 
 
 //clk_out
