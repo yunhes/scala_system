@@ -37,12 +37,12 @@ class framebuffer(
     val FB_DATAW  = CIDXW
     val FB_DUALPORT = true // separate read and write ports?
 
-    val fb_addr_read = DFUInt.until(FB_PIXELS) <> VAR
-    val fb_addr_write = DFUInt.until(FB_PIXELS) <> VAR
+    val fb_addr_read = DFUInt(FB_ADDRW) <> VAR
+    val fb_addr_write = DFUInt(FB_ADDRW) <> VAR
     // val fb_addr_write = DFUInt(18) <> VAR
 
-    val fb_cidx_read = DFUInt.until(FB_PIXELS) <> VAR
-    val fb_cidx_read_p1 = DFUInt.until(FB_PIXELS) <> VAR
+    val fb_cidx_read = DFUInt(FB_DATAW) <> VAR
+    val fb_cidx_read_p1 = DFUInt(FB_DATAW) <> VAR
 
     val x_add = DFUInt(CORDW) <> VAR
     val fb_addr_line = DFUInt.until(FB_PIXELS)<> VAR
