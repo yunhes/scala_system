@@ -4,7 +4,7 @@ import compiler._
 class rom_async_df(
     val WIDTH : Int, 
     val DEPTH : Int, 
-    val INIT_F : String = ""
+    val INIT_F : String
 ) (using DFC) extends DFDesign:
 
     // val bit_wdith = DFUInt.until(DEPTH)
@@ -17,3 +17,12 @@ class rom_async_df(
     // memory.fill(DEPTH).(0)
 
     data := memory(addr)
+
+
+// @main def hello: Unit =
+//     val top = new rom_async_df(
+//         WIDTH = 12, 
+//         DEPTH = 2 << 4,
+//         INIT_F = "" 
+//     )
+//     top.printCodeString

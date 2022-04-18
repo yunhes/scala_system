@@ -2,9 +2,9 @@ import DFiant.*
 import compiler._
 
 class bram_sdp (
-    val WIDTH : Int = 8, 
-    val DEPTH : Int = 256, 
-    val INIT_F : String = ""
+    val WIDTH : Int, 
+    val DEPTH : Int, 
+    val INIT_F : String
 ) (using DFC) extends DFDesign:
     // val ADDRW = (DEPTH-1).bitsWidth(false)
 //cal clk 
@@ -25,5 +25,9 @@ class bram_sdp (
 
     
 // @main def hello: Unit = 
-//   val top = new bram_sdp
+//   val top = new bram_sdp(
+//     WIDTH = 4,
+//     DEPTH = 320*180,
+//     INIT_F = ""
+//     )
 //   top.printCodeString

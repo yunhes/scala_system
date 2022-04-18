@@ -1,5 +1,19 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:184:30 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m184 |[0m    lb_in_2 := clut_colr.bits(CLUTW1, [31m2[0m*CHANW)[0m
-[0m[[0m[31merror[0m] [0m[0m    |                              [31m^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |                              Not found: CLUTW1[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala:51:29 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m51 |[0m  [33mval[0m [36mdisplay_timings_inst[0m = [33mnew[0m [35mdisplay_timings_480p_df[0m([0m
+[0m[[0m[31merror[0m] [0m[0m   |                             [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |missing argument for parameter FPS of [33mconstructor[0m [35mdisplay_timings_480p_df[0m in [33mclass[0m [35mdisplay_timings_480p_df[0m: (FPS: Int, CORDW: Int, H_RES: Int, V_RES: Int, H_FP: Int, H_SYNC: Int, H_BP: Int[0m
+[0m[[0m[31merror[0m] [0m[0m   |  , [0m
+[0m[[0m[31merror[0m] [0m[0m   |V_FP: Int, V_SYNC: Int, V_BP: Int, H_POL: Boolean, V_POL: Boolean)[0m
+[0m[[0m[31merror[0m] [0m[0m   |  ([33musing [0mx$13: DFiant.DFC): display_timings_480p_df[0m
+[0m[[0m[31merror[0m] [0m[0m[31m52 |[0m  CORDW = [31m16[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m53 |[0m  H_RES = [31m640[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m54 |[0m  V_RES = [31m480[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m55 |[0m  H_FP = [31m16[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m  H_SYNC = [31m96[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m57 |[0m  H_BP = [31m48[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m58 |[0m  V_FP = [31m10[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m59 |[0m  V_SYNC = [31m2[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m60 |[0m  V_BP = [31m33[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m61 |[0m  H_POL = [31mfalse[0m,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m62 |[0m  V_POL = [31mfalse[0m)[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -2,9 +2,9 @@ import DFiant.*
 import compiler._
 
 class line_buffer (
-    val WIDTH : Int = 8,
-    val LEN : Int = 640,
-    val SCALE : Int = 1
+    val WIDTH : Int,
+    val LEN : Int,
+    val SCALE : Int
 )(using DFC) extends DFDesign:
     val clk_in = DFBit <> IN
     val clk_out = DFBit <> IN
@@ -37,7 +37,8 @@ class line_buffer (
 
     val bram_sdp_inst0 = new bram_sdp(
         WIDTH = WIDTH,
-        DEPTH = LEN
+        DEPTH = LEN,
+        INIT_F = ""
     )
     bram_sdp_inst0.we <> en_in
     bram_sdp_inst0.addr_write <> addr_in
@@ -47,7 +48,8 @@ class line_buffer (
 
     val bram_sdp_inst1 = new bram_sdp(
         WIDTH = WIDTH,
-        DEPTH = LEN
+        DEPTH = LEN,
+        INIT_F = ""
     )
     bram_sdp_inst1.we <> en_in
     bram_sdp_inst1.addr_write <> addr_in
@@ -57,13 +59,14 @@ class line_buffer (
 
     val bram_sdp_inst2 = new bram_sdp(
         WIDTH = WIDTH,
-        DEPTH = LEN
+        DEPTH = LEN,
+        INIT_F = ""
     )
-    bram_sdp_inst1.we <> en_in
-    bram_sdp_inst1.addr_write <> addr_in
-    bram_sdp_inst1.addr_read <> addr_out
-    bram_sdp_inst1.data_in <> din_2
-    bram_sdp_inst1.data_out <> dout_2
+    bram_sdp_inst2.we <> en_in
+    bram_sdp_inst2.addr_write <> addr_in
+    bram_sdp_inst2.addr_read <> addr_out
+    bram_sdp_inst2.data_in <> din_2
+    bram_sdp_inst2.data_out <> dout_2
 
 
 //clk_out
@@ -109,6 +112,10 @@ class line_buffer (
 
 
 // @main def hello: Unit = 
-//   val top = new line_buffer
+//   val top = new line_buffer(
+//         WIDTH = 4,
+//         LEN = 320,
+//         SCALE = 2
+//     )
 //   top.printCodeString
 

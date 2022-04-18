@@ -2,7 +2,7 @@ import DFiant.*
 import compiler._
 
 class draw_rectangle_df(
-    val CORDW : Int = 16
+    val CORDW : Int
 )(using DFC) extends DFDesign:
 	// val clk = DFBit <> IN
   val start = DFBool <> IN
@@ -24,7 +24,7 @@ class draw_rectangle_df(
   val line_ = DFBool <> VAR
   val ldiagCoord = rectDefs.DiagnolCoord <> VAR
 
-  val draw_line_inst = new draw_line_df
+  val draw_line_inst = new draw_line_df(CORDW = CORDW)
   draw_line_inst.diagCoord_in <> ldiagCoord
   draw_line_inst.coord <> coord
 
@@ -81,5 +81,5 @@ class draw_rectangle_df(
 
 
 // @main def hello: Unit = 
-//   val top = new draw_rectangle_df
+//   val top = new draw_rectangle_df(CORDW = 16)
 //   top.printCodeString

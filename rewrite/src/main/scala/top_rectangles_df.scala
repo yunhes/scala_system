@@ -49,6 +49,7 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val line = DFBit <> VAR
 
   val display_timings_inst = new display_timings_480p_df(
+  FPS = 60,
   CORDW = 16,
   H_RES = 640,
   V_RES = 480,
@@ -104,7 +105,7 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val cnt_frame_wait = DFUInt(FRAME_WAIT.bitsWidth(false)) <> VAR init 0
   val cnt_pix_frame = DFUInt(PIX_FRAME.bitsWidth(false)) <> VAR init 0
   val draw_req = DFBit <> VAR
-  val draw_rectangle = new draw_rectangle_df
+  val draw_rectangle = new draw_rectangle_df(CORDW = CORDW)
   val done = DFBool <> VAR
   val drawing = DFBool <> VAR
   draw_rectangle.start <> draw_start

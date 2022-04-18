@@ -2,7 +2,7 @@ import DFiant.*
 import compiler._
 
 class draw_line_df(
-    val CORDW : Int = 16
+    val CORDW : Int
 )(using DFC) extends DFDesign:
   // val clk = DFBit <> IN
   val start = DFBool <> IN
@@ -103,5 +103,5 @@ class draw_line_df(
         state := state.prev
       
 // @main def hello: Unit = 
-//   val top = new draw_line_df
+//   val top = new draw_line_df(CORDW = 16)
 //   top.printCodeString

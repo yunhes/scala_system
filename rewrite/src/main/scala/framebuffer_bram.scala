@@ -2,12 +2,12 @@ import DFiant.*
 //import compiler._
 
 class framebuffer(
-    val CORDW : Int = 16,
-    val WIDTH : Int = 320,
-    val HEIGHT : Int = 180,
-    val CIDXW : Int = 4,
-    val CHANW : Int = 4,
-    val SCALE : Int = 4,
+    val CORDW : Int,
+    val WIDTH : Int,
+    val HEIGHT : Int,
+    val CIDXW : Int,
+    val CHANW : Int,
+    val SCALE : Int,
     //F_IMAGE F_PALETTE 
 )(using DFC) extends DFDesign: 
     val clk_sys = DFBit <> IN  // system clock
@@ -177,15 +177,15 @@ class framebuffer(
         INIT_F = ""        
     )
     clut.addr <> fb_cidx_read_p1
-    clut.data <> clut_colr
+    // clut.data <> clut_colr
 
         // map colour index to palette using CLUT and read into LB
     // always_ff @(posedge clk_sys) {lb_in_2, lb_in_1, lb_in_0} <= clut_colr;
 
     // TODO: order of bits
-    lb_in_2 := clut_colr.bits(CLUTW-1, 2*CHANW)
-    lb_in_1 := clut_colr.bits(2*CHANW-1,CHANW)
-    lb_in_0 := clut_colr.bits(CHANW-1,0)
+    lb_in_2 := clut.data.bits(CLUTW-1, 2*CHANW)
+    lb_in_1 := clut.data.bits(2*CHANW-1,CHANW)
+    lb_in_0 := clut.data.bits(CHANW-1,0)
 
     val lb_en_out_p1 = DFBool <> VAR
 
@@ -206,6 +206,13 @@ class framebuffer(
     else 
         blue := 0
 
-@main def hello: Unit =
-  val top = new framebuffer
-  top.printCodeString
+// @main def hello: Unit =
+//     val top = new framebuffer(
+//         CORDW  = 16,
+//         WIDTH  = 320,
+//         HEIGHT = 180,
+//         CIDXW  = 4,
+//         CHANW  = 4,
+//         SCALE  = 2
+//     )
+//     top.printCodeString

@@ -4224,3 +4224,1390 @@ Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed 
 2022.04.18 15:55:10 INFO  time: indexed workspace in 1.09s
 2022.04.18 15:55:15 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
 2022.04.18 15:55:15 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 15:56:38 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 15:56:38 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 15:56:38 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 15:56:41 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 15:56:41 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 15:56:41 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 15:56:41 INFO  compiling root (1 scala source)
+2022.04.18 15:56:56 INFO  time: compiled root in 15s
+2022.04.18 15:57:12 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 2m 4.052s)
+2022.04.18 15:57:17 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 15:57:17 WARN  Expression evaluation will not work.
+2022.04.18 15:57:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 15:57:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 15:57:18 INFO  Starting debug proxy for [hello]
+2022.04.18 15:57:26 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59867 .
+2022.04.18 15:57:26 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 15:57:26 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 15:57:26 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 15:57:26 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 15:57:26 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 15:57:26 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 15:57:26 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:129)
+2022.04.18 15:57:26 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:203)
+2022.04.18 15:57:26 ERROR 	at hello.main(framebuffer_bram.scala:202)
+2022.04.18 15:57:26 INFO  Closing debug server tcp://0.0.0.0:59861
+2022.04.18 15:57:27 INFO  Canceling debug proxy for [hello]
+2022.04.18 15:58:14 INFO  compiling root (1 scala source)
+2022.04.18 15:58:20 INFO  time: compiled root in 5.6s
+2022.04.18 15:58:35 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 3m 26.528s)
+2022.04.18 15:58:39 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 15:58:39 WARN  Expression evaluation will not work.
+2022.04.18 15:58:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 15:58:39 INFO  compiling root (1 scala source)
+2022.04.18 15:58:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 15:58:40 INFO  Starting debug proxy for [hello]
+2022.04.18 15:58:41 INFO  time: compiled root in 1.15s
+2022.04.18 15:58:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59971 .
+2022.04.18 15:58:41 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 15:58:42 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 15:58:42 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 15:58:42 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 15:58:42 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 15:58:42 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 15:58:42 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:125)
+2022.04.18 15:58:42 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:199)
+2022.04.18 15:58:42 ERROR 	at hello.main(framebuffer_bram.scala:198)
+2022.04.18 15:58:42 INFO  Closing debug server tcp://0.0.0.0:59964
+2022.04.18 15:58:42 INFO  Canceling debug proxy for [hello]
+2022.04.18 15:59:58 INFO  compiling root (1 scala source)
+2022.04.18 16:00:02 INFO  time: compiled root in 3.48s
+Apr 18, 2022 4:00:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1646
+2022.04.18 16:00:20 INFO  compiling root (1 scala source)
+2022.04.18 16:00:22 INFO  time: compiled root in 2.24s
+2022.04.18 16:00:25 INFO  compiling root (1 scala source)
+2022.04.18 16:00:27 INFO  time: compiled root in 1.66s
+2022.04.18 16:00:29 INFO  compiling root (1 scala source)
+2022.04.18 16:00:31 INFO  time: compiled root in 1.71s
+2022.04.18 16:00:33 INFO  compiling root (1 scala source)
+2022.04.18 16:00:35 INFO  time: compiled root in 1.6s
+Apr 18, 2022 4:00:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1734
+2022.04.18 16:00:40 INFO  compiling root (1 scala source)
+2022.04.18 16:00:42 INFO  time: compiled root in 2.23s
+2022.04.18 16:00:42 INFO  compiling root (1 scala source)
+2022.04.18 16:00:46 INFO  time: compiled root in 3.61s
+2022.04.18 16:01:35 INFO  compiling root (1 scala source)
+2022.04.18 16:01:38 INFO  time: compiled root in 2.32s
+2022.04.18 16:01:46 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 6m 37.253s)
+2022.04.18 16:01:46 INFO  compiling root (1 scala source)
+2022.04.18 16:01:46 INFO  compiling root (1 scala source)
+2022.04.18 16:01:49 INFO  time: compiled root in 3.71s
+2022.04.18 16:01:56 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:01:56 WARN  Expression evaluation will not work.
+2022.04.18 16:01:56 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:01:56 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:01:56 INFO  Starting debug proxy for [hello]
+2022.04.18 16:01:59 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60292 .
+2022.04.18 16:01:59 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:01:59 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 16:01:59 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 16:01:59 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 16:01:59 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 16:01:59 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 16:01:59 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:129)
+2022.04.18 16:01:59 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:203)
+2022.04.18 16:01:59 ERROR 	at hello.main(framebuffer_bram.scala:202)
+2022.04.18 16:01:59 INFO  Closing debug server tcp://0.0.0.0:60289
+2022.04.18 16:02:00 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:03:43 INFO  compiling root (1 scala source)
+2022.04.18 16:03:45 INFO  time: compiled root in 2.36s
+2022.04.18 16:03:47 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 8m 38.677s)
+2022.04.18 16:03:54 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:03:54 WARN  Expression evaluation will not work.
+2022.04.18 16:03:54 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:03:54 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:03:54 INFO  Starting debug proxy for [hello]
+2022.04.18 16:03:56 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60411 .
+2022.04.18 16:03:56 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:03:56 ERROR Exception in thread "main" java.lang.NullPointerException
+2022.04.18 16:03:56 ERROR 	at line_buffer.<init>(linebuffer.scala:42)
+2022.04.18 16:03:56 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:121)
+2022.04.18 16:03:56 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:203)
+2022.04.18 16:03:56 ERROR 	at hello.main(framebuffer_bram.scala:202)
+2022.04.18 16:03:56 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:03:56 INFO  Closing debug server tcp://0.0.0.0:60408
+2022.04.18 16:04:22 INFO  compiling root (1 scala source)
+2022.04.18 16:04:24 INFO  time: compiled root in 2.17s
+2022.04.18 16:04:27 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 9m 18.171s)
+2022.04.18 16:04:33 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:04:33 WARN  Expression evaluation will not work.
+2022.04.18 16:04:33 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:04:33 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:04:33 INFO  Starting debug proxy for [hello]
+2022.04.18 16:04:34 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60456 .
+2022.04.18 16:04:34 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:04:34 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 16:04:34 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 16:04:34 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 16:04:34 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 16:04:34 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 16:04:34 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:129)
+2022.04.18 16:04:34 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:203)
+2022.04.18 16:04:34 ERROR 	at hello.main(framebuffer_bram.scala:202)
+2022.04.18 16:04:34 INFO  Closing debug server tcp://0.0.0.0:60453
+2022.04.18 16:04:35 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:07:00 INFO  compiling root (1 scala source)
+2022.04.18 16:07:05 INFO  time: compiled root in 5.19s
+2022.04.18 16:07:46 INFO  compiling root (1 scala source)
+2022.04.18 16:07:51 INFO  time: compiled root in 5.1s
+2022.04.18 16:07:53 INFO  compiling root (1 scala source)
+2022.04.18 16:07:58 INFO  time: compiled root in 5.1s
+2022.04.18 16:08:00 INFO  compiling root (1 scala source)
+2022.04.18 16:08:02 INFO  time: compiled root in 1.8s
+Apr 18, 2022 4:08:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2461
+2022.04.18 16:09:20 INFO  compiling root (1 scala source)
+2022.04.18 16:09:23 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 14m 14.648s)
+2022.04.18 16:09:23 INFO  compiling root (1 scala source)
+2022.04.18 16:09:23 INFO  time: compiled root in 0.95s
+2022.04.18 16:09:26 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:26 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:26 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:26 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:29 INFO  compiling root (1 scala source)
+2022.04.18 16:09:30 INFO  time: compiled root in 1.52s
+2022.04.18 16:09:32 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:56 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:56 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:57 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:09:57 INFO  compiling root (1 scala source)
+2022.04.18 16:10:01 INFO  time: compiled root in 3.99s
+2022.04.18 16:10:18 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 15m 9.742s)
+2022.04.18 16:10:23 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:10:23 WARN  Expression evaluation will not work.
+2022.04.18 16:10:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:10:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:10:23 INFO  Starting debug proxy for [hello]
+2022.04.18 16:10:23 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 15m 14.522s)
+2022.04.18 16:10:26 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60987 .
+2022.04.18 16:10:26 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:10:26 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 16:10:26 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 16:10:26 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 16:10:26 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 16:10:26 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 16:10:26 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:129)
+2022.04.18 16:10:26 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:208)
+2022.04.18 16:10:26 ERROR 	at hello.main(framebuffer_bram.scala:207)
+2022.04.18 16:10:26 INFO  Closing debug server tcp://0.0.0.0:60978
+2022.04.18 16:10:27 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:10:27 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:10:27 WARN  Expression evaluation will not work.
+2022.04.18 16:10:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:10:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:10:28 INFO  Starting debug proxy for [hello]
+2022.04.18 16:10:28 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60992 .
+2022.04.18 16:10:28 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:10:28 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 16:10:28 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 16:10:28 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 16:10:28 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 16:10:28 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 16:10:28 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:129)
+2022.04.18 16:10:28 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:208)
+2022.04.18 16:10:28 ERROR 	at hello.main(framebuffer_bram.scala:207)
+2022.04.18 16:10:28 INFO  Closing debug server tcp://0.0.0.0:60990
+2022.04.18 16:10:28 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:12:05 INFO  compiling root (1 scala source)
+2022.04.18 16:12:07 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 16m 59s)
+2022.04.18 16:12:07 INFO  compiling root (1 scala source)
+2022.04.18 16:12:09 INFO  time: compiled root in 1.19s
+2022.04.18 16:12:11 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 17m 2.257s)
+2022.04.18 16:12:17 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:12:17 WARN  Expression evaluation will not work.
+2022.04.18 16:12:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:12:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:12:17 INFO  Starting debug proxy for [hello]
+2022.04.18 16:12:19 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61107 .
+2022.04.18 16:12:19 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:12:19 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 16:12:19 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 16:12:19 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 16:12:19 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 16:12:19 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 16:12:19 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:130)
+2022.04.18 16:12:19 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:208)
+2022.04.18 16:12:19 ERROR 	at hello.main(framebuffer_bram.scala:207)
+2022.04.18 16:12:19 INFO  Closing debug server tcp://0.0.0.0:61103
+2022.04.18 16:12:20 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:12:27 INFO  compiling root (1 scala source)
+2022.04.18 16:12:31 INFO  time: compiled root in 3.38s
+2022.04.18 16:19:40 INFO  compiling root (1 scala source)
+2022.04.18 16:19:42 INFO  time: compiled root in 2.2s
+2022.04.18 16:19:53 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 24m 44.944s)
+2022.04.18 16:19:58 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:19:58 WARN  Expression evaluation will not work.
+2022.04.18 16:19:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:19:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:19:58 INFO  Starting debug proxy for [hello]
+2022.04.18 16:19:59 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61396 .
+2022.04.18 16:19:59 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:20:00 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 16:20:00 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 16:20:00 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 16:20:00 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 16:20:00 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 16:20:00 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:129)
+2022.04.18 16:20:00 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:208)
+2022.04.18 16:20:00 ERROR 	at hello.main(framebuffer_bram.scala:207)
+2022.04.18 16:20:00 INFO  Closing debug server tcp://0.0.0.0:61393
+2022.04.18 16:20:00 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:35:22 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 40m 14.05s)
+2022.04.18 16:35:22 INFO  compiling root (2 scala sources)
+2022.04.18 16:35:22 INFO  compiling root (2 scala sources)
+2022.04.18 16:35:28 INFO  time: compiled root in 5.08s
+2022.04.18 16:35:38 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:35:38 WARN  Expression evaluation will not work.
+2022.04.18 16:35:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:35:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:35:38 INFO  Starting debug proxy for [hello]
+2022.04.18 16:35:41 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61789 .
+2022.04.18 16:35:41 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:35:42 ERROR Exception in thread "main" scala.MatchError: java.lang.NullPointerException (of class java.lang.NullPointerException)
+2022.04.18 16:35:42 ERROR 	at DFiant.core.DFError$package$.tryDFNet(DFError.scala:87)
+2022.04.18 16:35:42 ERROR 	at DFiant.core.DFPortOps$.$less$greater(DFVal.scala:822)
+2022.04.18 16:35:42 ERROR 	at DFiant.hdl$.$less$greater(hdl.scala:26)
+2022.04.18 16:35:42 ERROR 	at DFiant.hdl$package$.$less$greater(hdl.scala:96)
+2022.04.18 16:35:42 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:129)
+2022.04.18 16:35:42 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:208)
+2022.04.18 16:35:42 ERROR 	at hello.main(framebuffer_bram.scala:207)
+2022.04.18 16:35:42 INFO  Closing debug server tcp://0.0.0.0:61784
+2022.04.18 16:35:42 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:45:55 INFO  compiling root (1 scala source)
+2022.04.18 16:45:58 INFO  time: compiled root in 3.23s
+2022.04.18 16:46:01 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 50m 52.173s)
+2022.04.18 16:46:07 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:46:07 WARN  Expression evaluation will not work.
+2022.04.18 16:46:07 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:46:07 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:46:08 INFO  Starting debug proxy for [hello]
+2022.04.18 16:46:09 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62015 .
+2022.04.18 16:46:09 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:46:09 ERROR Exception in thread "main" java.lang.NullPointerException
+2022.04.18 16:46:09 ERROR 	at framebuffer.$init$$$anonfun$21(framebuffer_bram.scala:120)
+2022.04.18 16:46:09 ERROR 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+2022.04.18 16:46:09 ERROR 	at DFiant.core.DFIf$.$anonfun$1(DFIf.scala:40)
+2022.04.18 16:46:09 ERROR 	at DFiant.core.DFIf$.singleBranch(DFIf.scala:20)
+2022.04.18 16:46:09 ERROR 	at DFiant.core.DFIf$.fromBranches(DFIf.scala:42)
+2022.04.18 16:46:09 ERROR 	at framebuffer.<init>(framebuffer_bram.scala:71)
+2022.04.18 16:46:09 ERROR 	at framebuffer_bram$package$.hello(framebuffer_bram.scala:211)
+2022.04.18 16:46:09 ERROR 	at hello.main(framebuffer_bram.scala:210)
+2022.04.18 16:46:09 INFO  Closing debug server tcp://0.0.0.0:62011
+2022.04.18 16:46:10 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:47:01 INFO  compiling root (1 scala source)
+2022.04.18 16:47:01 INFO  time: compiled root in 0.8s
+2022.04.18 16:47:05 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 51m 56.994s)
+2022.04.18 16:47:05 INFO  compiling root (1 scala source)
+2022.04.18 16:47:05 INFO  compiling root (1 scala source)
+2022.04.18 16:47:05 INFO  time: compiled root in 0.8s
+2022.04.18 16:47:08 INFO  compiling root (1 scala source)
+2022.04.18 16:47:08 INFO  time: compiled root in 0.78s
+Apr 18, 2022 4:47:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2022.04.18 16:47:31 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 22.943s)
+2022.04.18 16:47:31 INFO  compiling root (1 scala source)
+2022.04.18 16:47:31 INFO  compiling root (1 scala source)
+2022.04.18 16:47:31 INFO  time: compiled root in 0.73s
+2022.04.18 16:47:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 25.758s)
+2022.04.18 16:47:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 25.765s)
+2022.04.18 16:47:34 INFO  compiling root (1 scala source)
+2022.04.18 16:47:34 INFO  compiling root (1 scala source)
+2022.04.18 16:47:34 INFO  compiling root (1 scala source)
+2022.04.18 16:47:34 INFO  time: compiled root in 0.74s
+Apr 18, 2022 4:47:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2022.04.18 16:47:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 28.592s)
+2022.04.18 16:47:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 28.598s)
+2022.04.18 16:47:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 28.605s)
+2022.04.18 16:47:37 INFO  compiling root (1 scala source)
+2022.04.18 16:47:37 INFO  compiling root (1 scala source)
+2022.04.18 16:47:37 INFO  compiling root (1 scala source)
+2022.04.18 16:47:37 INFO  compiling root (1 scala source)
+2022.04.18 16:47:37 INFO  time: compiled root in 0.78s
+Apr 18, 2022 4:47:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Apr 18, 2022 4:47:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Apr 18, 2022 4:47:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2022.04.18 16:47:40 INFO  compiling root (1 scala source)
+2022.04.18 16:47:40 INFO  time: compiled root in 0.75s
+2022.04.18 16:47:43 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 34.265s)
+2022.04.18 16:47:43 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 34.272s)
+2022.04.18 16:47:43 INFO  compiling root (1 scala source)
+2022.04.18 16:47:43 INFO  compiling root (1 scala source)
+2022.04.18 16:47:43 INFO  compiling root (1 scala source)
+2022.04.18 16:47:43 INFO  time: compiled root in 0.74s
+Apr 18, 2022 4:47:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Apr 18, 2022 4:47:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Apr 18, 2022 4:47:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2022.04.18 16:49:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 54m 28.269s)
+2022.04.18 16:49:37 INFO  compiling root (1 scala source)
+2022.04.18 16:49:37 INFO  compiling root (1 scala source)
+2022.04.18 16:49:37 INFO  time: compiled root in 0.74s
+2022.04.18 16:49:39 INFO  compiling root (1 scala source)
+2022.04.18 16:49:39 INFO  time: compiled root in 0.7s
+Apr 18, 2022 4:49:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:282)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:280)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:268)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+2022.04.18 16:50:23 INFO  compiling root (1 scala source)
+2022.04.18 16:50:26 INFO  time: compiled root in 3.16s
+2022.04.18 16:50:31 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:50:31 INFO  compiling root (1 scala source)
+2022.04.18 16:50:35 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 16:50:35 INFO  time: compiled root in 3.58s
+2022.04.18 16:50:40 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 55m 31.443s)
+2022.04.18 16:50:40 INFO  compiling root (1 scala source)
+2022.04.18 16:50:40 INFO  compiling root (1 scala source)
+2022.04.18 16:50:43 INFO  time: compiled root in 3.1s
+2022.04.18 16:52:15 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 57m 6.886s)
+2022.04.18 16:52:20 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:52:20 WARN  Expression evaluation will not work.
+2022.04.18 16:52:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:52:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:52:20 INFO  Starting debug proxy for [hello]
+2022.04.18 16:52:22 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62363 .
+2022.04.18 16:52:22 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:52:24 ERROR DFiant HDL elaboration error!
+2022.04.18 16:52:24 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:44:5 - 44:41
+2022.04.18 16:52:24 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:52:24 ERROR Operation: `<>`
+2022.04.18 16:52:24 ERROR Message:   The applied RHS value width (320) is larger than the LHS variable width (9).
+2022.04.18 16:52:24 ERROR 
+2022.04.18 16:52:24 ERROR DFiant HDL elaboration error!
+2022.04.18 16:52:24 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:54:5 - 54:41
+2022.04.18 16:52:24 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:52:24 ERROR Operation: `<>`
+2022.04.18 16:52:24 ERROR Message:   The applied RHS value width (320) is larger than the LHS variable width (9).
+2022.04.18 16:52:24 ERROR 
+2022.04.18 16:52:24 ERROR DFiant HDL elaboration error!
+2022.04.18 16:52:24 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:64:5 - 64:41
+2022.04.18 16:52:24 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:52:24 ERROR Operation: `<>`
+2022.04.18 16:52:24 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:53:55 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-A0w3Y2wdQkmotf3MsqUFmg==\META-INF\semanticdb\src\main\scala\linebuffer.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.04.18 16:54:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.18 16:54:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.18 16:54:12 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.18 16:54:12 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.18 16:54:12 INFO  compiling root (1 scala source)
+2022.04.18 16:54:14 INFO  time: indexed workspace in 1.59s
+2022.04.18 16:54:14 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 1.668s)
+2022.04.18 16:54:14 INFO  compiling root (1 scala source)
+2022.04.18 16:54:14 INFO  time: indexed workspace in 1.65s
+2022.04.18 16:54:15 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala' because the build target root is being compiled. Wait until compilation is finished and try again.
+2022.04.18 16:54:18 INFO  time: compiled root in 4.48s
+2022.04.18 16:54:20 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 8.216s)
+2022.04.18 16:54:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 11.844s)
+2022.04.18 16:54:28 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:54:28 WARN  Expression evaluation will not work.
+2022.04.18 16:54:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:54:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:54:28 INFO  Starting debug proxy for [hello]
+2022.04.18 16:54:37 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62539 .
+2022.04.18 16:54:37 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:54:39 ERROR DFiant HDL elaboration error!
+2022.04.18 16:54:39 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:168:5 - 168:46
+2022.04.18 16:54:39 ERROR Hierarchy: top
+2022.04.18 16:54:39 ERROR Operation: `:=`
+2022.04.18 16:54:39 ERROR Message:   The applied RHS value width (16) is larger than the LHS variable width (4).
+2022.04.18 16:54:39 ERROR 
+2022.04.18 16:54:39 ERROR DFiant HDL elaboration error!
+2022.04.18 16:54:39 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:186:16 - 186:46
+2022.04.18 16:54:39 ERROR Hierarchy: top
+2022.04.18 16:54:39 ERROR Operation: `apply`
+2022.04.18 16:54:39 ERROR Message:   Index 12 is out of range of width/length 12
+2022.04.18 16:54:39 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:54:39 INFO  Closing debug server tcp://0.0.0.0:62532
+Apr 18, 2022 4:57:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3636
+2022.04.18 16:57:25 INFO  compiling root (1 scala source)
+2022.04.18 16:57:25 INFO  time: compiled root in 0.87s
+2022.04.18 16:57:25 INFO  compiling root (2 scala sources)
+2022.04.18 16:57:31 INFO  time: compiled root in 5.11s
+2022.04.18 16:57:33 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\bram_sdp_df.scala
+2022.04.18 16:57:35 INFO  compiling root (1 scala source)
+2022.04.18 16:57:35 INFO  time: compiled root in 0.9s
+2022.04.18 16:57:52 INFO  compiling root (1 scala source)
+2022.04.18 16:57:55 INFO  time: compiled root in 3.28s
+2022.04.18 16:57:57 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 3m 45.335s)
+2022.04.18 16:58:04 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:58:04 WARN  Expression evaluation will not work.
+2022.04.18 16:58:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:58:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:58:04 INFO  Starting debug proxy for [hello]
+2022.04.18 16:58:07 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62815 .
+2022.04.18 16:58:07 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:58:08 ERROR DFiant HDL connectivity error!
+2022.04.18 16:58:08 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:31:5 - 31:30
+2022.04.18 16:58:08 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:58:08 ERROR LHS:       xd_req_inst.o
+2022.04.18 16:58:08 ERROR RHS:       data_req.bit
+2022.04.18 16:58:08 ERROR Message:   Unsupported read-to-read connection.
+2022.04.18 16:58:08 ERROR 
+2022.04.18 16:58:08 ERROR DFiant HDL connectivity error!
+2022.04.18 16:58:08 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:62:5 - 62:31
+2022.04.18 16:58:08 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:58:08 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:58:16 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-E7DyRmUyTfKkiOR2zAfXAA==\META-INF\semanticdb\src\main\scala\linebuffer.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.04.18 16:58:22 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-E7DyRmUyTfKkiOR2zAfXAA==\META-INF\semanticdb\src\main\scala\linebuffer.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.04.18 16:58:22 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-E7DyRmUyTfKkiOR2zAfXAA==\META-INF\semanticdb\src\main\scala\linebuffer.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.04.18 16:58:22 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-E7DyRmUyTfKkiOR2zAfXAA==\META-INF\semanticdb\src\main\scala\linebuffer.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
+2022.04.18 16:58:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.18 16:58:29 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.18 16:58:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.18 16:58:29 INFO  Connected to Build server: Bloop v1.4.13
+2022.04.18 16:58:29 INFO  compiling root (1 scala source)
+2022.04.18 16:58:31 INFO  time: indexed workspace in 1.62s
+2022.04.18 16:58:31 INFO  time: indexed workspace in 1.62s
+2022.04.18 16:58:31 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 1.711s)
+2022.04.18 16:58:31 INFO  compiling root (1 scala source)
+2022.04.18 16:58:31 INFO  time: compiled root in 0.79s
+2022.04.18 16:58:38 INFO  compiling root (1 scala source)
+2022.04.18 16:58:40 INFO  time: compiled root in 2.46s
+2022.04.18 16:58:52 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 22.924s)
+2022.04.18 16:58:57 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 16:58:57 WARN  Expression evaluation will not work.
+2022.04.18 16:58:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 16:58:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 16:58:57 INFO  Starting debug proxy for [hello]
+2022.04.18 16:59:06 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62911 .
+2022.04.18 16:59:06 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 16:59:07 ERROR DFiant HDL connectivity error!
+2022.04.18 16:59:07 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:62:5 - 62:31
+2022.04.18 16:59:07 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:59:07 ERROR LHS:       bram_sdp_inst1.we
+2022.04.18 16:59:07 ERROR RHS:       en_in.bit
+2022.04.18 16:59:07 ERROR Message:   Multiple connections write to the same variable/port top.line_buffer.bram_sdp_inst1.we.
+2022.04.18 16:59:07 ERROR The previous write occured at D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:52:5 - 52:31
+2022.04.18 16:59:07 ERROR 
+2022.04.18 16:59:07 ERROR DFiant HDL connectivity error!
+2022.04.18 16:59:07 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:63:5 - 63:41
+2022.04.18 16:59:07 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:59:07 ERROR LHS:       bram_sdp_inst1.addr_write
+2022.04.18 16:59:07 ERROR RHS:       addr_in
+2022.04.18 16:59:07 ERROR Message:   Multiple connections write to the same variable/port top.line_buffer.bram_sdp_inst1.addr_write.
+2022.04.18 16:59:07 ERROR The previous write occured at D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:53:5 - 53:41
+2022.04.18 16:59:07 ERROR 
+2022.04.18 16:59:07 ERROR DFiant HDL connectivity error!
+2022.04.18 16:59:07 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:64:5 - 64:41
+2022.04.18 16:59:07 ERROR Hierarchy: top.line_buffer
+2022.04.18 16:59:07 ERROR LHS:       bram_sdp_inst1.addr_read
+2022.04.18 16:59:07 INFO  Canceling debug proxy for [hello]
+2022.04.18 16:59:07 INFO  Closing debug server tcp://0.0.0.0:62905
+2022.04.18 17:06:04 INFO  compiling root (1 scala source)
+2022.04.18 17:06:06 INFO  time: compiled root in 2.48s
+2022.04.18 17:07:00 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 8m 30.243s)
+2022.04.18 17:07:04 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:07:04 WARN  Expression evaluation will not work.
+2022.04.18 17:07:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:07:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:07:04 INFO  Starting debug proxy for [hello]
+2022.04.18 17:07:06 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54807 .
+2022.04.18 17:07:06 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:07:07 ERROR DFiant HDL connectivity error!
+2022.04.18 17:07:07 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:180:5 - 180:27
+2022.04.18 17:07:07 ERROR Hierarchy: top
+2022.04.18 17:07:07 ERROR LHS:       clut.data
+2022.04.18 17:07:07 ERROR RHS:       clut_colr.uint
+2022.04.18 17:07:07 ERROR Message:   Unsupported read-to-read connection.
+2022.04.18 17:07:07 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:07:07 INFO  Closing debug server tcp://0.0.0.0:54803
+2022.04.18 17:07:29 INFO  compiling root (1 scala source)
+2022.04.18 17:07:32 INFO  time: compiled root in 3.36s
+2022.04.18 17:07:35 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 9m 5.172s)
+2022.04.18 17:07:42 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:07:42 WARN  Expression evaluation will not work.
+2022.04.18 17:07:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:07:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:07:42 INFO  Starting debug proxy for [hello]
+2022.04.18 17:07:44 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54862 .
+2022.04.18 17:07:44 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:07:45 ERROR DFiant HDL connectivity error!
+2022.04.18 17:07:45 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:180:5 - 180:27
+2022.04.18 17:07:45 ERROR Hierarchy: top
+2022.04.18 17:07:45 ERROR LHS:       clut.data
+2022.04.18 17:07:45 ERROR RHS:       clut_colr.uint
+2022.04.18 17:07:45 ERROR Message:   Unsupported read-to-read connection.
+2022.04.18 17:07:45 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:07:45 INFO  Closing debug server tcp://0.0.0.0:54859
+2022.04.18 17:07:51 INFO  compiling root (1 scala source)
+2022.04.18 17:07:54 INFO  time: compiled root in 3.29s
+2022.04.18 17:07:57 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 9m 27.574s)
+2022.04.18 17:08:03 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:08:03 WARN  Expression evaluation will not work.
+2022.04.18 17:08:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:08:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:08:03 INFO  Starting debug proxy for [hello]
+2022.04.18 17:08:05 INFO  Trying to attach to remote debuggee VM 127.0.0.1:54890 .
+2022.04.18 17:08:05 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:08:06 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:08:06 INFO  Closing debug server tcp://0.0.0.0:54886
+2022.04.18 17:10:44 INFO  compiling root (1 scala source)
+2022.04.18 17:10:47 INFO  time: compiled root in 3.11s
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:50 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:51 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:52 INFO  compiling root (1 scala source)
+2022.04.18 17:10:53 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:10:55 INFO  time: compiled root in 3.48s
+2022.04.18 17:10:59 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 12m 29.603s)
+2022.04.18 17:11:04 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:11:04 WARN  Expression evaluation will not work.
+2022.04.18 17:11:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:11:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:11:04 INFO  Starting debug proxy for [hello]
+2022.04.18 17:11:06 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55049 .
+2022.04.18 17:11:06 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:11:07 ERROR DFiant HDL connectivity error!
+2022.04.18 17:11:07 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:180:5 - 180:27
+2022.04.18 17:11:07 ERROR Hierarchy: top
+2022.04.18 17:11:07 ERROR LHS:       clut.data
+2022.04.18 17:11:07 ERROR RHS:       clut_colr.uint
+2022.04.18 17:11:07 ERROR Message:   Unsupported read-to-read connection.
+2022.04.18 17:11:07 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:11:07 INFO  Closing debug server tcp://0.0.0.0:55043
+2022.04.18 17:12:36 INFO  compiling root (1 scala source)
+2022.04.18 17:12:39 INFO  time: compiled root in 3.19s
+2022.04.18 17:12:41 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:12:45 INFO  compiling root (1 scala source)
+2022.04.18 17:12:48 INFO  time: compiled root in 3.4s
+2022.04.18 17:12:52 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 14m 22.9s)
+2022.04.18 17:12:57 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:12:57 WARN  Expression evaluation will not work.
+2022.04.18 17:12:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:12:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:12:57 INFO  Starting debug proxy for [hello]
+2022.04.18 17:13:00 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55132 .
+2022.04.18 17:13:00 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:13:01 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:13:01 INFO  Closing debug server tcp://0.0.0.0:55129
+2022.04.18 17:15:26 INFO  compiling root (1 scala source)
+2022.04.18 17:15:28 INFO  time: compiled root in 2.23s
+2022.04.18 17:15:37 INFO  compiling root (2 scala sources)
+2022.04.18 17:15:42 INFO  time: compiled root in 5.1s
+2022.04.18 17:15:44 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 17m 14.763s)
+2022.04.18 17:15:48 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 17m 19.096s)
+2022.04.18 17:15:51 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:15:51 WARN  Expression evaluation will not work.
+2022.04.18 17:15:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:15:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:15:51 INFO  Starting debug proxy for [hello]
+2022.04.18 17:15:54 INFO  Trying to attach to remote debuggee VM 127.0.0.1:55273 .
+2022.04.18 17:15:54 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:15:54 ERROR Exception in thread "main" java.lang.IllegalArgumentException: Argument must be larger than 1, but found: 1
+2022.04.18 17:15:54 ERROR 	at line_buffer$$anon$41.apply(linebuffer.scala:35)
+2022.04.18 17:15:54 ERROR 	at line_buffer$$anon$41.apply(linebuffer.scala:35)
+2022.04.18 17:15:54 ERROR 	at DFiant.core.DFDecimal$package$DFUInt$.until(DFDecimal.scala:1269)
+2022.04.18 17:15:54 ERROR 	at line_buffer.<init>(linebuffer.scala:35)
+2022.04.18 17:15:54 ERROR 	at linebuffer$package$.hello(linebuffer.scala:112)
+2022.04.18 17:15:54 ERROR 	at hello.main(linebuffer.scala:111)
+2022.04.18 17:15:55 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:15:54 INFO  Closing debug server tcp://0.0.0.0:55268
+exception caught when loading module class Ordering$: java.lang.AssertionError: assertion failed: coursierapi.shaded.scala.math.Ordering$. already has a symbol
+Exception in thread "pool-13-thread-1" java.lang.AssertionError: assertion failed: coursierapi.shaded.scala.math.Ordering$. already has a symbol
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+	at dotty.tools.dotc.core.SymbolLoaders$.enterNew(SymbolLoaders.scala:45)
+	at dotty.tools.dotc.core.SymbolLoaders$.enterClass(SymbolLoaders.scala:56)
+	at dotty.tools.dotc.core.SymbolLoaders$.enterClassAndModule(SymbolLoaders.scala:107)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.enterClassAndModule$1(ClassfileParser.scala:828)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.enterOwnInnerClasses$$anonfun$1(ClassfileParser.scala:836)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at dotty.tools.dotc.util.GenericHashMap$EntryIterator.foreach(GenericHashMap.scala:166)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.enterOwnInnerClasses(ClassfileParser.scala:836)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.parseClass(ClassfileParser.scala:172)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.$anonfun$1(ClassfileParser.scala:88)
+	at dotty.tools.dotc.core.classfile.ClassfileParser.run(ClassfileParser.scala:83)
+	at dotty.tools.dotc.core.ClassfileLoader.load(SymbolLoaders.scala:414)
+	at dotty.tools.dotc.core.ClassfileLoader.doComplete(SymbolLoaders.scala:409)
+	at dotty.tools.dotc.core.SymbolLoader$$anon$1.doComplete(SymbolLoaders.scala:328)
+	at dotty.tools.dotc.core.SymbolLoader.complete(SymbolLoaders.scala:343)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:168)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:188)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:190)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:370)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.flags(SymDenotations.scala:65)
+	at dotty.tools.dotc.core.SymDenotations$ModuleCompleter.complete(SymDenotations.scala:2690)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:168)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:188)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:190)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:370)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.flags(SymDenotations.scala:65)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.is(SymDenotations.scala:107)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.accessBoundary(SymDenotations.scala:1389)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.isPublic(SymDenotations.scala:1396)
+	at scala.meta.internal.pc.CompilerSearchVisitor.isAccessible(CompilerSearchVisitor.scala:18)
+	at scala.meta.internal.pc.CompilerSearchVisitor.$anonfun$1$$anonfun$3(CompilerSearchVisitor.scala:34)
+	at scala.collection.immutable.List.filter(List.scala:515)
+	at scala.meta.internal.pc.CompilerSearchVisitor.$anonfun$1(CompilerSearchVisitor.scala:34)
+	at scala.collection.immutable.List.flatMap(List.scala:293)
+	at scala.meta.internal.pc.CompilerSearchVisitor.loop$1(CompilerSearchVisitor.scala:34)
+	at scala.meta.internal.pc.CompilerSearchVisitor.toSymbols(CompilerSearchVisitor.scala:40)
+	at scala.meta.internal.pc.CompilerSearchVisitor.visitClassfile(CompilerSearchVisitor.scala:51)
+	at scala.meta.internal.metals.ClasspathSearch.$anonfun$search$5(ClasspathSearch.scala:49)
+	at scala.meta.internal.metals.ClasspathSearch.$anonfun$search$5$adapted(ClasspathSearch.scala:39)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.meta.internal.metals.ClasspathSearch.search(ClasspathSearch.scala:39)
+	at scala.meta.internal.metals.WorkspaceSymbolProvider.search(WorkspaceSymbolProvider.scala:60)
+	at scala.meta.internal.metals.MetalsSymbolSearch.search(MetalsSymbolSearch.scala:95)
+	at scala.meta.internal.pc.completions.Completions.enrichWithSymbolSearch(Completions.scala:90)
+	at scala.meta.internal.pc.completions.Completions.filterInteresting(Completions.scala:148)
+	at scala.meta.internal.pc.completions.Completions.completions(Completions.scala:50)
+	at scala.meta.internal.pc.completions.CompletionsProvider.completions(CompletionsProvider.scala:66)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:91)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022.04.18 17:19:49 INFO  compiling root (1 scala source)
+2022.04.18 17:19:49 INFO  time: compiled root in 0.84s
+2022.04.18 17:22:49 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:22:49 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:22:49 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:22:49 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:22:49 INFO  compiling root (2 scala sources)
+2022.04.18 17:22:49 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:22:51 INFO  time: compiled root in 1.65s
+2022.04.18 17:22:53 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:21 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:23 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:23 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:24 INFO  compiling root (2 scala sources)
+2022.04.18 17:23:25 INFO  time: compiled root in 1.65s
+2022.04.18 17:23:27 INFO  compiling root (2 scala sources)
+2022.04.18 17:23:29 INFO  time: compiled root in 1.65s
+2022.04.18 17:23:30 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:30 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:31 INFO  compiling root (2 scala sources)
+2022.04.18 17:23:31 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:32 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:23:33 INFO  time: compiled root in 1.55s
+2022.04.18 17:23:35 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:04 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:08 INFO  compiling root (2 scala sources)
+2022.04.18 17:24:10 INFO  time: compiled root in 1.69s
+2022.04.18 17:24:10 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:11 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:12 INFO  compiling root (2 scala sources)
+2022.04.18 17:24:12 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:13 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:13 INFO  time: compiled root in 1.57s
+2022.04.18 17:24:14 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:14 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:16 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:39 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.18 17:24:46 INFO  compiling root (2 scala sources)
+2022.04.18 17:24:51 INFO  time: compiled root in 4.55s
+2022.04.18 17:24:53 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 26m 23.675s)
+2022.04.18 17:25:00 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:25:00 WARN  Expression evaluation will not work.
+2022.04.18 17:25:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:25:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:25:00 INFO  Starting debug proxy for [hello]
+2022.04.18 17:25:04 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61305 .
+2022.04.18 17:25:04 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:25:05 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:25:05 INFO  Closing debug server tcp://0.0.0.0:61300
+2022.04.18 17:25:22 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala
+2022.04.18 17:25:22 INFO  compiling root (1 scala source)
+2022.04.18 17:25:24 INFO  time: compiled root in 2.08s
+2022.04.18 17:25:31 INFO  compiling root (1 scala source)
+2022.04.18 17:25:33 INFO  time: compiled root in 1.26s
+2022.04.18 17:25:35 INFO  compiling root (1 scala source)
+2022.04.18 17:25:36 INFO  time: compiled root in 1.23s
+2022.04.18 17:25:42 INFO  compiling root (1 scala source)
+2022.04.18 17:25:43 INFO  time: compiled root in 1.26s
+2022.04.18 17:26:25 INFO  compiling root (1 scala source)
+2022.04.18 17:26:27 INFO  time: compiled root in 1.2s
+2022.04.18 17:26:29 INFO  compiling root (1 scala source)
+2022.04.18 17:26:30 INFO  time: compiled root in 1.24s
+2022.04.18 17:27:17 INFO  compiling root (1 scala source)
+2022.04.18 17:27:17 INFO  compiling root (1 scala source)
+2022.04.18 17:27:21 INFO  time: compiled root in 3.35s
+2022.04.18 17:28:32 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:28:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 30m 4.324s)
+2022.04.18 17:28:34 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:28:38 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 30m 8.289s)
+2022.04.18 17:28:38 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 30m 8.292s)
+2022.04.18 17:28:38 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:28:38 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:28:40 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 30m 10.356s)
+2022.04.18 17:28:40 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:28:42 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:28:42 WARN  Expression evaluation will not work.
+2022.04.18 17:28:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:28:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:28:42 INFO  Starting debug proxy for [hello]
+2022.04.18 17:28:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61746 .
+2022.04.18 17:28:42 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:28:44 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:28:44 INFO  Closing debug server tcp://0.0.0.0:61743
+2022.04.18 17:28:58 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:29:09 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:29:11 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 30m 41.907s)
+2022.04.18 17:29:11 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:29:39 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 31m 10.018s)
+2022.04.18 17:29:39 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:30:01 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:30:18 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:30:20 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:31:00 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 32m 30.165s)
+2022.04.18 17:31:00 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:31:04 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 32m 34.692s)
+2022.04.18 17:31:04 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:32:09 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 33m 39.837s)
+2022.04.18 17:32:09 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:32:11 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 33m 41.921s)
+2022.04.18 17:32:11 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:32:13 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 33m 44.007s)
+2022.04.18 17:32:13 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:32:19 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 33m 50.036s)
+2022.04.18 17:32:19 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:32:35 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:32:41 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 34m 11.971s)
+2022.04.18 17:32:41 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:32:52 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:33:18 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:33:20 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 34m 50.722s)
+2022.04.18 17:33:20 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:33:27 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:33:32 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 35m 2.236s)
+2022.04.18 17:33:32 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:34:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 36m 4.79s)
+2022.04.18 17:34:34 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:34:36 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 36m 6.851s)
+2022.04.18 17:34:36 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:35:58 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:36:00 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 37m 30.524s)
+2022.04.18 17:36:00 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:36:46 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:36:48 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 38m 18.917s)
+2022.04.18 17:36:48 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:36:50 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:40:29 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 41m 59.944s)
+2022.04.18 17:40:29 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:40:57 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:41:00 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:41:02 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:41:05 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:41:57 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:41:59 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 43m 29.759s)
+2022.04.18 17:41:59 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:42:01 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:42:55 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 44m 25.273s)
+2022.04.18 17:42:55 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:42:57 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 44m 27.327s)
+2022.04.18 17:42:57 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:42:59 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:26 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 44m 56.905s)
+2022.04.18 17:43:26 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:28 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 44m 58.957s)
+2022.04.18 17:43:28 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:32 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 45m 4.942s)
+2022.04.18 17:43:34 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 45m 5.192s)
+2022.04.18 17:43:34 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:36 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 45m 6.999s)
+2022.04.18 17:43:36 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:39 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.04.18 17:43:39 WARN  Expression evaluation will not work.
+2022.04.18 17:43:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.04.18 17:43:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.04.18 17:43:39 INFO  Starting debug proxy for [hello]
+2022.04.18 17:43:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:62892 .
+2022.04.18 17:43:39 INFO  Attaching to debuggee VM succeeded.
+2022.04.18 17:43:40 INFO  Canceling debug proxy for [hello]
+2022.04.18 17:43:40 INFO  Closing debug server tcp://0.0.0.0:62889
+2022.04.18 17:43:48 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 45m 18.494s)
+2022.04.18 17:43:48 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:50 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 45m 21.044s)
+2022.04.18 17:43:50 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:43:54 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 45m 25.122s)
+2022.04.18 17:43:54 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:44:19 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:44:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 45m 54.597s)
+2022.04.18 17:44:24 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:44:43 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:45:48 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 47m 19.027s)
+2022.04.18 17:45:48 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:45:57 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:46:36 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:18 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 48m 48.769s)
+2022.04.18 17:47:18 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:22 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 48m 55.002s)
+2022.04.18 17:47:24 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 48m 55.013s)
+2022.04.18 17:47:24 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:26 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 48m 57.044s)
+2022.04.18 17:47:26 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:26 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 48m 57.061s)
+2022.04.18 17:47:26 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:28 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 48m 59.111s)
+2022.04.18 17:47:28 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 49m 4.304s)
+2022.04.18 17:47:34 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:52 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 49m 22.245s)
+2022.04.18 17:47:52 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:47:57 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:13 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 49m 43.342s)
+2022.04.18 17:48:13 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:16 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:18 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 49m 48.461s)
+2022.04.18 17:48:18 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:37 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:44 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:46 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 50m 17.066s)
+2022.04.18 17:48:46 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:48 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 50m 19.125s)
+2022.04.18 17:48:48 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:52 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:54 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:48:58 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:49:48 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:49:50 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 51m 20.899s)
+2022.04.18 17:49:50 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:49:55 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:50:08 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 51m 39.131s)
+2022.04.18 17:50:08 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:50:37 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:50:39 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 9.331s)
+2022.04.18 17:50:39 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:50:41 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 11.385s)
+2022.04.18 17:50:41 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:50:43 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 13.437s)
+2022.04.18 17:50:43 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:50:45 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 15.489s)
+2022.04.18 17:50:45 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:51:00 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 31.145s)
+2022.04.18 17:51:00 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:51:03 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 33.203s)
+2022.04.18 17:51:03 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'
+2022.04.18 17:51:09 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.2' (since 52m 39.865s)
+2022.04.18 17:51:09 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-9xnp1_SnRWOV9PVctxkGmQ==\framebuffer$$anon$80.class: The process cannot access the file because it is being used by another process.
+'

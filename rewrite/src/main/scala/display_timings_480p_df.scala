@@ -12,18 +12,18 @@ class clk(using DFC) extends DFDesign:
   //   counter.maxLag(pixel_hor_nhz, 0.ns)
 
 class display_timings_480p_df(
-  val FPS : Int = 60,
-  val CORDW : Int = 16,
-  val H_RES : Int = 640,
-  val V_RES : Int = 480,
-  val H_FP : Int = 16,
-  val H_SYNC : Int = 96,
-  val H_BP : Int = 48,
-  val V_FP : Int = 10,
-  val V_SYNC : Int = 2,
-  val V_BP : Int = 33,
-  val H_POL : Boolean = false,
-  val V_POL : Boolean = false
+  val FPS : Int,
+  val CORDW : Int,
+  val H_RES : Int,
+  val V_RES : Int,
+  val H_FP : Int,
+  val H_SYNC : Int,
+  val H_BP : Int,
+  val V_FP : Int,
+  val V_SYNC : Int,
+  val V_BP : Int,
+  val H_POL : Boolean,
+  val V_POL : Boolean
 )(using DFC) extends DFDesign:
   val hsync = DFBit <> OUT
   val vsync = DFBit <> OUT
@@ -78,5 +78,17 @@ class display_timings_480p_df(
   
 
 // @main def hello: Unit =
-//   val top = new display_timings_480p_df
+//   val top = new display_timings_480p_df(
+//   FPS = 60,
+//   CORDW = 16,
+//   H_RES = 640,
+//   V_RES = 480,
+//   H_FP = 16,
+//   H_SYNC = 96,
+//   H_BP = 48,
+//   V_FP = 10,
+//   V_SYNC = 2,
+//   V_BP = 33,
+//   H_POL = false,
+//   V_POL = false)
 //   top.printCodeString
