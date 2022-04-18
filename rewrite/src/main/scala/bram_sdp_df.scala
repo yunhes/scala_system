@@ -10,13 +10,13 @@ class bram_sdp (
 //cal clk 
     val addr_write = DFUInt.until(DEPTH) <> IN
     val addr_read = DFUInt.until(DEPTH) <> IN
-    val data_in = DFUInt.until(DEPTH) <> IN
-    val data_out = DFUInt.until(DEPTH) <> OUT
+    val data_in = DFUInt(WIDTH) <> IN
+    val data_out = DFUInt(WIDTH) <> OUT
     val we = DFBit <> IN
     
     // val initVector : Vector[DFBits[Int] <> TOKEN] = ???
     val done = DFBit <> WIRE
-    val memory = DFUInt.until(DEPTH) X(DEPTH) <> VAR 
+    val memory = DFUInt(WIDTH) X(DEPTH) <> VAR 
     
     if (we)
       memory(addr_write) := data_in

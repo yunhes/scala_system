@@ -24,11 +24,11 @@ class line_buffer (
 
     val set_end = DFBool <> VAR
     val get_data = DFBool <> VAR
-    val addr_out = DFUInt(LEN) <> VAR
+    val addr_out = DFUInt.until(LEN) <> VAR
 
     val xd_req_inst = new xd_df
     xd_req_inst.i <> get_data
-    xd_req_inst.o <> data_req
+    // xd_req_inst.o <> data_req
 
     val addr_in = DFUInt.until(LEN) <> VAR
 
@@ -102,7 +102,7 @@ class line_buffer (
             addr_in := 0
         else
             addr_in := addr_in + 1
-    if(data_req) 
+    if(xd_req_inst.o) 
         addr_in := 0
     if(rst_in)
         addr_in := 0
