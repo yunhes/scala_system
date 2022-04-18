@@ -170,7 +170,7 @@ class framebuffer(
     val clut = new rom_async_df (
         WIDTH = CLUTW, 
         // DEPTH = CIDXW*2, //scala.math.pow(2,CIDXW) //TODO: power to 2
-        DEPTH = scala.math.pow(2,CIDXW),
+        DEPTH = 2 << CIDXW, //scala.math.pow(2,CIDXW),
         INIT_F = ""        
     )
     clut.addr <> fb_cidx_read_p1
