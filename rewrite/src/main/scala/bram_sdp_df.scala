@@ -24,3 +24,6 @@ class bram_sdp (
     data_out := memory(addr_read)
 
     
+// @main def hello: Unit = 
+//   val top = new bram_sdp
+//   top.printCodeString

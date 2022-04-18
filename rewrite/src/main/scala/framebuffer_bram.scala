@@ -37,12 +37,12 @@ class framebuffer(
     val FB_DATAW  = CIDXW
     val FB_DUALPORT = true // separate read and write ports?
 
-    val fb_addr_read = DFUInt(FB_ADDRW) <> VAR
-    val fb_addr_write = DFUInt(FB_ADDRW) <> VAR
+    val fb_addr_read =  DFUInt.until(FB_PIXELS) <> VAR
+    val fb_addr_write = DFUInt.until(FB_PIXELS) <> VAR
     // val fb_addr_write = DFUInt(18) <> VAR
 
-    val fb_cidx_read = DFUInt(FB_DATAW) <> VAR
-    val fb_cidx_read_p1 = DFUInt(FB_DATAW) <> VAR
+    val fb_cidx_read = DFUInt(CIDXW) <> VAR
+    val fb_cidx_read_p1 = DFUInt(CIDXW) <> VAR
 
     val x_add = DFUInt(CORDW) <> VAR
     val fb_addr_line = DFUInt.until(FB_PIXELS)<> VAR
@@ -114,8 +114,27 @@ class framebuffer(
     lb_en_in_sr := (lb_en_in, lb_en_in_sr.bits(LAT-1,1))
     // if (rst_sys) lb_en_in_sr := b"0"
 
+    val line_buffer = new line_buffer(
+        WIDTH = LB_BPC,
+        LEN = LB_LEN,
+        SCALE = LB_SCALE
+    )
+    line_buffer.clk_in <> clk_sys
+    line_buffer.clk_out <> clk_pix
+    line_buffer.rst_in <> rst_sys
+    line_buffer.rst_out<> rst_pix
+    line_buffer.data_req <> lb_data_req
+    line_buffer.en_in <> lb_en_in_sr.bits(0)
+    line_buffer.en_out <> lb_en_out
+    line_buffer.din_0 <> lb_in_0        // data in (clk_in)
+    line_buffer.din_1 <> lb_in_1
+    line_buffer.din_2 <> lb_in_2
+    line_buffer.dout_0 <> lb_out_0       // data out (clk_out)
+    line_buffer.dout_1 <> lb_out_1
+    line_buffer.dout_2 <> lb_out_2    
+
     if (fb_addr_read < FB_PIXELS-1)
-        if (lb_data_req)
+        if (line_buffer.data_req)
             cnt_h := 0  // start new line
             if (!FB_DUALPORT) busy := 1;    // set busy flag if not dual port
         else if (cnt_h < LB_LEN)  // advance to start of next line
@@ -142,27 +161,9 @@ class framebuffer(
     val lb_out_1 = DFUInt(LB_BPC) <> VAR 
     val lb_out_2 = DFUInt(LB_BPC) <> VAR 
 
-    val line_buffer = new line_buffer(
-        WIDTH = LB_BPC,
-        LEN = LB_LEN,
-        SCALE = LB_SCALE
-    )
-    line_buffer.clk_in <> clk_sys
-    line_buffer.clk_out <> clk_pix
-    line_buffer.rst_in <> rst_sys
-    line_buffer.rst_out<> rst_pix
-    line_buffer.data_req <> lb_data_req
-    line_buffer.en_in <> lb_en_in_sr.bits(0)
-    line_buffer.en_out <> lb_en_out
-    line_buffer.din_0 <> lb_in_0        // data in (clk_in)
-    line_buffer.din_1 <> lb_in_1
-    line_buffer.din_2 <> lb_in_2
-    line_buffer.dout_0 <> lb_out_0       // data out (clk_out)
-    line_buffer.dout_1 <> lb_out_1
-    line_buffer.dout_2 <> lb_out_2    
-
-    if (clk_sys)
-    fb_cidx_read_p1 := fb_cidx_read;
+    // if (clk_sys)
+    // fb_cidx_read_p1 := fb_cidx_read; TODO read from out bug
+    fb_cidx_read_p1 := bram_sdp_inst1.data_in
 
     val CLUTW =  3*CHANW
     val clut_colr = DFBits(CLUTW) <> VAR 

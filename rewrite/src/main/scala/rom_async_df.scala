@@ -13,7 +13,7 @@ class rom_async_df(
     val data = DFUInt(WIDTH) <> OUT
 
 
-    var memory = DFUInt(WIDTH) X DEPTH <> VAR
+    val memory = DFUInt(WIDTH) X DEPTH <> VAR
     // memory.fill(DEPTH).(0)
 
     data := memory(addr)

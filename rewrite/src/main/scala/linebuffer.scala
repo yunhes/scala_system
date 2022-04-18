@@ -10,7 +10,7 @@ class line_buffer (
     val clk_out = DFBit <> IN
     val rst_in = DFBit <> IN
     val rst_out = DFBit <> IN   
-    val data_req = DFBit <> OUT
+    val data_req = DFBool <> OUT
     val en_in = DFBit <> IN
     val en_out = DFBit <> IN
     val frame = DFBit <> IN
@@ -26,13 +26,9 @@ class line_buffer (
     val get_data = DFBool <> VAR
     val addr_out = DFUInt(LEN) <> VAR
 
-    // val xd_req_inst = new xd_req
-    // xd_req_inst.clk_i <> clk_in
-    // xd_req_inst.clk_o <> clk_out
-    // xd_req_inst.rst_i <> rst_in
-    // xd_req_inst.rst_o <> rst_out
-    // xd_req_inst.i <> get_data
-    // xd_req_inst.o <> data_req
+    val xd_req_inst = new xd_df
+    xd_req_inst.i <> get_data
+    xd_req_inst.o <> data_req
 
     val addr_in = DFUInt.until(LEN) <> VAR
 
@@ -106,5 +102,7 @@ class line_buffer (
         addr_in := 0
 
 
-
+// @main def hello: Unit = 
+//   val top = new line_buffer
+//   top.printCodeString
 

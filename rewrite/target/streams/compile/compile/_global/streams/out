@@ -1,8 +1,6 @@
-[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: D:\GitHub\scala_system\rewrite\src\main\scala\rom_async_df.scala:1:0 [0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m1 |[0m[33mimport[0m DFiant.*[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |[33m^[0m[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |No class, trait or object is defined in the compilation unit.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |The incremental compiler cannot record the dependency information in such case.[0m
-[0m[[0m[33mwarn[0m] [0m[0m  |Some errors like unused import referring to a non-existent class might not be reported.[0m
-[0m[[0m[33mwarn[0m] [0m[0m[33m2 |[0m[33mimport[0m compiler._[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m-- Warning: D:\GitHub\scala_system\rewrite\src\main\scala\rom_async_df.scala:16:8 [0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m[33m16 |[0m    [33mvar[0m [36mmemory[0m = DFUInt(WIDTH) X DEPTH <> VAR[0m
+[0m[[0m[33mwarn[0m] [0m[0m   |    [33m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m   | Scala `var` modifier for dataflow values/classes is highly discouraged![0m
+[0m[[0m[33mwarn[0m] [0m[0m   | Consider changing to `val`.[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
