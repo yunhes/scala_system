@@ -8,7 +8,8 @@ class framebuffer(
     val CIDXW : Int,
     val CHANW : Int,
     val SCALE : Int,
-    //F_IMAGE F_PALETTE 
+    F_IMAGE  : String,
+    F_PALETTE : String
 )(using DFC) extends DFDesign: 
     val clk_sys = DFBit <> IN  // system clock
     val clk_pix = DFBit <> IN    // pixel clock
@@ -35,7 +36,7 @@ class framebuffer(
     val FB_ADDRW  = FB_PIXELS >> 2//root 2
     val FB_DEPTH  = FB_PIXELS 
     val FB_DATAW  = CIDXW
-    val FB_DUALPORT = true // separate read and write ports?
+    val FB_DUALPORT = 1 // separate read and write ports?
 
     val fb_addr_read =  DFUInt.until(FB_PIXELS) <> VAR
     val fb_addr_write = DFUInt.until(FB_PIXELS) <> VAR
@@ -48,6 +49,9 @@ class framebuffer(
     val fb_addr_line = DFUInt.until(FB_PIXELS)<> VAR
     // val fb_addr_line = DFUInt(18)<> VAR
 
+    val xd_frame = new xd_df
+    xd_req_inst.i <> frame
+    xd_req_inst.o <> frame_sys
 
     //clk_sys
     fb_addr_line := y * WIDTH //TODO: check guide
@@ -63,7 +67,7 @@ class framebuffer(
     //clk_sys
     we_in_p1 := we;
     cidx_in_p1 := cidx;  // draw colour
-    clip := true;//(y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH);  // clipped?
+    clip := (y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH)//(y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH);  // clipped?
     // second stage
     if(busy || clip)
         fb_we := 0
@@ -112,7 +116,26 @@ class framebuffer(
     
     //TODO: CONCAT
     lb_en_in_sr := (lb_en_in, lb_en_in_sr.bits(LAT-1,1))
-    // if (rst_sys) lb_en_in_sr := b"0"
+    if (rst_sys) lb_en_in_sr := 0
+
+    if (fb_addr_read < FB_PIXELS-1) 
+        if (lb_data_req) 
+            cnt_h := 0 // start new line
+            if (!FB_DUALPORT) busy := 1  // set busy flag if not dual port
+        else if (cnt_h < LB_LEN)   // advance to start of next line
+            cnt_h := cnt_h + 1;
+            fb_addr_read := fb_addr_read + 1;
+        else
+            cnt_h := LB_LEN
+    if frame_sys
+        fb_addr_read := 0
+        bits := 0
+    if rst_sys
+        fb_addr_read := 0
+        busy := 0
+        cnt_h := LB_LEN
+    if (lb_en_in_sr == b"100")    
+        busy := 0
 
     val lb_in_0 = DFUInt(LB_BPC) <> VAR 
     val lb_in_1 = DFUInt(LB_BPC) <> VAR 

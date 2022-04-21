@@ -89,7 +89,7 @@ class line_buffer (
                 addr_out := addr_out + 1
         else
             cnt_h := cnt_h + 1
-    else
+    else if (get_data)
         set_end := 0
     if(rst_out)
         addr_out := 0
@@ -105,7 +105,7 @@ class line_buffer (
             addr_in := 0
         else
             addr_in := addr_in + 1
-    if(xd_req_inst.o) 
+    if(data_req) 
         addr_in := 0
     if(rst_in)
         addr_in := 0
