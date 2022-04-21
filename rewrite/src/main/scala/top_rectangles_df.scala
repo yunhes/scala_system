@@ -40,9 +40,11 @@ class top_rectangles_df(using DFC) extends DFDesign:
   // display timings
   val CORDW = 16
   object videoDefs extends VideoDefs(CORDW)
+  object fBDefs extends FBDefs(FB_CHANW)
   object rectDefs extends RectDefs(CORDW)
   // export videoDefs.*
   val sCoord = videoDefs.Coord <> VAR
+  val sColor = fBDefs.Color <> VAR
   val hsync = DFBit <> VAR
   val vsync = DFBit <> VAR
   val frame = DFBit <> VAR
@@ -91,7 +93,34 @@ class top_rectangles_df(using DFC) extends DFDesign:
   // TODO generate pixel clock
 
   // TODO framebuffer (FB)
-  // val fb_inst = new framebuffer_bram
+  val fb_inst = new framebuffer(
+      CORDW  = 16,
+      WIDTH  = 320,
+      HEIGHT = 180,
+      CIDXW  = 4,
+      CHANW  = 4,
+      SCALE  = 2,
+      F_IMAGE = " ",
+      F_PALETTE = " " 
+    )
+    // fb_inst.clk_sys <> clk_sys
+    // fb_inst.clk_pix <> clk_pix
+    fb_inst.rst_sys <> 0
+    fb_inst.rst_pix <> 0
+    fb_inst.de <> (sCoord.y >= 60 && sCoord.y < 420 && sCoord.x >= 0)
+    // fb_inst.frame <> 
+    // fb_inst.line <> 
+    fb_inst.we <> fb_we
+    fb_inst.x <> sCoord.x
+    fb_inst.y <> sCoord.y
+    fb_inst.cidx <> fb_cidx
+    //clip
+    fb_inst.busy <> fb_busy
+    fb_inst.red <> sColor.red
+    fb_inst.green <> sColor.green
+    fb_inst.blue <> sColor.blue
+
+
 
   // draw rectangles in framebuffer
   val SHAPE_CNT = 64
@@ -170,6 +199,6 @@ class top_rectangles_df(using DFC) extends DFDesign:
   vga_b := fb_color.blue.pipe.bits
 
 
-// @main def hello: Unit = 
-//   val top = new top_rectangles_df
-//   top.printCodeString
+@main def hello: Unit = 
+  val top = new top_rectangles_df
+  top.printCodeString

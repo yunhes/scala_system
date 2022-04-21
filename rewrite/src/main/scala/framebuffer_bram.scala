@@ -19,8 +19,8 @@ class framebuffer(
     val frame = DFBool <> IN      // start a new frame (clk_pix)
     val line = DFBool <> IN       // start a new screen line (clk_pix)
     val we = DFBool <> IN        // write enable   
-    val x = DFUInt(CORDW) <> IN    //
-    val y = DFUInt(CORDW) <> IN    //
+    val x = DFSInt(CORDW) <> IN    //
+    val y = DFSInt(CORDW) <> IN    //
     val cidx = DFUInt(CIDXW) <> IN    //
     
     val busy = DFBit <> OUT    //
@@ -29,14 +29,14 @@ class framebuffer(
     val green = DFUInt(CHANW) <> OUT 
     val blue = DFUInt(CHANW) <> OUT
 
-    val frame_sys = DFBool <> VAR
+    val frame_sys = DFBit <> VAR
 
     //local var
     val FB_PIXELS = WIDTH * HEIGHT
     val FB_ADDRW  = FB_PIXELS >> 2//root 2
     val FB_DEPTH  = FB_PIXELS 
     val FB_DATAW  = CIDXW
-    val FB_DUALPORT = 1 // separate read and write ports?
+    val FB_DUALPORT = true // separate read and write ports?
 
     val fb_addr_read =  DFUInt.until(FB_PIXELS) <> VAR
     val fb_addr_write = DFUInt.until(FB_PIXELS) <> VAR
@@ -45,16 +45,16 @@ class framebuffer(
     val fb_cidx_read = DFUInt(CIDXW) <> VAR
     val fb_cidx_read_p1 = DFUInt(CIDXW) <> VAR
 
-    val x_add = DFUInt(CORDW) <> VAR
+    val x_add = DFSInt(CORDW) <> VAR
     val fb_addr_line = DFUInt.until(FB_PIXELS)<> VAR
     // val fb_addr_line = DFUInt(18)<> VAR
 
-    val xd_frame = new xd_df
+    val xd_req_inst = new xd_df
     xd_req_inst.i <> frame
     xd_req_inst.o <> frame_sys
 
     //clk_sys
-    fb_addr_line := y * WIDTH //TODO: check guide
+    fb_addr_line := (y * WIDTH) //TODO: check guide
     x_add := x
     fb_addr_write := fb_addr_line + x_add
 
@@ -116,7 +116,7 @@ class framebuffer(
     
     //TODO: CONCAT
     lb_en_in_sr := (lb_en_in, lb_en_in_sr.bits(LAT-1,1))
-    if (rst_sys) lb_en_in_sr := 0
+    // if (rst_sys) lb_en_in_sr := 0
 
     if (fb_addr_read < FB_PIXELS-1) 
         if (lb_data_req) 
@@ -127,13 +127,19 @@ class framebuffer(
             fb_addr_read := fb_addr_read + 1;
         else
             cnt_h := LB_LEN
-    if frame_sys
-        fb_addr_read := 0
-        bits := 0
-    if rst_sys
+
+    // TODO: reset alike error
+    if (frame_sys) {
         fb_addr_read := 0
         busy := 0
-        cnt_h := LB_LEN
+    }
+
+    // if rst_sys{
+    //     fb_addr_read := 0
+    //     busy := 0
+    //     cnt_h := LB_LEN
+    // }
+
     if (lb_en_in_sr == b"100")    
         busy := 0
 
@@ -230,12 +236,14 @@ class framebuffer(
         blue := 0
 
 // @main def hello: Unit =
-//     val top = new framebuffer(
-//         CORDW  = 16,
-//         WIDTH  = 320,
-//         HEIGHT = 180,
-//         CIDXW  = 4,
-//         CHANW  = 4,
-//         SCALE  = 2
-//     )
+    // val top = new framebuffer(
+    //     CORDW  = 16,
+    //     WIDTH  = 320,
+    //     HEIGHT = 180,
+    //     CIDXW  = 4,
+    //     CHANW  = 4,
+    //     SCALE  = 2,
+    //     F_IMAGE = " ",
+    //     F_PALETTE = " " 
+    // )
 //     top.printCodeString
