@@ -1,16 +1,6 @@
 import DFiant.*
 import compiler._
 
-// extension (arg: DFBit <> VAL) def maxLag(arg2: DFBit <> VAL, time: core.Time): Unit
-class clk(using DFC) extends DFDesign:
-  val counter = DFUInt(8) <> OUT init 0
-  // TODO: CONST for 800
-  val fps_timer = Timer(60.Hz)
-  val horizontal_timer = fps_timer*800
-  // if (horizontal_timer) then
-  //   counter:= counter.prev + 1
-  //   counter.maxLag(pixel_hor_nhz, 0.ns)
-
 class display_timings_480p_df(
   val FPS : Int,
   val CORDW : Int,
