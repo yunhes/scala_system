@@ -10,7 +10,7 @@ class line_buffer (
     val clk_out = DFBit <> IN
     val rst_in = DFBit <> IN
     val rst_out = DFBit <> IN   
-    val data_req = DFBool <> OUT
+    val data_req = DFBit <> OUT
     val en_in = DFBool <> IN
     val en_out = DFBool <> IN
     val frame = DFBool <> IN
@@ -26,9 +26,14 @@ class line_buffer (
     val get_data = DFBool <> VAR
     val addr_out = DFUInt.until(LEN) <> VAR
 
+    val sys_timer   = Timer(100.MHz)
+    val pixel_timer = Timer(27.MHz)
+
     val xd_req_inst = new xd_df
-    xd_req_inst.i <> get_data
-    // xd_req_inst.o <> data_req
+    xd_req_inst.outDomain.clk <> sys_timer.isActive
+    xd_req_inst.inDomain.clk <> pixel_timer.isActive
+    xd_req_inst.inDomain.i <> get_data
+    xd_req_inst.outDomain.o <> data_req
 
     val addr_in = DFUInt.until(LEN) <> VAR
 

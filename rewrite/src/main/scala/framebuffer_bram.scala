@@ -1,6 +1,7 @@
 import DFiant.*
 //import compiler._
 
+
 class framebuffer(
     val CORDW : Int,
     val WIDTH : Int,
@@ -11,6 +12,14 @@ class framebuffer(
     F_IMAGE  : String,
     F_PALETTE : String
 )(using DFC) extends DFDesign: 
+//struct def
+    object videoDefs extends VideoDefs(CORDW)
+    object fBDefs extends FBDefs(CHANW)
+    // val sCoord = videoDefs.Coord <> VAR
+
+
+
+
     val clk_sys = DFBit <> IN  // system clock
     val clk_pix = DFBit <> IN    // pixel clock
     val rst_sys = DFBit <> IN    // reset (clk_sys)
@@ -19,15 +28,13 @@ class framebuffer(
     val frame = DFBool <> IN      // start a new frame (clk_pix)
     val line = DFBool <> IN       // start a new screen line (clk_pix)
     val we = DFBool <> IN        // write enable   
-    val x = DFSInt(CORDW) <> IN    //
-    val y = DFSInt(CORDW) <> IN    //
+    val sCoord = videoDefs.Coord <> IN    //
+    val sColor = fBDefs.Color <> OUT //
+    // val sCoord.y = DFSInt(CORDW) <> IN    //
     val cidx = DFUInt(CIDXW) <> IN    //
     
     val busy = DFBit <> OUT    //
     val clip = DFBool <> OUT    //
-    val red = DFUInt(CHANW) <> OUT
-    val green = DFUInt(CHANW) <> OUT 
-    val blue = DFUInt(CHANW) <> OUT
 
     val frame_sys = DFBit <> VAR
 
@@ -48,15 +55,19 @@ class framebuffer(
     val x_add = DFSInt(CORDW) <> VAR
     val fb_addr_line = DFUInt.until(FB_PIXELS)<> VAR
     // val fb_addr_line = DFUInt(18)<> VAR
+    val sys_timer   = Timer(100.MHz)
+    val pixel_timer = Timer(27.MHz)
 
-    val xd_req_inst = new xd_df
-    xd_req_inst.i <> frame
-    xd_req_inst.o <> frame_sys
+    val xd_frame = new xd_df
+    xd_frame.outDomain.clk <> sys_timer.isActive
+    xd_frame.inDomain.clk <> pixel_timer.isActive
+    xd_frame.inDomain.i <> frame
+    xd_frame.outDomain.o <> frame_sys
 
     //clk_sys
-    fb_addr_line := (y * WIDTH) //TODO: check guide
-    x_add := x
-    fb_addr_write := fb_addr_line + x_add
+    // fb_addr_line := (y * WIDTH) //TODO: check guide
+    x_add := sCoord.x
+    // fb_addr_write := fb_addr_line + x_add
 
     val fb_we = DFBool <> VAR
     val we_in_p1 = DFBool <> VAR
@@ -67,7 +78,7 @@ class framebuffer(
     //clk_sys
     we_in_p1 := we;
     cidx_in_p1 := cidx;  // draw colour
-    clip := (y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH)//(y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH);  // clipped?
+    clip := (sCoord.y < 0 || sCoord.y >= HEIGHT || sCoord.x < 0 || sCoord.x >= WIDTH)//(y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH);  // clipped?
     // second stage
     if(busy || clip)
         fb_we := 0
@@ -83,7 +94,7 @@ class framebuffer(
     // bram_sdp_inst1.clk_write <> clk_sys
     // bram_sdp_inst1.clk_out <> clk_sys
     bram_sdp_inst1.we <> fb_we
-    bram_sdp_inst1.addr_write <> fb_addr_write
+    // bram_sdp_inst1.addr_write <> fb_addr_write
     // bram_sdp_inst1.addr_out <> fb_addr_read
     bram_sdp_inst1.data_in <> fb_cidx_write
     bram_sdp_inst1.data_out <> fb_cidx_read
@@ -157,8 +168,8 @@ class framebuffer(
         LEN = LB_LEN,
         SCALE = LB_SCALE
     )
-    line_buffer.clk_in <> clk_sys
-    line_buffer.clk_out <> clk_pix
+    // line_buffer.clk_in <> sys_timer.isActive
+    // line_buffer.clk_out <> pix_timer.isActive
     line_buffer.rst_in <> rst_sys
     line_buffer.rst_out<> rst_pix
     // line_buffer.data_req <> lb_data_req
@@ -221,19 +232,19 @@ class framebuffer(
     lb_en_out_p1 := lb_en_out
     
     if(lb_en_out_p1)
-        red := lb_out_2
+        sColor.red := lb_out_2
     else 
-        red := 0
+        sColor.red := 0
     
     if(lb_en_out_p1)
-        green := lb_out_1
+        sColor.green := lb_out_1
     else 
-        green := 0
+        sColor.green := 0
 
     if(lb_en_out_p1)
-        blue := lb_out_0
+        sColor.blue := lb_out_0
     else 
-        blue := 0
+        sColor.blue := 0
 
 // @main def hello: Unit =
     // val top = new framebuffer(

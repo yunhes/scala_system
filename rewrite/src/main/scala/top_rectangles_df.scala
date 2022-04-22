@@ -31,6 +31,15 @@ class RectDefs(val CORDW: Int):
       ret
 
 class top_rectangles_df(using DFC) extends DFDesign: 
+  // framebuffer (FB)
+  val FB_WIDTH   = 320
+  val FB_HEIGHT  = 180
+  val FB_CIDXW   = 4
+  val FB_CHANW   = 4
+  val FB_SCALE   = 2
+  val FB_IMAGE   = ""
+  val FB_PALETTE = "16_colr_4bit_palette.mem"
+
   val vga_hsync = DFBit <> OUT
   val vga_vsync = DFBit <> OUT
   val vga_r = DFBits(4) <> OUT
@@ -70,25 +79,23 @@ class top_rectangles_df(using DFC) extends DFDesign:
   display_timings_inst.line <> line
 
   val frame_sys = DFBit <> VAR
-  val xd_frame = new xd_df
-  xd_frame.i <> frame
-  xd_frame.o <> frame_sys
 
-  // framebuffer (FB)
-  val FB_WIDTH   = 320
-  val FB_HEIGHT  = 180
-  val FB_CIDXW   = 4
-  val FB_CHANW   = 4
-  val FB_SCALE   = 2
-  val FB_IMAGE   = ""
-  val FB_PALETTE = "16_colr_4bit_palette.mem"
-  object fbDefs extends FBDefs(FB_CHANW)
+  val sys_timer   = Timer(100.MHz)
+  val pixel_timer = Timer(27.MHz)
+  val xd_frame = new xd_df
+  xd_frame.outDomain.clk <> sys_timer.isActive
+  xd_frame.inDomain.clk <> pixel_timer.isActive
+  xd_frame.inDomain.i <> frame
+  xd_frame.outDomain.o <> frame_sys
+
+
+  // object fbDefs extends FBDefs(FB_CHANW)
 
   val fb_we = DFBit <> VAR
   val fb_busy = DFBit <> VAR
   val fb_coord = videoDefs.Coord <> VAR
   val fb_cidx = DFUInt(FB_CIDXW) <> VAR
-  val fb_color = fbDefs.Color <> VAR
+  val fb_color = fBDefs.Color <> VAR
 
   // TODO generate pixel clock
 
@@ -103,22 +110,20 @@ class top_rectangles_df(using DFC) extends DFDesign:
       F_IMAGE = " ",
       F_PALETTE = " " 
     )
-    // fb_inst.clk_sys <> clk_sys
-    // fb_inst.clk_pix <> clk_pix
+    // fb_inst.clk_sys <> sys_timer.isActive
+    // fb_inst.clk_pix <> pix_timer.isActive
     fb_inst.rst_sys <> 0
     fb_inst.rst_pix <> 0
     fb_inst.de <> (sCoord.y >= 60 && sCoord.y < 420 && sCoord.x >= 0)
     // fb_inst.frame <> 
     // fb_inst.line <> 
     fb_inst.we <> fb_we
-    fb_inst.x <> sCoord.x
-    fb_inst.y <> sCoord.y
+    fb_inst.sCoord <> fb_coord
+    fb_inst.sColor <> fb_color
     fb_inst.cidx <> fb_cidx
     //clip
     fb_inst.busy <> fb_busy
-    fb_inst.red <> sColor.red
-    fb_inst.green <> sColor.green
-    fb_inst.blue <> sColor.blue
+
 
 
 
