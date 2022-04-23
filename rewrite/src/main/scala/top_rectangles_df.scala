@@ -204,6 +204,3 @@ class top_rectangles_df(using DFC) extends DFDesign:
   vga_b := fb_color.blue.pipe.bits
 
 
-@main def hello: Unit = 
-  val top = new top_rectangles_df
-  top.printCodeString

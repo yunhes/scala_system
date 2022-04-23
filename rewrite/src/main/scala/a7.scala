@@ -1,8 +1,16 @@
 class vga() extends Interface:
     //this is only a wiring version of basic vga male port
-    val RED = Pin()
-    val GREEN = Pin()
-    val BLUE = Pin()
+    val RED_0 = Pin()
+    val RED_1 = Pin()
+    val RED_2 = Pin()
+
+    val GREEN_0 = Pin()
+    val GREEN_1 = Pin()
+    val GREEN_2 = Pin()
+
+    val BLUE_0 = Pin()
+    val BLUE_1 = Pin()
+    val BLUE_2 = Pin()
 
     val hsync = Pin()
     val vsync = Pin()
@@ -57,12 +65,20 @@ class VgaPmod extends Board:
     val pmodJC = PmodJC()
     val vga = VGA()
 
-    vga.hsync <> pmodJB.PJC7()
-    vga.vsync <> pmodJB.PJC8()
+    vga.hsync <> pmodJC.PJC7()
+    vga.vsync <> pmodJC.PJC8()
 
-    vga.RED <> pmodJB.()
-    vga.GREEN <> pmodJB.()
-    vga.BLUE <> pmodJB.()
+    vga.RED_0 <> pmodJB.PJB1()
+    vga.RED_1 <> pmodJB.PJB2()
+    vga.RED_2 <> pmodJB.PJB3()
+
+    vga.GREEN_0 <> pmodJC.PJC1()
+    vga.GREEN_1 <> pmodJC.PJC2()
+    vga.GREEN_2 <> pmodJC.PJC3()
+
+    vga.BLUE_0 <> pmodJB.PJB7()
+    vga.BLUE_1 <> pmodJB.PJB8()
+    vga.BLUE_2 <> pmodJB.PJB9()
     //TODO: construct module for the 4-bit resistor vga decoder
 
 class ConnectedBoard extends Board:
@@ -91,10 +107,14 @@ class PmodJC extends Interface:
     val PJC7 = Pin()
     val PJC8 = Pin()
 
-class IntergratingApp(app : ProjectFApp):
-    def build : Unit ={}
-    def simulate : Unit = {}
-    val board = ConnectedBoard()
-    board.vga <> app.vga
+// class IntergratingApp(app : ProjectFApp):
+//     def build : Unit ={}
+//     def simulate : Unit = {}
+//     val board = ConnectedBoard()
+//     board.vga <> app.vga
 
-val app1ForLattice = IntergratingApp(ProjectFVGATest)
+// val app1ForLattice = IntergratingApp(ProjectFVGATest)
+
+@main def hello: Unit = 
+  val top = new top_rectangles_df
+  top.printCodeString
