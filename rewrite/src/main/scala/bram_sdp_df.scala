@@ -17,7 +17,7 @@ class bram_sdp(
   val we         = DFBit               <> IN
 
   // val initVector : Vector[DFBits[Int] <> TOKEN] = ???
-  val done   = DFBit                   <> WIRE
+  val done   = DFBit                   <> VAR
   val memory = DFUInt(WIDTH) X (DEPTH) <> VAR
 
   if (we)

@@ -18,7 +18,7 @@
         "classpath": [
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\sbt\\1.6.2\\sbt-1.6.2.jar",
             "C:\\Users\\shion\\.sbt\\boot\\scala-2.12.15\\lib\\scala-library.jar",
-            "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.13\\sbt-bloop-1.4.13.jar",
+            "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.0\\sbt-bloop-1.5.0.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\main_2.12\\1.6.2\\main_2.12-1.6.2.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-sbt\\io_2.12\\1.6.0\\io_2.12-1.6.0.jar",
             "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.8.0\\jna-5.8.0.jar",
@@ -213,17 +213,17 @@
                 {
                     "organization": "ch.epfl.scala",
                     "name": "sbt-bloop",
-                    "version": "1.4.13",
+                    "version": "1.5.0",
                     "configurations": "default",
                     "artifacts": [
                         {
                             "name": "sbt-bloop",
-                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.13\\sbt-bloop-1.4.13.jar"
+                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.0\\sbt-bloop-1.5.0.jar"
                         },
                         {
                             "name": "sbt-bloop",
                             "classifier": "sources",
-                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.4.13\\sbt-bloop-1.4.13-sources.jar"
+                            "path": "C:\\Users\\shion\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\ch\\epfl\\scala\\sbt-bloop_2.12_1.0\\1.5.0\\sbt-bloop-1.5.0-sources.jar"
                         }
                     ]
                 },

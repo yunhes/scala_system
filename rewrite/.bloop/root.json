@@ -234,7 +234,7 @@
                             "name": "dfiant-core_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "0e2272bdcc4c62274abb8be7b60f69b10f46c00f"
+                                "digest": "6a8566173b75f6d80d94288fffa9c0b05d3e8bfd"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-core_3\\0.2.0-SNAPSHOT\\jars\\dfiant-core_3.jar"
                         },
@@ -243,7 +243,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "0672ddd898f9f172999bc43d27f0a15c50a96fdb"
+                                "digest": "feebe154f8224405f1d7129a9db65d4a2541c05a"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-core_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-core_3-sources.jar"
                         }
@@ -259,7 +259,7 @@
                             "name": "dfiant-compiler-stages_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "5edae6910d3e62fab2d570cf6917d8198be8fcb8"
+                                "digest": "3054b2c7cd12d0934c734a39af77164dddbefb2e"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-stages_3\\0.2.0-SNAPSHOT\\jars\\dfiant-compiler-stages_3.jar"
                         },
@@ -268,7 +268,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "5c3a69346f5f6aaf23e71aa9559dfccb10f57a0e"
+                                "digest": "7b8ee028ecaa3972502a568e0461dffd97758606"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-stages_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-compiler-stages_3-sources.jar"
                         }
@@ -318,7 +318,7 @@
                             "name": "dfiant-plugin_3.1.2-RC1",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "639b9caeba0a22042eb4e97c5c31c4b3aaaaef3f"
+                                "digest": "91cfda7c3eb141b1dc43d8293745c196923d0326"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-plugin_3.1.2-RC1\\0.2.0-SNAPSHOT\\jars\\dfiant-plugin_3.1.2-RC1.jar"
                         },
@@ -327,7 +327,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "a9f09bb3f0fd5c7695a57d222b5675ed06558bbb"
+                                "digest": "0350a5b4eee5e6818c8cbc3cc18d49153f90a7ba"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-plugin_3.1.2-RC1\\0.2.0-SNAPSHOT\\srcs\\dfiant-plugin_3.1.2-RC1-sources.jar"
                         }
@@ -343,7 +343,7 @@
                             "name": "dfiant-internals_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "055b12bd9bef8afbe0408e1fca20971c345f256c"
+                                "digest": "80297dfdb2bc6b1f4b8c852169a0afa833b914fa"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-internals_3\\0.2.0-SNAPSHOT\\jars\\dfiant-internals_3.jar"
                         },
@@ -352,7 +352,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "03b679dd01d0777c968df9a2697b35d6f69eef5b"
+                                "digest": "c4604ca395f902d41645d62503705c2b057dd975"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-internals_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-internals_3-sources.jar"
                         }
@@ -368,7 +368,7 @@
                             "name": "dfiant-compiler-ir_3",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "c7511c71bd810acb6232cb57505798f5c3075fbd"
+                                "digest": "754d15e1a61d5ad6e3edbe9f1360fb2cd6fce980"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-ir_3\\0.2.0-SNAPSHOT\\jars\\dfiant-compiler-ir_3.jar"
                         },
@@ -377,7 +377,7 @@
                             "classifier": "sources",
                             "checksum": {
                                 "type": "sha1",
-                                "digest": "40a16eac5dccdcde22c626b1466d47c3425a12b8"
+                                "digest": "c76f284ad2f77a14f92cac2bfe8044bac73cc575"
                             },
                             "path": "C:\\Users\\shion\\.ivy2\\local\\io.github.dfianthdl\\dfiant-compiler-ir_3\\0.2.0-SNAPSHOT\\srcs\\dfiant-compiler-ir_3-sources.jar"
                         }

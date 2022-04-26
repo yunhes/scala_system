@@ -21,7 +21,7 @@ class RectDefs(val CORDW: Int):
       y0: DFSInt[CORDW.type] <> VAL,
       y1: DFSInt[CORDW.type] <> VAL
   ) extends DFStruct
-  extension (dc: DiagnolCoord <> VAL)(using DFC)
+  extension (dc: DiagnolCoord <> VAL)(using DFC, DFiant.core.Container.Domain.DF)
     def swapF: DiagnolCoord <> VAL =
       val ret = DiagnolCoord <> VAR
       ret    := dc

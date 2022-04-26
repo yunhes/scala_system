@@ -4,10 +4,7 @@ import compiler._
 
 class xd_df(using DFC) extends RTDesign:
   // val clk = DFBit <> IN
-  val inDomain = new RTDomain(
-    clkCfg = ClkCfg.Explicit("clk", ClkCfg.Edge.Rising),
-    rstCfg = RstCfg.Explicit("rst", RstCfg.Mode.Sync, RstCfg.Active.High)
-  ):
+  val inDomain = new RTDomain:
     val clk    = DFBit <> IN
     val rst    = DFBit <> IN
     val i      = DFBit <> IN
@@ -15,10 +12,7 @@ class xd_df(using DFC) extends RTDesign:
     toggle.din := toggle ^ i
 
   // out domian
-  val outDomain = new RTDomain(
-    clkCfg = ClkCfg.Explicit("clk", ClkCfg.Edge.Rising),
-    rstCfg = RstCfg.Explicit("rst", RstCfg.Mode.Sync, RstCfg.Active.High)
-  ):
+  val outDomain = new RTDomain:
     val clk = DFBit     <> IN
     val rst = DFBit     <> IN
     val o   = DFBit     <> OUT
