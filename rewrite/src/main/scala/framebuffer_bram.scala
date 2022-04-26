@@ -29,6 +29,7 @@ class framebuffer(
     val line = DFBool <> IN       // start a new screen line (clk_pix)
     val we = DFBool <> IN        // write enable   
     val sCoord = videoDefs.Coord <> IN    //
+    // val x = x.until(CORDW)
     val sColor = fBDefs.Color <> OUT //
     // val sCoord.y = DFSInt(CORDW) <> IN    //
     val cidx = DFUInt(CIDXW) <> IN    //
@@ -65,9 +66,9 @@ class framebuffer(
     xd_frame.outDomain.o <> frame_sys
 
     //clk_sys
-    // fb_addr_line := (y * WIDTH) //TODO: check guide
-    x_add := sCoord.x
-    // fb_addr_write := fb_addr_line + x_add
+    fb_addr_line := (y * WIDTH).bits.uint //TODO: check guide
+    // sCoord.x := sCoord.x.bits.uint //TODO: tentative conversion
+    fb_addr_write := fb_addr_line + sCoord.x.bits.uint.pipe //x_add conversion
 
     val fb_we = DFBool <> VAR
     val we_in_p1 = DFBool <> VAR

@@ -1,4 +1,6 @@
-*
+*.class
+*.jar
+*.log
 !*.scala
 !*.gitignore
 !README
