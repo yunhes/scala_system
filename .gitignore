@@ -1,6 +1,9 @@
 *.class
 *.jar
 *.log
+rewrite/src/main/scala/project/*
+project/*
+rewrite/src/main/scala/target/*
 !*.scala
 !*.gitignore
 !README
