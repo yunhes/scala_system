@@ -28,8 +28,9 @@ class line_buffer(
   val get_data = DFBool            <> VAR
   val addr_out = DFUInt.until(LEN) <> VAR
 
+  object videoDefs extends VideoDefs(0)
   val sys_timer   = Timer(100.MHz)
-  val pixel_timer = Timer(27.MHz)
+  val pixel_timer = Timer(videoDefs.FPS.Hz) * videoDefs.AREA
 
   val xd_req_inst = new xd_df
   xd_req_inst.outDomain.clk <> sys_timer.isActive

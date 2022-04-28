@@ -6,6 +6,21 @@ class VideoDefs(val CORDW: Int):
       x: DFSInt[CORDW.type] <> VAL,
       y: DFSInt[CORDW.type] <> VAL
   ) extends DFStruct
+  val FPS: Int       = 60
+  val H_RES: Int     = 640
+  val V_RES: Int     = 480
+  val H_FP: Int      = 16
+  val H_SYNC: Int    = 96
+  val H_BP: Int      = 48
+  val V_FP: Int      = 10
+  val V_SYNC: Int    = 2
+  val V_BP: Int      = 33
+  val H_POL: Boolean = false
+  val V_POL: Boolean = false
+  val WIDTH: Int     = H_RES + H_FP + H_SYNC + H_BP
+  val HEIGHT: Int    = V_RES + V_FP + V_SYNC + V_BP
+  val AREA: Int      = WIDTH * HEIGHT
+end VideoDefs
 
 class FBDefs(val FB_CHANW: Int):
   case class Color(
@@ -62,8 +77,7 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val line   = DFBit           <> VAR
 
   val display_timings_inst =
-    new display_timings_480p_df(FPS = 60, CORDW = 16, H_RES = 640, V_RES = 480, H_FP = 16,
-      H_SYNC = 96, H_BP = 48, V_FP = 10, V_SYNC = 2, V_BP = 33, H_POL = false, V_POL = false)
+    new display_timings_480p_df(CORDW = 16)
   display_timings_inst.coord_out <> sCoord
   display_timings_inst.hsync     <> hsync
   display_timings_inst.vsync     <> vsync
@@ -73,7 +87,7 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val frame_sys = DFBit <> VAR
 
   val sys_timer   = Timer(100.MHz)
-  val pixel_timer = Timer(27.MHz)
+  val pixel_timer = Timer(videoDefs.FPS.Hz) * videoDefs.AREA
   val xd_frame    = new xd_df
   xd_frame.outDomain.clk <> sys_timer.isActive
   xd_frame.inDomain.clk  <> pixel_timer.isActive

@@ -1,5 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- Error: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala:26:35 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m26 |[0m      [33mval[0m [36mret[0m = DiagnolCoord <> VAR[0m
-[0m[[0m[31merror[0m] [0m[0m   |                                   [31m^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m   |no implicit argument of type DFiant.core.Container.Domain was found for parameter dt of [33mmethod[0m [35m<>[0m in [33mpackage[0m [35mDFiant[0m[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -53,9 +53,8 @@ class framebuffer(
 
   val x_add        = DFSInt(CORDW)           <> VAR
   val fb_addr_line = DFUInt.until(FB_PIXELS) <> VAR
-  // val fb_addr_line = DFUInt(18)<> VAR
-  val sys_timer   = Timer(100.MHz)
-  val pixel_timer = Timer(27.MHz)
+  val sys_timer    = Timer(100.MHz)
+  val pixel_timer  = Timer(videoDefs.FPS.Hz) * videoDefs.AREA
 
   val xd_frame = new xd_df
   xd_frame.outDomain.clk <> sys_timer.isActive
@@ -64,8 +63,7 @@ class framebuffer(
   xd_frame.outDomain.o   <> frame_sys
 
   // clk_sys
-  fb_addr_line := (sCoord.y * WIDTH).bits.uint // TODO: check guide
-  // sCoord.x := sCoord.x.bits.uint //TODO: tentative conversion
+  fb_addr_line  := (sCoord.y * WIDTH).bits.uint // TODO: check guide
   fb_addr_write := fb_addr_line + sCoord.x.bits.uint.pipe // x_add conversion
 
   val fb_we    = DFBool <> VAR

@@ -3,18 +3,7 @@ import compiler._
 // scalafmt: { align.tokens = [{code = "<>"}, {code = "="}, {code = "=>"}, {code = ":="}]}
 
 class display_timings_480p_df(
-    val FPS: Int,
-    val CORDW: Int,
-    val H_RES: Int,
-    val V_RES: Int,
-    val H_FP: Int,
-    val H_SYNC: Int,
-    val H_BP: Int,
-    val V_FP: Int,
-    val V_SYNC: Int,
-    val V_BP: Int,
-    val H_POL: Boolean,
-    val V_POL: Boolean
+    val CORDW: Int
 )(using DFC)
     extends DFDesign:
   val hsync = DFBit <> OUT
@@ -27,28 +16,25 @@ class display_timings_480p_df(
   val coord     = videoDefs.Coord <> VAR init videoDefs.Coord(H_STA, V_STA)
   val coord_out = videoDefs.Coord <> OUT init videoDefs.Coord(H_STA, V_STA)
 
-  val fps_timer        = Timer(FPS.Hz)
-  val WIDTH            = H_RES + H_FP + H_SYNC + H_BP
-  val HEIGHT           = V_RES + V_FP + V_SYNC + V_BP
-  val horizontal_timer = fps_timer * WIDTH * HEIGHT
-  val vertical_timer   = horizontal_timer / HEIGHT
+  val pixel_timer    = Timer(videoDefs.FPS.Hz) * videoDefs.AREA
+  val vertical_timer = pixel_timer / videoDefs.HEIGHT
 
-  val H_STA  = 0 - H_FP - H_SYNC - H_BP
-  val HS_STA = H_STA + H_FP
-  val HS_END = HS_STA + H_SYNC
+  val H_STA  = 0 - videoDefs.H_FP - videoDefs.H_SYNC - videoDefs.H_BP
+  val HS_STA = H_STA + videoDefs.H_FP
+  val HS_END = HS_STA + videoDefs.H_SYNC
   val HA_STA = 0
-  val HA_END = H_RES - 1
+  val HA_END = videoDefs.H_RES - 1
 
-  val V_STA  = 0 - V_FP - V_SYNC - V_BP
-  val VS_STA = V_STA + V_FP
-  val VS_END = VS_STA + V_SYNC
+  val V_STA  = 0 - videoDefs.V_FP - videoDefs.V_SYNC - videoDefs.V_BP
+  val VS_STA = V_STA + videoDefs.V_FP
+  val VS_END = VS_STA + videoDefs.V_SYNC
   val VA_STA = 0
-  val VA_END = V_RES - 1
+  val VA_END = videoDefs.V_RES - 1
 
-  if H_POL then hsync := (coord.x > HS_STA && coord.x <= HS_END)
-  else hsync          := !(coord.x > HS_STA && coord.x <= HS_END)
-  if V_POL then vsync := (coord.y > VS_STA && coord.y <= VS_END)
-  else vsync          := !(coord.y > VS_STA && coord.y <= VS_END)
+  if videoDefs.H_POL then hsync := (coord.x > HS_STA && coord.x <= HS_END)
+  else hsync                    := !(coord.x > HS_STA && coord.x <= HS_END)
+  if videoDefs.V_POL then vsync := (coord.y > VS_STA && coord.y <= VS_END)
+  else vsync                    := !(coord.y > VS_STA && coord.y <= VS_END)
 
   de    := (coord.y >= VA_STA && coord.x >= HA_STA)
   frame := (coord.y == V_STA && coord.x == H_STA)
@@ -60,7 +46,7 @@ class display_timings_480p_df(
     else
       coord.y := coord.y.prev + 1
 
-  if (horizontal_timer.isActive)
+  if (pixel_timer.isActive)
     if (coord.x == HA_END)
       coord.x := H_STA
     else
@@ -70,16 +56,16 @@ end display_timings_480p_df
 
 // @main def hello: Unit =
 //   val top = new display_timings_480p_df(
-//   FPS = 60,
+//   videoDefs.FPS = 60,
 //   CORDW = 16,
-//   H_RES = 640,
-//   V_RES = 480,
-//   H_FP = 16,
-//   H_SYNC = 96,
-//   H_BP = 48,
-//   V_FP = 10,
-//   V_SYNC = 2,
-//   V_BP = 33,
-//   H_POL = false,
-//   V_POL = false)
+//   videoDefs.H_RES = 640,
+//   videoDefs.V_RES = 480,
+//   videoDefs.H_FP = 16,
+//   videoDefs.H_SYNC = 96,
+//   videoDefs.H_BP = 48,
+//   videoDefs.V_FP = 10,
+//   videoDefs.V_SYNC = 2,
+//   videoDefs.V_BP = 33,
+//   videoDefs.H_POL = false,
+//   videoDefs.V_POL = false)
 //   top.printCodeString

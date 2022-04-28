@@ -1,371 +1,83 @@
-2022.04.26 18:09:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
-2022.04.26 18:09:54 INFO  logging to file D:\GitHub\scala_system\rewrite\.metals\metals.log
-2022.04.26 18:09:54 INFO  Started: Metals version 0.11.3 in workspace 'D:\GitHub\scala_system\rewrite' for client Visual Studio Code 1.66.2.
-2022.04.26 18:09:55 INFO  time: initialize in 0.78s
-2022.04.26 18:09:55 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
-2022.04.26 18:09:55 WARN  Build server is not auto-connectable.
-2022.04.26 18:09:55 WARN  no build tool detected in workspace 'D:\GitHub\scala_system\rewrite'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
-2022.04.26 18:09:55 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
-2022.04.26 18:09:56 INFO  no build target found for D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala. Using presentation compiler with project's scala-library version: 3.1.2
-2022.04.26 18:09:58 INFO  time: code lens generation in 1.83s
-2022.04.26 18:09:58 INFO  time: code lens generation in 1.83s
-2022.04.26 18:10:40 WARN  no build tool detected in workspace 'D:\GitHub\scala_system\rewrite'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
-2022.04.26 18:12:18 INFO  running 'C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\shion\AppData\Local\Temp\metals7393674523832706428\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
-2022.04.26 18:12:19 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)
-2022.04.26 18:12:20 INFO  [info] loading settings for project rewrite-build-build from metals.sbt ...
-2022.04.26 18:12:20 INFO  [info] loading project definition from D:\GitHub\scala_system\rewrite\project\project
-2022.04.26 18:12:22 INFO  [info] loading settings for project rewrite-build from metals.sbt ...
-2022.04.26 18:12:22 INFO  [info] loading project definition from D:\GitHub\scala_system\rewrite\project
-2022.04.26 18:12:23 INFO  [success] Generated .bloop\rewrite-build.json
-2022.04.26 18:12:23 INFO  [success] Total time: 2 s, completed 26-Apr-2022 6:12:24 PM
-2022.04.26 18:12:23 INFO  [info] set current project to rewrite (in build file:/D:/GitHub/scala_system/rewrite/)
-2022.04.26 18:12:24 INFO  [success] Generated .bloop\rewrite.json
-2022.04.26 18:12:24 INFO  [success] Generated .bloop\rewrite-test.json
-2022.04.26 18:12:24 INFO  [success] Total time: 0 s, completed 26-Apr-2022 6:12:24 PM
-2022.04.26 18:12:24 INFO  time: ran 'sbt bloopInstall' in 6.21s
-2022.04.26 18:12:24 INFO  Attempting to connect to the build server...
-2022.04.26 18:12:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2022.04.26 18:12:24 INFO  Attempting to connect to the build server...
-2022.04.26 18:12:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2022.04.26 18:12:24 INFO  time: Connected to build server in 0.17s
-2022.04.26 18:12:24 INFO  Connected to Build server: Bloop v1.5.0
-2022.04.26 18:12:26 INFO  time: indexed workspace in 1.72s
-2022.04.26 18:12:26 INFO  compiling rewrite (10 scala sources)
-2022.04.26 18:12:33 INFO  time: compiled rewrite in 6.7s
-2022.04.26 18:12:36 INFO  compiling rewrite (10 scala sources)
-2022.04.26 18:12:36 INFO  time: compiled rewrite in 0.14s
-2022.04.26 18:12:41 INFO  compiling rewrite (10 scala sources)
-2022.04.26 18:12:41 INFO  time: compiled rewrite in 0.12s
-2022.04.26 18:13:05 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\display_timings_480p_df.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\rewrite\bloop-bsp-clients-classes\classes-Metals-mJ9c_n-gQi6U_kUIyNX5FQ==\META-INF\semanticdb\src\main\scala\display_timings_480p_df.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
-2022.04.26 18:14:45 INFO  compiling rewrite (10 scala sources)
-2022.04.26 18:14:45 INFO  time: compiled rewrite in 0.1s
-2022.04.26 18:15:02 INFO  compiling rewrite (10 scala sources)
-2022.04.26 18:15:02 INFO  time: compiled rewrite in 0.1s
-2022.04.26 18:15:04 INFO  compiling rewrite (10 scala sources)
-2022.04.26 18:15:04 INFO  time: compiled rewrite in 94ms
-2022.04.26 18:15:30 INFO  running 'C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\shion\AppData\Local\Temp\metals5587936508329368094\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
-2022.04.26 18:15:30 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)
-2022.04.26 18:15:30 INFO  [info] loading settings for project rewrite-build-build from metals.sbt ...
-2022.04.26 18:15:30 INFO  [info] loading project definition from D:\GitHub\scala_system\rewrite\project\project
-2022.04.26 18:15:32 INFO  [info] loading settings for project rewrite-build from metals.sbt ...
-2022.04.26 18:15:32 INFO  [info] loading project definition from D:\GitHub\scala_system\rewrite\project
-2022.04.26 18:15:33 INFO  [success] Generated .bloop\rewrite-build.json
-2022.04.26 18:15:33 INFO  [success] Total time: 1 s, completed 26-Apr-2022 6:15:33 PM
-2022.04.26 18:15:34 INFO  [info] loading settings for project root from build.sbt ...
-2022.04.26 18:15:34 INFO  [info] set current project to dfiantdemo (in build file:/D:/GitHub/scala_system/rewrite/)
-2022.04.26 18:15:34 INFO  [success] Generated .bloop\root-test.json
-2022.04.26 18:15:34 INFO  [success] Generated .bloop\root.json
-2022.04.26 18:15:34 INFO  [warn] Removed stale D:\GitHub\scala_system\rewrite\.bloop\rewrite-test.json
-2022.04.26 18:15:34 INFO  [warn] Removed stale D:\GitHub\scala_system\rewrite\.bloop\rewrite.json
-2022.04.26 18:15:34 INFO  [success] Total time: 1 s, completed 26-Apr-2022 6:15:35 PM
-2022.04.26 18:15:35 INFO  time: ran 'sbt bloopInstall' in 5.73s
-2022.04.26 18:15:35 INFO  Disconnecting from Bloop session...
-2022.04.26 18:15:35 INFO  Shut down connection with build server.
-2022.04.26 18:15:35 INFO  Shut down connection with build server.
-2022.04.26 18:15:35 INFO  Attempting to connect to the build server...
-2022.04.26 18:15:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2022.04.26 18:15:35 INFO  Attempting to connect to the build server...
-2022.04.26 18:15:35 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2022.04.26 18:15:35 INFO  time: Connected to build server in 75ms
-2022.04.26 18:15:35 INFO  Connected to Build server: Bloop v1.5.0
-2022.04.26 18:15:35 ERROR Failed to fetch mtags for 3.1.2-RC1
-Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.3
-  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.3\ivys\ivy.xml
-  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-2022.04.26 18:15:37 ERROR Failed to fetch mtags for 3.1.2-RC1
-Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.3
-  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.3\ivys\ivy.xml
-  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-2022.04.26 18:15:37 ERROR Failed to fetch mtags for 3.1.2-RC1
-Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.3
-  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.3\ivys\ivy.xml
-  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-2022.04.26 18:15:37 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:15:38 INFO  time: indexed workspace in 2.35s
-2022.04.26 18:15:38 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:15:38 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:15:51 INFO  compiling root (10 scala sources)
-2022.04.26 18:15:52 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:15:52 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:15:54 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:15:54 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:15:55 INFO  time: compiled root in 4.06s
-2022.04.26 18:16:00 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:00 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:00 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:00 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:00 INFO  compiling root (10 scala sources)
-2022.04.26 18:16:04 INFO  time: compiled root in 3.76s
-2022.04.26 18:16:09 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:09 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:10 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:10 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:18 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:18 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:18 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:18 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:18 INFO  compiling root (10 scala sources)
-2022.04.26 18:16:21 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:21 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:22 INFO  time: compiled root in 3.69s
-2022.04.26 18:16:23 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:23 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:23 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:23 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:25 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:25 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:26 INFO  compiling root (10 scala sources)
-2022.04.26 18:16:29 INFO  time: compiled root in 3.15s
-2022.04.26 18:16:35 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:35 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:35 INFO  compiling root (10 scala sources)
-2022.04.26 18:16:36 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:36 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:38 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:16:38 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:16:38 INFO  time: compiled root in 3.23s
-2022.04.26 18:17:16 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:17:16 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:17:18 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:17:18 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:17:20 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:17:20 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:17:20 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:17:20 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:17:47 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:17:47 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:17:47 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:17:47 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:18:13 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:18:13 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:23 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:23 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:37 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:37 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:39 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:39 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:40 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:40 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:41 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:41 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:46 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:46 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:46 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:46 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:49 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:49 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:51 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:51 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:53 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:53 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:54 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:54 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:54 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:54 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:54 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:54 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:54 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:54 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:19:56 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:19:56 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:01 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:01 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:06 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:06 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:10 INFO  compiling root (10 scala sources)
-2022.04.26 18:20:16 INFO  time: compiled root in 5.93s
-2022.04.26 18:20:18 INFO  compiling root (10 scala sources)
-2022.04.26 18:20:21 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:21 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:23 INFO  time: compiled root in 5.09s
-2022.04.26 18:20:38 ERROR Failed to fetch mtags for 3.1.2-RC1
-Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.3
-  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.3\ivys\ivy.xml
-  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-2022.04.26 18:20:38 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:45 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:45 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:46 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:46 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:46 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:46 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:48 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:48 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:48 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:48 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:48 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:48 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:51 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:51 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:51 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:51 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:20:54 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:20:54 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:25 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:25 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:25 INFO  compiling root (10 scala sources)
-2022.04.26 18:21:27 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:27 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:27 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:27 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:29 INFO  time: compiled root in 4.77s
-2022.04.26 18:21:40 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:40 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:40 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:40 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:40 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\bram_sdp_df.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-LYNEhNkIRQ6_yUZNrYhisg==\META-INF\semanticdb\src\main\scala\bram_sdp_df.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
-2022.04.26 18:21:41 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:41 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:42 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:42 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:42 ERROR code navigation does not work for the file 'D:\GitHub\scala_system\rewrite\src\main\scala\bram_sdp_df.scala' because the SemanticDB file 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-bsp-clients-classes\classes-Metals-LYNEhNkIRQ6_yUZNrYhisg==\META-INF\semanticdb\src\main\scala\bram_sdp_df.scala.semanticdb' doesn't exist. There can be many reasons for this error. 
-2022.04.26 18:21:41 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:41 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:43 INFO  compiling root (10 scala sources)
-2022.04.26 18:21:44 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:44 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:49 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:49 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:54 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:54 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:57 INFO  time: compiled root in 14s
-2022.04.26 18:21:58 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:58 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:58 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:58 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:21:59 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:21:59 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:22:07 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:22:07 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:22:30 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
-  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
-  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
-2022.04.26 18:22:30 WARN  Expression evaluation will not work.
-2022.04.26 18:22:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
-2022.04.26 18:22:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
-2022.04.26 18:22:30 INFO  Starting debug proxy for [hello]
-2022.04.26 18:22:36 INFO  Trying to attach to remote debuggee VM 127.0.0.1:64371 .
-2022.04.26 18:22:36 INFO  Attaching to debuggee VM succeeded.
-2022.04.26 18:22:38 INFO  Canceling debug proxy for [hello]
-2022.04.26 18:22:38 INFO  Closing debug server tcp://0.0.0.0:64367
-2022.04.26 18:24:00 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:24:00 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:24:01 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:24:01 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:24:04 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:24:04 WARN  unsupported Scala 3.1.2-RC1
-Apr 26, 2022 6:24:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
-WARNING: Notification threw an exception: {
-  "jsonrpc": "2.0",
-  "method": "metals/didFocusTextDocument",
-  "params": [
-    "untitled:Untitled-1"
-  ]
-}
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
-	... 11 more
-Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
-	at java.nio.file.Paths.get(Paths.java:147)
-	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:115)
-	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:141)
-	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:617)
-	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:614)
-	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1125)
-	... 15 more
-
-Apr 26, 2022 6:27:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
-WARNING: Notification threw an exception: {
-  "jsonrpc": "2.0",
-  "method": "metals/didFocusTextDocument",
-  "params": [
-    "untitled:Untitled-1"
-  ]
-}
-java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
-	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
-	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
-	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: java.lang.reflect.InvocationTargetException
-	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
-	... 11 more
-Caused by: java.nio.file.FileSystemNotFoundException: Provider "untitled" not installed
-	at java.nio.file.Paths.get(Paths.java:147)
-	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:115)
-	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:141)
-	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:617)
-	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:614)
-	at scala.meta.internal.metals.MetalsLanguageServer.didFocus(MetalsLanguageServer.scala:1125)
-	... 15 more
-
-2022.04.26 18:27:40 WARN  no build target for: D:\GitHub\scala_system\rewrite\outputs.scala
-2022.04.26 18:27:40 ERROR scalafmt: D:\GitHub\scala_system\rewrite\outputs.scala:3: error: [dialect scala3] identifier expected but : found
-    green: DFUInt[4] <> VAL
-         ^
-2022.04.26 18:27:41 WARN  no build target for: D:\GitHub\scala_system\rewrite\outputs.scala
-2022.04.26 18:27:41 INFO  skipping build import with status 'Installed'
-2022.04.26 18:27:59 ERROR Failed to fetch mtags for 3.1.2-RC1
-Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.3
-  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.3\ivys\ivy.xml
-  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.3/mtags_3.1.2-RC1-0.11.3.pom
-2022.04.26 18:27:59 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:28:03 ERROR scalafmt: D:\GitHub\scala_system\rewrite\outputs.scala:7: error: [dialect scala3] identifier expected but : found
-    green: DFUInt[4] <> VAL
-         ^
-2022.04.26 18:28:03 INFO  skipping build import with status 'Installed'
-2022.04.26 18:28:03 WARN  no build target for: D:\GitHub\scala_system\rewrite\outputs.scala
-2022.04.26 18:28:38 WARN  no build target for: D:\GitHub\scala_system\rewrite\outputs.scala
-2022.04.26 18:28:40 ERROR scalafmt: D:\GitHub\scala_system\rewrite\outputs.scala:3: error: [dialect scala3] identifier expected but : found
-    green: DFUInt[4] <> VAL
-         ^
-2022.04.26 18:28:40 INFO  skipping build import with status 'Installed'
-2022.04.26 18:28:40 WARN  no build target for: D:\GitHub\scala_system\rewrite\outputs.scala
-2022.04.26 18:28:47 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:28:47 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:28:47 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:28:47 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:28:47 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:28:47 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:28:49 INFO  No mtags for 3.1.2-RC1.
-2022.04.26 18:28:49 WARN  unsupported Scala 3.1.2-RC1
-2022.04.26 18:28:50 INFO  shutting down Metals
-2022.04.26 18:28:50 INFO  Shut down connection with build server.
-2022.04.26 18:28:50 INFO  Shut down connection with build server.
+2022.04.28 11:48:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.28 11:48:53 INFO  logging to file D:\GitHub\scala_system\rewrite\.metals\metals.log
+2022.04.28 11:48:53 INFO  Started: Metals version 0.11.4 in workspace 'D:\GitHub\scala_system\rewrite' for client Visual Studio Code 1.66.2.
+2022.04.28 11:48:54 INFO  time: initialize in 0.79s
+2022.04.28 11:48:54 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.04.28 11:48:54 WARN  Build server is not auto-connectable.
+2022.04.28 11:48:57 INFO  running 'C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\shion\AppData\Local\Temp\metals7861608872651829002\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.04.28 11:48:58 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)
+2022.04.28 11:48:59 INFO  [info] loading settings for project rewrite-build-build from metals.sbt ...
+2022.04.28 11:48:59 INFO  [info] loading project definition from D:\GitHub\scala_system\rewrite\project\project
+2022.04.28 11:49:01 INFO  [info] loading settings for project rewrite-build from metals.sbt ...
+2022.04.28 11:49:01 INFO  [info] loading project definition from D:\GitHub\scala_system\rewrite\project
+2022.04.28 11:49:02 WARN  no build target for: D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala
+2022.04.28 11:49:02 INFO  [success] Generated .bloop\rewrite-build.json
+2022.04.28 11:49:02 INFO  [success] Total time: 1 s, completed 28-Apr-2022 11:49:03 AM
+2022.04.28 11:49:03 INFO  no build target found for D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.04.28 11:49:02 INFO  [info] loading settings for project root from build.sbt ...
+2022.04.28 11:49:02 INFO  [info] set current project to dfiantdemo (in build file:/D:/GitHub/scala_system/rewrite/)
+2022.04.28 11:49:04 INFO  [success] Generated .bloop\root-test.json
+2022.04.28 11:49:04 INFO  [success] Generated .bloop\root.json
+2022.04.28 11:49:04 INFO  [success] Total time: 1 s, completed 28-Apr-2022 11:49:04 AM
+2022.04.28 11:49:04 INFO  time: ran 'sbt bloopInstall' in 7.18s
+2022.04.28 11:49:04 INFO  Attempting to connect to the build server...
+2022.04.28 11:49:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.28 11:49:04 INFO  Attempting to connect to the build server...
+2022.04.28 11:49:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.28 11:49:04 INFO  time: Connected to build server in 0.16s
+2022.04.28 11:49:04 INFO  Connected to Build server: Bloop v1.5.0
+2022.04.28 11:49:05 INFO  no build target found for D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.04.28 11:49:05 INFO  time: code lens generation in 2.74s
+2022.04.28 11:49:06 INFO  time: code lens generation in 2.74s
+2022.04.28 11:49:07 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 11:49:08 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 11:49:09 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 11:49:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:49:11 INFO  time: indexed workspace in 6.86s
+2022.04.28 11:49:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:49:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:49:11 INFO  compiling root (10 scala sources)
+2022.04.28 11:49:24 INFO  time: compiled root in 12s
+2022.04.28 11:50:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:50:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:50:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:50:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:50:13 INFO  compiling root (1 scala source)
+2022.04.28 11:50:13 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:50:13 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:50:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:50:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:50:16 INFO  time: compiled root in 2.53s
+2022.04.28 11:50:16 INFO  compiling root (1 scala source)
+2022.04.28 11:50:18 INFO  time: compiled root in 2.59s
+2022.04.28 11:50:21 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.28 11:50:21 WARN  Could not load snapshot text for D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala
+2022.04.28 11:50:22 INFO  compiling root (1 scala source)
+2022.04.28 11:50:24 INFO  time: compiled root in 2.41s
+2022.04.28 11:51:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:51:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:51:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:51:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:51:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:51:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:51:20 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:51:20 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:51:24 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:51:24 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:51:24 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:51:24 WARN  unsupported Scala 3.1.2-RC1
