@@ -46,7 +46,6 @@ class framebuffer(
 
   val fb_addr_read  = DFUInt.until(FB_PIXELS) <> VAR
   val fb_addr_write = DFUInt.until(FB_PIXELS) <> VAR
-  // val fb_addr_write = DFUInt(18) <> VAR
 
   val fb_cidx_read    = DFUInt(CIDXW) <> VAR
   val fb_cidx_read_p1 = DFUInt(CIDXW) <> VAR
@@ -63,8 +62,8 @@ class framebuffer(
   xd_frame.outDomain.o   <> frame_sys
 
   // clk_sys
-  fb_addr_line  := (sCoord.y * WIDTH).bits.uint // TODO: check guide
-  fb_addr_write := fb_addr_line + sCoord.x.bits.uint.pipe // x_add conversion
+  fb_addr_line  := (sCoord.y * WIDTH).bits.uint
+  fb_addr_write := fb_addr_line + sCoord.x.bits.uint.pipe
 
   val fb_we    = DFBool <> VAR
   val we_in_p1 = DFBool <> VAR
@@ -88,21 +87,11 @@ class framebuffer(
     DEPTH  = FB_DEPTH,
     INIT_F = ""
   )
-  // bram_sdp_inst1.clk_write <> clk_sys
-  // bram_sdp_inst1.clk_out <> clk_sys
+
   bram_sdp_inst1.we <> fb_we
-  // bram_sdp_inst1.addr_write <> fb_addr_write
-  // bram_sdp_inst1.addr_out <> fb_addr_read
+  bram_sdp_inst1.addr_write <> fb_addr_write
   bram_sdp_inst1.data_in  <> fb_cidx_write
   bram_sdp_inst1.data_out <> fb_cidx_read
-
-  // val xd_frame = new xd_frame
-  // xd_frame.clk_i <> clk_pix
-  // xd_frame.clk_sys <> clk_sys
-  // xd_frame.rst_i <> rst_i
-  // xd_frame.rst_o <> rst_o
-  // xd_frame.i <> frame
-  // xd_frame.o <> frame_sys
 
   // local var
   val LB_SCALE = SCALE
@@ -135,18 +124,21 @@ class framebuffer(
     else cnt_h := LB_LEN
 
   // TODO: reset alike error
-  if (frame_sys)
+  if (frame_sys){
     fb_addr_read := 0
     busy         := 0
+  }
 
-  // if rst_sys{
-  //     fb_addr_read := 0
-  //     busy := 0
-  //     cnt_h := LB_LEN
-  // }
 
-  if (lb_en_in_sr == b"100")
+  if (rst_sys){
+      fb_addr_read := 0
+      busy := 0
+      cnt_h := LB_LEN
+  }
+
+  if (lb_en_in_sr == b"100"){
     busy := 0
+  }
 
   val lb_in_0 = DFUInt(LB_BPC) <> VAR
   val lb_in_1 = DFUInt(LB_BPC) <> VAR
@@ -161,11 +153,10 @@ class framebuffer(
     LEN   = LB_LEN,
     SCALE = LB_SCALE
   )
-  // line_buffer.clk_in <> sys_timer.isActive
-  // line_buffer.clk_out <> pix_timer.isActive
+
   line_buffer.rst_in  <> rst_sys
   line_buffer.rst_out <> rst_pix
-  // line_buffer.data_req <> lb_data_req
+  line_buffer.data_req <> lb_data_req
   line_buffer.en_in  <> lb_en_in_sr.bits(0)
   line_buffer.en_out <> lb_en_out
   line_buffer.din_0  <> lb_in_0 // data in (clk_in)
@@ -195,8 +186,6 @@ class framebuffer(
 
   if (lb_en_in_sr == b"100") busy := 0; // LB read done: match latency `LAT`
 
-  // if (clk_sys)
-  // fb_cidx_read_p1 := fb_cidx_read; TODO read from out bug
   fb_cidx_read_p1 := bram_sdp_inst1.data_in
 
   val CLUTW     = 3 * CHANW
@@ -204,17 +193,14 @@ class framebuffer(
 
   val clut = new rom_async_df(
     WIDTH = CLUTW,
-    // DEPTH = CIDXW*2, //scala.math.pow(2,CIDXW) //TODO: power to 2
     DEPTH  = 2 << CIDXW, // scala.math.pow(2,CIDXW),
     INIT_F = ""
   )
   clut.addr <> fb_cidx_read_p1
-  // clut.data <> clut_colr
+  clut.data <> clut_colr
 
   // map colour index to palette using CLUT and read into LB
-  // always_ff @(posedge clk_sys) {lb_in_2, lb_in_1, lb_in_0} <= clut_colr;
 
-  // TODO: order of bits
   lb_in_2 := clut.data.bits(CLUTW - 1, 2 * CHANW)
   lb_in_1 := clut.data.bits(2 * CHANW - 1, CHANW)
   lb_in_0 := clut.data.bits(CHANW - 1, 0)
