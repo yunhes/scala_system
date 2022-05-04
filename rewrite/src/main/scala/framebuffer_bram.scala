@@ -176,7 +176,7 @@ class framebuffer(
   fb_cidx_read_p1 := bram_sdp_inst1.data_in
 
   val CLUTW     = 3 * CHANW
-  val clut_colr = DFBits(CLUTW) <> VAR
+  val clut_colr = DFUInt(CLUTW) <> VAR
 
   val clut = new rom_async_df(
     WIDTH = CLUTW,
