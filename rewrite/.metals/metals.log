@@ -81,3 +81,1404 @@ Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
 2022.04.28 11:51:24 WARN  unsupported Scala 3.1.2-RC1
 2022.04.28 11:51:24 INFO  No mtags for 3.1.2-RC1.
 2022.04.28 11:51:24 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:53:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:53:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:53:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:53:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:53:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:53:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:11 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 11:54:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:21 INFO  compiling root (1 scala source)
+2022.04.28 11:54:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:24 INFO  time: compiled root in 3.2s
+2022.04.28 11:54:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:33 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:33 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:34 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:34 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:46 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:46 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:46 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:46 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:54:47 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:54:47 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:13 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:13 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:13 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:13 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:20 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:20 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:24 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:24 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:24 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:24 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:34 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:34 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:34 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:34 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:48 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:48 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:54 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:54 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:54 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:54 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:54 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:54 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:55:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:55:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:35 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:35 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:42 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:42 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:42 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:42 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:42 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:42 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:43 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:43 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:45 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:45 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:45 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:45 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:45 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:45 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:45 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:45 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:46 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:46 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:46 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:46 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:56:46 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:56:46 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:20 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:20 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:21 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:21 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:21 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:21 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:31 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:31 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:57:36 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:57:36 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:58:59 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:58:59 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:58:59 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 11:58:59 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 11:59:32 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 11:59:32 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:00:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:00:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:00:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:00:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:00:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:00:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:13 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:13 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:32 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:32 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:32 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:32 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:32 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:32 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:40 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:40 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:40 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:40 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:42 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:42 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:42 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:42 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:51 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:51 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:01:53 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:01:53 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:12 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:12 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:30 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:30 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:30 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:30 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:53 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:53 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:58 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:58 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:02:58 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:02:58 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:04 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:04 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:04 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:04 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:31 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:31 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:42 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:42 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:51 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:51 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:51 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:51 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:53 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:53 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:53 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:53 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:54 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:54 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:03:56 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:03:56 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:10 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:10 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:18 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:18 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:52 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 12:04:52 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:04:52 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:04:52 WARN  unsupported Scala 3.1.2-RC1
+Apr 28, 2022 12:04:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 596
+2022.04.28 12:05:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:05:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:05:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:05:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:05:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:05:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:05:18 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:05:18 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:05:18 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 12:05:18 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 12:05:21 INFO  shutting down Metals
+2022.04.28 12:05:21 INFO  Shut down connection with build server.
+2022.04.28 12:05:21 INFO  Shut down connection with build server.
+2022.04.28 14:59:57 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.04.28 14:59:58 INFO  logging to file D:\GitHub\scala_system\rewrite\.metals\metals.log
+2022.04.28 14:59:58 INFO  Started: Metals version 0.11.4 in workspace 'D:\GitHub\scala_system\rewrite' for client Visual Studio Code 1.66.2.
+2022.04.28 14:59:59 INFO  time: initialize in 0.81s
+2022.04.28 14:59:59 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.04.28 15:00:00 INFO  Attempting to connect to the build server...
+2022.04.28 14:59:59 INFO  skipping build import with status 'Installed'
+2022.04.28 15:00:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.28 15:00:00 INFO  Attempting to connect to the build server...
+2022.04.28 15:00:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.04.28 15:00:00 INFO  time: Connected to build server in 0.17s
+2022.04.28 15:00:00 INFO  Connected to Build server: Bloop v1.5.0
+Apr 28, 2022 3:00:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2022.04.28 15:00:02 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 15:00:03 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 15:00:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:03 INFO  no build target found for D:\GitHub\scala_system\rewrite\src\main\scala\a7.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.04.28 15:00:05 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 15:00:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:06 INFO  time: indexed workspace in 5.77s
+2022.04.28 15:00:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:00:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:00:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:02:58 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:02:58 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:02:58 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:02:58 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:08 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:08 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:12 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:12 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:12 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:12 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:12 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:12 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:13 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:13 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:15 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:15 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:30 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:30 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:33 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:33 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:33 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:33 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:33 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:33 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:35 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:35 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:35 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:35 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:38 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:38 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:38 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:38 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:41 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:41 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:47 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:47 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:52 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:52 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:03:54 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:03:54 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:00 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:00 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:01 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:01 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:01 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:01 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:20 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:20 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:26 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:26 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:43 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:43 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:43 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:43 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:50 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:50 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:50 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:50 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:53 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:53 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:53 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:53 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:58 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:58 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:04:58 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:04:58 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:15 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 15:05:15 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:15 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:15 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:15 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:15 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:15 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:15 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:15 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:15 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:15 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:15 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:30 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:30 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:30 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:30 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:35 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:35 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:05:35 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:05:35 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:01 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:01 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:01 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:01 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:01 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:01 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:01 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:01 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:04 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:04 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:04 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:04 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:04 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:04 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:04 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:04 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:06:14 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:06:14 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:12:44 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 15:12:44 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:12:48 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:12:48 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:12:48 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:12:48 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:12:50 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:12:50 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:12:50 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:12:50 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:12:51 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:12:51 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:12:51 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:12:51 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:09 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:09 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:11 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:11 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:18 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:18 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:18 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:18 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:27 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:27 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:13:47 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:13:47 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:19:14 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 15:19:14 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:19:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:19:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:19:32 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:19:32 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:19:32 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:19:32 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:19:36 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:19:36 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:19:36 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:19:36 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:20:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:20:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:20:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:20:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:20:13 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:20:13 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:20:14 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:20:14 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:20:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:20:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:20:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:20:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:27 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:27 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:37 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:37 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:37 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:37 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:39 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:39 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:42 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:42 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:21:44 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:21:44 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:10 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:10 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:17 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:17 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:21 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:21 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:28 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:28 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:34 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:34 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:34 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:34 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:51 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:51 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:51 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:51 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:52 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:52 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:52 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:52 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:55 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:55 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:55 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:55 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:59 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:59 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:59 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:59 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:22:59 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:22:59 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:02 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:02 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:05 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:05 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:13 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:13 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:16 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:16 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:23 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:23 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:33 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:33 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:23:33 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:23:33 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:01 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:01 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:03 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:03 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:06 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:06 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:07 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:07 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:08 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:08 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:19 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.4
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.4\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.4/mtags_3.1.2-RC1-0.11.4.pom
+2022.04.28 15:24:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:19 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:19 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:22 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:22 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:22 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:22 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:24 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:24 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:25 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:25 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 15:24:29 INFO  No mtags for 3.1.2-RC1.
+2022.04.28 15:24:29 WARN  unsupported Scala 3.1.2-RC1
+2022.04.28 22:57:08 INFO  shutting down Metals
+2022.04.28 22:57:08 INFO  Shut down connection with build server.
+2022.04.28 22:57:08 INFO  Shut down connection with build server.
+2022.05.04 03:35:37 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.04 03:35:38 INFO  logging to file D:\GitHub\scala_system\rewrite\.metals\metals.log
+2022.05.04 03:35:38 INFO  Started: Metals version 0.11.5 in workspace 'D:\GitHub\scala_system\rewrite' for client Visual Studio Code 1.66.2.
+2022.05.04 03:35:39 INFO  time: initialize in 0.84s
+2022.05.04 03:35:39 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.04 03:35:40 INFO  Attempting to connect to the build server...
+2022.05.04 03:35:39 INFO  skipping build import with status 'Installed'
+2022.05.04 03:35:43 INFO  no build target found for D:\GitHub\scala_system\rewrite\src\main\scala\bram_sdp_df.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.05.04 03:35:45 INFO  time: code lens generation in 5.17s
+2022.05.04 03:35:45 INFO  time: code lens generation in 5.17s
+2022.05.04 03:35:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 03:35:49 INFO  Attempting to connect to the build server...
+2022.05.04 03:35:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 03:35:49 INFO  time: Connected to build server in 10s
+2022.05.04 03:35:49 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.04 03:35:50 INFO  time: Imported build in 0.12s
+2022.05.04 03:35:50 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 03:35:50 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 03:35:51 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 03:35:51 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:35:56 INFO  time: indexed workspace in 5.97s
+2022.05.04 03:35:56 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:35:56 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:01 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:01 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:13 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:13 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:35 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:35 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:35 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:35 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:35 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:35 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:36 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:36 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:36 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:36 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:56 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:56 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:36:56 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:36:56 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:37:08 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:37:08 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:37:08 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:37:08 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:37:15 INFO  compiling root (1 scala source)
+2022.05.04 03:37:20 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:37:20 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:37:23 INFO  time: compiled root in 7.96s
+2022.05.04 03:37:24 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:37:24 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:37:25 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:37:25 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:39:37 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:39:37 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:39:37 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:39:37 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:39:39 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:39:39 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:39:54 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:39:54 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:39:54 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:39:54 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:19 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:19 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:19 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:19 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:41 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:41 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:41 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:41 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:41 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:41 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:40:42 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:40:42 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:41:35 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 03:41:35 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:41:35 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:41:35 WARN  unsupported Scala 3.1.2-RC1
+May 04, 2022 3:41:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 153
+May 04, 2022 3:41:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+2022.05.04 03:42:01 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:01 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:42:01 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:01 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:42:03 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:03 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:42:39 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:39 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:42:39 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:39 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:42:41 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:41 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:42:41 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:41 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:42:42 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:42:42 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:43:59 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:43:59 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:44:02 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:44:02 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:44:02 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:44:02 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:44:02 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:44:02 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:44:03 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:44:03 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:44:05 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:44:05 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:45:47 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:45:47 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:46:03 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:46:03 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 03:46:05 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 03:46:05 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 04:04:59 INFO  shutting down Metals
+2022.05.04 04:04:59 INFO  Shut down connection with build server.
+2022.05.04 04:04:59 INFO  Shut down connection with build server.
+2022.05.04 10:48:16 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.04 10:48:17 INFO  logging to file D:\GitHub\scala_system\rewrite\.metals\metals.log
+2022.05.04 10:48:17 INFO  Started: Metals version 0.11.5 in workspace 'D:\GitHub\scala_system\rewrite' for client Visual Studio Code 1.66.2.
+2022.05.04 10:48:18 INFO  time: initialize in 0.8s
+2022.05.04 10:48:18 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.04 10:48:18 INFO  Attempting to connect to the build server...
+2022.05.04 10:48:18 INFO  skipping build import with status 'Installed'
+2022.05.04 10:48:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 10:48:18 INFO  Attempting to connect to the build server...
+2022.05.04 10:48:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 10:48:18 INFO  time: Connected to build server in 0.15s
+2022.05.04 10:48:18 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.04 10:48:18 INFO  shutting down Metals
+2022.05.04 10:48:18 INFO  Shut down connection with build server.
+2022.05.04 10:48:19 INFO  Shut down connection with build server.
+2022.05.04 10:51:03 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.04 10:51:04 INFO  logging to file D:\GitHub\scala_system\rewrite\.metals\metals.log
+2022.05.04 10:51:04 INFO  Started: Metals version 0.11.5 in workspace 'D:\GitHub\scala_system\rewrite' for client Visual Studio Code 1.66.2.
+2022.05.04 10:51:05 INFO  time: initialize in 0.79s
+2022.05.04 10:51:05 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.04 10:51:06 INFO  Attempting to connect to the build server...
+2022.05.04 10:51:05 INFO  skipping build import with status 'Installed'
+2022.05.04 10:51:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 10:51:06 INFO  Attempting to connect to the build server...
+2022.05.04 10:51:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 10:51:06 INFO  time: Connected to build server in 0.14s
+2022.05.04 10:51:06 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.04 10:51:07 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 10:51:07 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 10:51:07 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 10:51:07 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:09 INFO  time: indexed workspace in 2.57s
+2022.05.04 10:51:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:15 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:15 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:15 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:15 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:28 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:28 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:28 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:28 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:29 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:29 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:29 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:29 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:29 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:29 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:30 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:30 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:30 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:30 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:31 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:31 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:31 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:31 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:37 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:37 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:37 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:37 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:51:46 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:51:46 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:52:48 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:52:48 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:53:28 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 10:53:28 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 10:53:39 INFO  shutting down Metals
+2022.05.04 10:53:39 INFO  Shut down connection with build server.
+2022.05.04 10:53:39 INFO  Shut down connection with build server.
+2022.05.04 14:49:54 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\GitHub\scala_system\rewrite\.metals\lsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.05.04 14:49:55 INFO  logging to file D:\GitHub\scala_system\rewrite\.metals\metals.log
+2022.05.04 14:49:55 INFO  Started: Metals version 0.11.5 in workspace 'D:\GitHub\scala_system\rewrite' for client Visual Studio Code 1.66.2.
+2022.05.04 14:49:56 INFO  time: initialize in 0.83s
+2022.05.04 14:49:56 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.04 14:49:57 INFO  Attempting to connect to the build server...
+2022.05.04 14:49:56 INFO  skipping build import with status 'Installed'
+2022.05.04 14:49:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 14:49:57 INFO  Attempting to connect to the build server...
+2022.05.04 14:49:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\project\.metals\bsp.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.05.04 14:49:57 INFO  time: Connected to build server in 0.16s
+2022.05.04 14:49:57 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.04 14:49:58 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 14:49:58 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 14:49:58 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 14:49:58 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:00 INFO  time: indexed workspace in 2.62s
+2022.05.04 14:50:00 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:00 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:00 INFO  compiling root (1 scala source)
+2022.05.04 14:50:06 INFO  time: compiled root in 5.29s
+2022.05.04 14:50:08 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:08 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:08 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:08 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:13 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:13 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:17 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:17 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:20 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:20 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:20 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:20 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:25 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:25 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:25 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:25 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:29 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:29 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:29 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:29 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:29 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:29 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:34 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:34 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:34 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:34 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:40 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:40 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:50:58 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:50:58 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:02 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:02 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:11 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:11 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:18 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:18 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:39 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:39 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:51:40 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:51:40 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:12 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:12 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:12 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:12 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:13 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:13 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:14 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:14 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:14 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:14 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:14 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:14 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:20 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:20 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:24 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:24 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:28 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:28 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:28 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:28 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:29 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:29 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:52:49 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:52:49 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:53:04 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:53:04 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:53:04 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:53:04 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:53:16 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:53:16 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:53:16 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:53:16 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:53:40 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:53:40 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:10 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:10 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:16 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:16 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:16 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:16 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:34 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:34 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:37 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:37 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:37 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:37 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:39 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:39 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:41 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:41 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:41 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:41 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:42 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:42 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:44 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:44 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:46 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:46 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:46 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:46 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:49 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:49 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:49 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:49 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:49 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:49 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:54:50 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:54:50 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:06 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 14:55:06 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:06 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:06 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:18 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.05.04 14:55:18 WARN  Expression evaluation will not work.
+2022.05.04 14:55:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.05.04 14:55:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.05.04 14:55:18 INFO  Starting debug proxy for [hello]
+2022.05.04 14:55:25 INFO  Trying to attach to remote debuggee VM 127.0.0.1:60977 .
+2022.05.04 14:55:25 INFO  Attaching to debuggee VM succeeded.
+2022.05.04 14:55:26 ERROR DFiant HDL connectivity error!
+2022.05.04 14:55:26 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:159:3 - 159:38
+2022.05.04 14:55:26 ERROR Hierarchy: top.fb_inst
+2022.05.04 14:55:26 ERROR LHS:       line_buffer.data_req
+2022.05.04 14:55:26 ERROR RHS:       lb_data_req.bit
+2022.05.04 14:55:26 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 14:55:26 ERROR 
+2022.05.04 14:55:26 ERROR DFiant HDL connectivity error!
+2022.05.04 14:55:26 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:200:3 - 200:25
+2022.05.04 14:55:26 ERROR Hierarchy: top.fb_inst
+2022.05.04 14:55:26 ERROR LHS:       clut.data
+2022.05.04 14:55:26 ERROR RHS:       clut_colr.uint
+2022.05.04 14:55:26 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 14:55:26 INFO  Canceling debug proxy for [hello]
+2022.05.04 14:55:26 INFO  Closing debug server tcp://0.0.0.0:60970
+2022.05.04 14:55:52 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:52 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:54 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:54 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:55:57 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:55:57 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:56:00 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:56:00 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:56:49 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:56:49 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:56:50 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:56:50 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:56:51 INFO  compiling root (1 scala source)
+2022.05.04 14:56:54 INFO  time: compiled root in 2.55s
+2022.05.04 14:57:13 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 7m 16.371s)
+2022.05.04 14:57:18 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.05.04 14:57:18 WARN  Expression evaluation will not work.
+2022.05.04 14:57:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.05.04 14:57:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.05.04 14:57:18 INFO  Starting debug proxy for [hello]
+2022.05.04 14:57:19 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61048 .
+2022.05.04 14:57:19 INFO  Attaching to debuggee VM succeeded.
+2022.05.04 14:57:20 ERROR DFiant HDL connectivity error!
+2022.05.04 14:57:20 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:159:3 - 159:38
+2022.05.04 14:57:20 ERROR Hierarchy: top.fb_inst
+2022.05.04 14:57:20 ERROR LHS:       line_buffer.data_req
+2022.05.04 14:57:20 ERROR RHS:       lb_data_req.bit
+2022.05.04 14:57:20 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 14:57:20 ERROR 
+2022.05.04 14:57:20 ERROR DFiant HDL connectivity error!
+2022.05.04 14:57:20 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:200:3 - 200:25
+2022.05.04 14:57:20 ERROR Hierarchy: top.fb_inst
+2022.05.04 14:57:20 ERROR LHS:       clut.data
+2022.05.04 14:57:20 ERROR RHS:       clut_colr.uint
+2022.05.04 14:57:20 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 14:57:20 INFO  Canceling debug proxy for [hello]
+2022.05.04 14:57:20 INFO  Closing debug server tcp://0.0.0.0:61045
+2022.05.04 14:58:46 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:58:46 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:59:16 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:59:16 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:59:16 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:59:16 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:59:23 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:59:23 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:59:38 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:59:38 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:59:38 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:59:38 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:59:48 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:59:48 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 14:59:51 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 14:59:51 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:02:50 ERROR Unexpected error when compiling root: 'D:\GitHub\scala_system\rewrite\.bloop\root\bloop-internal-classes\classes-Metals-Z8spxuofRka99Wn0MB2ENg==-CDk7F1ZpR0Cq8o7KR_QMkg==\xd_df$$anon$17.class'
+2022.05.04 15:02:52 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 12m 54.963s)
+2022.05.04 15:02:52 INFO  compiling root (5 scala sources)
+2022.05.04 15:02:52 INFO  compiling root (5 scala sources)
+2022.05.04 15:02:59 INFO  time: compiled root in 7.46s
+2022.05.04 15:03:06 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.05.04 15:03:06 WARN  Expression evaluation will not work.
+2022.05.04 15:03:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.05.04 15:03:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.05.04 15:03:06 INFO  Starting debug proxy for [hello]
+2022.05.04 15:03:10 INFO  Trying to attach to remote debuggee VM 127.0.0.1:61263 .
+2022.05.04 15:03:10 INFO  Attaching to debuggee VM succeeded.
+2022.05.04 15:03:11 ERROR DFiant HDL connectivity error!
+2022.05.04 15:03:11 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\top_rectangles_df.scala:95:3 - 95:38
+2022.05.04 15:03:11 ERROR Hierarchy: top
+2022.05.04 15:03:11 ERROR LHS:       top.xd_frame.outDomain.o
+2022.05.04 15:03:11 ERROR RHS:       frame_sys.bool
+2022.05.04 15:03:11 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 15:03:11 ERROR 
+2022.05.04 15:03:11 ERROR DFiant HDL connectivity error!
+2022.05.04 15:03:11 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:59:3 - 59:38
+2022.05.04 15:03:11 ERROR Hierarchy: top.fb_inst
+2022.05.04 15:03:11 ERROR LHS:       fb_inst.xd_frame.outDomain.o
+2022.05.04 15:03:11 ERROR RHS:       frame_sys.bool
+2022.05.04 15:03:11 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 15:03:11 ERROR 
+2022.05.04 15:03:11 ERROR DFiant HDL connectivity error!
+2022.05.04 15:03:11 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\framebuffer_bram.scala:187:3 - 187:25
+2022.05.04 15:03:11 ERROR Hierarchy: top.fb_inst
+2022.05.04 15:03:11 ERROR LHS:       clut.data
+2022.05.04 15:03:11 ERROR RHS:       clut_colr.uint
+2022.05.04 15:03:11 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 15:03:11 INFO  Canceling debug proxy for [hello]
+2022.05.04 15:03:11 INFO  Closing debug server tcp://0.0.0.0:61259
+2022.05.04 15:09:05 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 15:09:05 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:06 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:06 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:06 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:06 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:09 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:09 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:19 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:19 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:44 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:44 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:44 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:44 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:45 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:45 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:45 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:45 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:48 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:48 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:50 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:50 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:56 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:56 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:09:58 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:09:58 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:01 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:01 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:02 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:02 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:07 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:07 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:07 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:07 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:10 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:10 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:10 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:10 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:10 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:10 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:11 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:11 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:24 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:24 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:52 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:52 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:53 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:53 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:56 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:56 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:56 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:56 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:57 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:57 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:57 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:57 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:10:57 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:10:57 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:11:00 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:11:00 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:11:03 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:11:03 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:11:03 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:11:03 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:11:13 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:11:13 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:11:13 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:11:13 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:11:13 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:11:13 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:11:16 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:11:16 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:14:59 ERROR Failed to fetch mtags for 3.1.2-RC1
+Error downloading org.scalameta:mtags_3.1.2-RC1:0.11.5
+  not found: C:\Users\shion\.ivy2\local\org.scalameta\mtags_3.1.2-RC1\0.11.5\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/public/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+  not found: https://oss.sonatype.org/content/repositories/snapshots/org/scalameta/mtags_3.1.2-RC1/0.11.5/mtags_3.1.2-RC1-0.11.5.pom
+2022.05.04 15:14:59 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:15:00 INFO  compiling root (2 scala sources)
+2022.05.04 15:15:02 INFO  time: compiled root in 2.91s
+2022.05.04 15:15:03 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:15:03 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:15:03 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:15:03 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:15:06 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 25m 8.797s)
+2022.05.04 15:15:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 25m 13.344s)
+2022.05.04 15:15:12 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.05.04 15:15:12 WARN  Expression evaluation will not work.
+2022.05.04 15:15:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.05.04 15:15:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.05.04 15:15:13 INFO  Starting debug proxy for [hello]
+2022.05.04 15:15:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59195 .
+2022.05.04 15:15:14 INFO  Attaching to debuggee VM succeeded.
+2022.05.04 15:15:15 ERROR DFiant HDL connectivity error!
+2022.05.04 15:15:15 ERROR Position:  D:\GitHub\scala_system\rewrite\src\main\scala\linebuffer.scala:39:3 - 39:40
+2022.05.04 15:15:15 ERROR Hierarchy: top.fb_inst.line_buffer
+2022.05.04 15:15:15 ERROR LHS:       line_buffer.xd_req_inst.outDomain.o
+2022.05.04 15:15:15 ERROR RHS:       data_req.bit
+2022.05.04 15:15:15 ERROR Message:   Unsupported read-to-read connection.
+2022.05.04 15:15:15 INFO  Canceling debug proxy for [hello]
+2022.05.04 15:15:15 INFO  Closing debug server tcp://0.0.0.0:59191
+2022.05.04 15:16:17 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:16:17 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:17:35 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:17:35 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:17:50 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:17:50 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:17:50 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:17:50 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:17:55 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:17:55 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:18:15 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:18:15 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:18:17 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:18:17 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:18:17 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:18:17 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:18 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:18 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:18 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:18 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:18 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:18 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:18 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:18 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:24 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:24 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:24 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:24 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:25 INFO  compiling root (1 scala source)
+2022.05.04 15:19:27 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:27 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:28 INFO  time: compiled root in 2.58s
+2022.05.04 15:19:28 INFO  No mtags for 3.1.2-RC1.
+2022.05.04 15:19:28 WARN  unsupported Scala 3.1.2-RC1
+2022.05.04 15:19:32 INFO  compiling root (1 scala source)
+2022.05.04 15:19:34 INFO  time: compiled root in 1.98s
+2022.05.04 15:19:34 INFO  compiling root (1 scala source)
+2022.05.04 15:19:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 29m 37.761s)
+2022.05.04 15:19:34 INFO  compiling root (1 scala source)
+2022.05.04 15:19:34 INFO  time: compiled root in 1ms
+2022.05.04 15:19:34 INFO  compiling root (1 scala source)
+2022.05.04 15:19:39 INFO  time: compiled root in 4.14s
+2022.05.04 15:19:41 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 29m 43.958s)
+2022.05.04 15:19:44 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.2-RC1:2.0.13
+  not found: C:\Users\shion\.ivy2\local\ch.epfl.scala\scala-expression-compiler_3.1.2-RC1\2.0.13\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.2-RC1/2.0.13/scala-expression-compiler_3.1.2-RC1-2.0.13.pom
+2022.05.04 15:19:44 WARN  Expression evaluation will not work.
+2022.05.04 15:19:44 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-server.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.05.04 15:19:44 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\GitHub\scala_system\rewrite\.metals\dap-client.trace.json or C:\Users\shion\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.05.04 15:19:44 INFO  Starting debug proxy for [hello]
+2022.05.04 15:19:46 INFO  Trying to attach to remote debuggee VM 127.0.0.1:59513 .
+2022.05.04 15:19:46 INFO  Attaching to debuggee VM succeeded.
+2022.05.04 15:19:48 INFO  Canceling debug proxy for [hello]
+2022.05.04 15:19:48 INFO  Closing debug server tcp://0.0.0.0:59509

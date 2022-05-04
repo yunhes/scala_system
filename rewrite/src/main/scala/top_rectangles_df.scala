@@ -102,7 +102,6 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val fb_cidx  = DFUInt(FB_CIDXW) <> VAR
   val fb_color = fBDefs.Color     <> VAR
 
-
   val fb_inst = new framebuffer(
     CORDW     = 16, WIDTH = 320, HEIGHT = 180, CIDXW = 4, CHANW = 4, SCALE = 2, F_IMAGE = " ",
     F_PALETTE = " "
@@ -110,11 +109,11 @@ class top_rectangles_df(using DFC) extends DFDesign:
   fb_inst.rst_sys <> 0
   fb_inst.rst_pix <> 0
   fb_inst.de      <> (sCoord.y >= 60 && sCoord.y < 420 && sCoord.x >= 0)
-  fb_inst.we     <> fb_we
-  fb_inst.sCoord <> fb_coord
-  fb_inst.sColor <> fb_color
-  fb_inst.cidx   <> fb_cidx
-  fb_inst.busy <> fb_busy
+  fb_inst.we      <> fb_we
+  fb_inst.sCoord  <> fb_coord
+  fb_inst.sColor  <> fb_color
+  fb_inst.cidx    <> fb_cidx
+  fb_inst.busy    <> fb_busy
 
   // draw rectangles in framebuffer
   val SHAPE_CNT  = 64

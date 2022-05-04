@@ -1,16 +1,28 @@
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
-[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 0 products, 0 sources, 0 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 2847 products, 10 sources, 6 libraries[0m
 [0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/xd_df.scala, ${BASE}/src/main/scala/rom_async_df.scala, ${BASE}/src/main/scala/draw_rectangle_df.scala, ${BASE}/src/main/scala/a7.scala, ${BASE}/src/main/scala/draw_line_df.scala, ${BASE}/src/main/scala/bram_sdp_df.scala, ${BASE}/src/main/scala/framebuffer_bram.scala, ${BASE}/src/main/scala/display_timings_480p_df.scala, ${BASE}/src/main/scala/top_rectangles_df.scala, ${BASE}/src/main/scala/linebuffer.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/top_rectangles_df.scala, ${BASE}/src/main/scala/rom_async_df.scala, ${BASE}/src/main/scala/a7.scala, ${BASE}/src/main/scala/draw_rectangle_df.scala, ${BASE}/src/main/scala/display_timings_480p_df.scala, ${BASE}/src/main/scala/bram_sdp_df.scala, ${BASE}/src/main/scala/xd_df.scala, ${BASE}/src/main/scala/draw_line_df.scala, ${BASE}/src/main/scala/linebuffer.scala, ${BASE}/src/main/scala/framebuffer_bram.scala), removed = Set(), changed = Set(), unmodified = ...),Set(),Set(),API Changes: Set())[0m
-[0m[[0m[0mdebug[0m] [0m[0mFull compilation, no sources in previous analysis.[0m
-[0m[[0m[0mdebug[0m] [0m[0mall 10 sources are invalidated[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
-[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0% of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/framebuffer_bram.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/framebuffer_bram.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(framebuffer.videoDefs, framebuffer.fBDefs, framebuffer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(framebuffer.videoDefs, framebuffer.fBDefs, framebuffer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/framebuffer_bram.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: framebuffer.videoDefs, framebuffer.fBDefs, framebuffer[0m
 [0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
-[0m[[0m[0minfo[0m] [0m[0mcompiling 10 Scala sources to D:\GitHub\scala_system\rewrite\target\scala-3.1.2-RC1\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to D:\GitHub\scala_system\rewrite\target\scala-3.1.2-RC1\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.1.2-RC1\scala3-sbt-bridge-3.1.2-RC1.jar.[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6419cdc for Scala Compiler version 3.1.2-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 718245d8 for Scala Compiler version 3.1.2-RC1[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
@@ -23,5 +35,65 @@
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\resources.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\rt.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\sunrsasign.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\jsse.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\jce.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\charsets.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\jfr.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\classes;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.1.2-RC1\scala3-library_3-3.1.2-RC1.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	D:\GitHub\scala_system\rewrite\target\scala-3.1.2-RC1\classes;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant_3\0.2.0-SNAPSHOT\jars\dfiant_3.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-core_3\0.2.0-SNAPSHOT\jars\dfiant-core_3.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-compiler-stages_3\0.2.0-SNAPSHOT\jars\dfiant-compiler-stages_3.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scodec\scodec-bits_3\1.1.30\scodec-bits_3-1.1.30.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\wvlet\airframe\airframe-log_3\22.4.1\airframe-log_3-22.4.1.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-plugin_3.1.2-RC1\0.2.0-SNAPSHOT\jars\dfiant-plugin_3.1.2-RC1.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-internals_3\0.2.0-SNAPSHOT\jars\dfiant-internals_3.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-compiler-ir_3\0.2.0-SNAPSHOT\jars\dfiant-compiler-ir_3.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalafmt-dynamic_2.13\3.3.1\scalafmt-dynamic_2.13-3.3.1.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalafmt-interfaces\3.3.1\scalafmt-interfaces-3.3.1.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\get-coursier\interface\0.0.17\interface-0.0.17.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.1\config-1.4.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 17.8293907 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 8.135182 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from framebuffer...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: framebuffer[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(framebuffer)[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of top_rectangles_df: [UsedName(sCoord,[Default]), UsedName(sColor,[Default])][0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(framebuffer,ModifiedNames(changes = UsedName(sColor,[Default]), UsedName(sCoord,[Default]))) invalidates 2 classes due to The framebuffer has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(sColor,[Default]), UsedName(sCoord,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(framebuffer)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by member reference: Set(top_rectangles_df)[0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	top_rectangles_df[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: top_rectangles_df[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set(top_rectangles_df)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated classes: top_rectangles_df[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: top_rectangles_df.videoDefs, top_rectangles_df$package, FBDefs, top_rectangles_df.fBDefs, RectDefs.DiagnolCoord, top_rectangles_df.rectDefs, VideoDefs.Coord, FBDefs.Color, hello, RectDefs, VideoDefs, top_rectangles_df.State, top_rectangles_df[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding framebuffer.fBDefs by FBDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding top_rectangles_df.fBDefs by FBDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding draw_rectangle_df.rectDefs by RectDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding draw_line_df.rectDefs by RectDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding draw_rectangle_df.videoDefs by VideoDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding line_buffer.videoDefs by VideoDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding draw_line_df.videoDefs by VideoDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding framebuffer.videoDefs by VideoDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding display_timings_480p_df.videoDefs by VideoDefs[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 2[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to D:\GitHub\scala_system\rewrite\target\scala-3.1.2-RC1\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.1.2-RC1\scala3-sbt-bridge-3.1.2-RC1.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 6447c009 for Scala Compiler version 3.1.2-RC1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-deprecation[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-encoding[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UTF-8[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:strictEquality[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-language:implicitConversions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-Xplugin:C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-plugin_3.1.2-RC1\0.2.0-SNAPSHOT\jars\dfiant-plugin_3.1.2-RC1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\resources.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\rt.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\sunrsasign.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\jsse.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\jce.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\charsets.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\lib\jfr.jar;C:\Users\shion\AppData\Local\Coursier\cache\arc\https\github.com\AdoptOpenJDK\openjdk8-binaries\releases\download\jdk8u292-b10\OpenJDK8U-jdk_x64_windows_hotspot_8u292b10.zip\jdk8u292-b10\jre\classes;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.1.2-RC1\scala3-library_3-3.1.2-RC1.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.8\scala-library-2.13.8.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	D:\GitHub\scala_system\rewrite\target\scala-3.1.2-RC1\classes;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant_3\0.2.0-SNAPSHOT\jars\dfiant_3.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-core_3\0.2.0-SNAPSHOT\jars\dfiant-core_3.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-compiler-stages_3\0.2.0-SNAPSHOT\jars\dfiant-compiler-stages_3.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scodec\scodec-bits_3\1.1.30\scodec-bits_3-1.1.30.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\wvlet\airframe\airframe-log_3\22.4.1\airframe-log_3-22.4.1.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-plugin_3.1.2-RC1\0.2.0-SNAPSHOT\jars\dfiant-plugin_3.1.2-RC1.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-internals_3\0.2.0-SNAPSHOT\jars\dfiant-internals_3.jar;C:\Users\shion\.ivy2\local\io.github.dfianthdl\dfiant-compiler-ir_3\0.2.0-SNAPSHOT\jars\dfiant-compiler-ir_3.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalafmt-dynamic_2.13\3.3.1\scalafmt-dynamic_2.13-3.3.1.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\ch\qos\logback\logback-core\1.2.11\logback-core-1.2.11.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalameta\scalafmt-interfaces\3.3.1\scalafmt-interfaces-3.3.1.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\io\get-coursier\interface\0.0.17\interface-0.0.17.jar;C:\Users\shion\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.1\config-1.4.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 3.2440835 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from top_rectangles_df...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: top_rectangles_df[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(top_rectangles_df)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(top_rectangles_df,ModifiedNames(changes = UsedName(fb_coord,[Default]), UsedName(fb_color,[Default]), UsedName(sCoord,[Default]), UsedName(v,[Default]), UsedName(sColor,[Default]))) invalidates 1 classes due to The top_rectangles_df has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(fb_coord,[Default]), UsedName(fb_color,[Default]), UsedName(sCoord,[Default]), UsedName(v,[Default]), UsedName(sColor,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(top_rectangles_df)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

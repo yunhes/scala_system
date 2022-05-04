@@ -26,8 +26,8 @@ class framebuffer(
   val line    = DFBool          <> IN // start a new screen line (clk_pix)
   val we      = DFBool          <> IN // write enable
   val sCoord  = videoDefs.Coord <> IN //
-  val sColor = fBDefs.Color <> OUT //
-  val cidx = DFUInt(CIDXW) <> IN //
+  val sColor  = fBDefs.Color    <> OUT //
+  val cidx    = DFUInt(CIDXW)   <> IN //
 
   val busy = DFBit  <> OUT //
   val clip = DFBool <> OUT //
@@ -69,7 +69,7 @@ class framebuffer(
   val cidx_in_p1    = DFBits(FB_DATAW) <> VAR
 
   we_in_p1   := we;
-  cidx_in_p1 := cidx; 
+  cidx_in_p1 := cidx;
   clip := (sCoord.y < 0 || sCoord.y >= HEIGHT || sCoord.x < 0 || sCoord.x >= WIDTH) // (y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH);  // clipped?
   if (busy || clip)
     fb_we := 0
@@ -83,17 +83,17 @@ class framebuffer(
     INIT_F = ""
   )
 
-  bram_sdp_inst1.we <> fb_we
+  bram_sdp_inst1.we         <> fb_we
   bram_sdp_inst1.addr_write <> fb_addr_write
-  bram_sdp_inst1.data_in  <> fb_cidx_write
-  bram_sdp_inst1.data_out <> fb_cidx_read
+  bram_sdp_inst1.data_in    <> fb_cidx_write
+  bram_sdp_inst1.data_out   <> fb_cidx_read
 
   // local var
   val LB_SCALE = SCALE
   val LB_LEN   = WIDTH
   val LB_BPC   = CHANW
 
-  val lb_data_req = DFBool <> VAR
+  val lb_data_req = DFBit <> VAR
   val cnt_h = DFUInt.until(LB_LEN + 1) <> VAR // DFUInt.until(LB_LEN) unsigned int DFbit until...
 
   val lb_en_in  = DFBit  <> VAR
@@ -116,16 +116,13 @@ class framebuffer(
       fb_addr_read := fb_addr_read + 1;
     else cnt_h := LB_LEN
 
+  if (rst_sys)
+    fb_addr_read := 0
+    busy         := 0
+    cnt_h        := LB_LEN
 
-  if (rst_sys){
-      fb_addr_read := 0
-      busy := 0
-      cnt_h := LB_LEN
-  }
-
-  if (lb_en_in_sr == b"100"){
+  if (lb_en_in_sr == b"100")
     busy := 0
-  }
 
   val lb_in_0 = DFUInt(LB_BPC) <> VAR
   val lb_in_1 = DFUInt(LB_BPC) <> VAR
@@ -141,17 +138,17 @@ class framebuffer(
     SCALE = LB_SCALE
   )
 
-  line_buffer.rst_in  <> rst_sys
-  line_buffer.rst_out <> rst_pix
+  line_buffer.rst_in   <> rst_sys
+  line_buffer.rst_out  <> rst_pix
   line_buffer.data_req <> lb_data_req
-  line_buffer.en_in  <> lb_en_in_sr.bits(0)
-  line_buffer.en_out <> lb_en_out
-  line_buffer.din_0  <> lb_in_0 // data in (clk_in)
-  line_buffer.din_1  <> lb_in_1
-  line_buffer.din_2  <> lb_in_2
-  line_buffer.dout_0 <> lb_out_0 // data out (clk_out)
-  line_buffer.dout_1 <> lb_out_1
-  line_buffer.dout_2 <> lb_out_2
+  line_buffer.en_in    <> lb_en_in_sr.bits(0)
+  line_buffer.en_out   <> lb_en_out
+  line_buffer.din_0    <> lb_in_0 // data in (clk_in)
+  line_buffer.din_1    <> lb_in_1
+  line_buffer.din_2    <> lb_in_2
+  line_buffer.dout_0   <> lb_out_0 // data out (clk_out)
+  line_buffer.dout_1   <> lb_out_1
+  line_buffer.dout_2   <> lb_out_2
 
   if (fb_addr_read < FB_PIXELS - 1)
     if (line_buffer.data_req)
@@ -179,7 +176,7 @@ class framebuffer(
   val clut_colr = DFUInt(CLUTW) <> VAR
 
   val clut = new rom_async_df(
-    WIDTH = CLUTW,
+    WIDTH  = CLUTW,
     DEPTH  = 2 << CIDXW, // scala.math.pow(2,CIDXW),
     INIT_F = ""
   )

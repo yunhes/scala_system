@@ -12,7 +12,7 @@ class line_buffer(
   val clk_out  = DFBit         <> IN
   val rst_in   = DFBit         <> IN
   val rst_out  = DFBit         <> IN
-  val data_req = DFBool         <> OUT
+  val data_req = DFBit         <> OUT
   val en_in    = DFBool        <> IN
   val en_out   = DFBool        <> IN
   val frame    = DFBool        <> IN
@@ -102,7 +102,6 @@ class line_buffer(
     cnt_v    := 0
     set_end  := 0
   get_data := line && set_end
-
 
   if (en_in)
     if (addr_in == LEN - 1)
