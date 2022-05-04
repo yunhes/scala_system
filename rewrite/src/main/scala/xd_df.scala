@@ -3,7 +3,6 @@ import compiler._
 // scalafmt: { align.tokens = [{code = "<>"}, {code = "="}, {code = "=>"}, {code = ":="}]}
 
 class xd_df(using DFC) extends RTDesign:
-  // val clk = DFBit <> IN
   val inDomain = new RTDomain:
     val clk    = DFBit <> IN
     val rst    = DFBit <> IN
@@ -15,7 +14,7 @@ class xd_df(using DFC) extends RTDesign:
   val outDomain = new RTDomain:
     val clk = DFBit     <> IN
     val rst = DFBit     <> IN
-    val o   = DFBit     <> OUT
+    val o   = DFBool     <> OUT
     val shr = DFBits(4) <> REG init all(0)
     shr.din := (shr(2, 0), inDomain.toggle)
     o       := shr(3) ^ shr(2)

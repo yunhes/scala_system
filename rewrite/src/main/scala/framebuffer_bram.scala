@@ -16,7 +16,6 @@ class framebuffer(
 //struct def
   object videoDefs extends VideoDefs(CORDW)
   object fBDefs extends FBDefs(CHANW)
-  // val sCoord = videoDefs.Coord <> VAR
 
   val clk_sys = DFBit           <> IN // system clock
   val clk_pix = DFBit           <> IN // pixel clock
@@ -27,9 +26,7 @@ class framebuffer(
   val line    = DFBool          <> IN // start a new screen line (clk_pix)
   val we      = DFBool          <> IN // write enable
   val sCoord  = videoDefs.Coord <> IN //
-  // val x = x.until(CORDW)
   val sColor = fBDefs.Color <> OUT //
-  // val sCoord.y = DFSInt(CORDW) <> IN    //
   val cidx = DFUInt(CIDXW) <> IN //
 
   val busy = DFBit  <> OUT //
@@ -71,11 +68,9 @@ class framebuffer(
   val fb_cidx_write = DFBits(FB_DATAW) <> VAR
   val cidx_in_p1    = DFBits(FB_DATAW) <> VAR
 
-  // clk_sys
   we_in_p1   := we;
-  cidx_in_p1 := cidx; // draw colour
+  cidx_in_p1 := cidx; 
   clip := (sCoord.y < 0 || sCoord.y >= HEIGHT || sCoord.x < 0 || sCoord.x >= WIDTH) // (y < 0 || y >= HEIGHT || x < 0 || x >= WIDTH);  // clipped?
-  // second stage
   if (busy || clip)
     fb_we := 0
   else
@@ -110,9 +105,7 @@ class framebuffer(
   val LAT         = 3
   val lb_en_in_sr = DFBits(LAT) <> VAR
 
-  // TODO: CONCAT
   lb_en_in_sr := (lb_en_in, lb_en_in_sr.bits(LAT - 1, 1))
-  // if (rst_sys) lb_en_in_sr := 0
 
   if (fb_addr_read < FB_PIXELS - 1)
     if (lb_data_req)
@@ -122,12 +115,6 @@ class framebuffer(
       cnt_h        := cnt_h + 1;
       fb_addr_read := fb_addr_read + 1;
     else cnt_h := LB_LEN
-
-  // TODO: reset alike error
-  if (frame_sys){
-    fb_addr_read := 0
-    busy         := 0
-  }
 
 
   if (rst_sys){

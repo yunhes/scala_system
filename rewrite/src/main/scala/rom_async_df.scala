@@ -9,7 +9,6 @@ class rom_async_df(
 )(using DFC)
     extends DFDesign:
 
-  // val bit_wdith = DFUInt.until(DEPTH)
 
   val addr = DFUInt.until(DEPTH) <> IN
   val data = DFUInt(WIDTH)       <> OUT
