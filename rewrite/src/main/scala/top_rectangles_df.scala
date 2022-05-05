@@ -190,6 +190,6 @@ class top_rectangles_df(using DFC) extends DFDesign:
 
 end top_rectangles_df
 
-@main def hello: Unit =
-  val top = new top_rectangles_df
-  top.printCodeString
+// @main def hello: Unit =
+//   val top = new top_rectangles_df
+//   top.printCodeString
