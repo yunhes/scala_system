@@ -47,7 +47,7 @@ class RectDefs(val CORDW: Int):
       ret
 end RectDefs
 
-class top_rectangles_df(using DFC) extends DFDesign:
+class TopRectanglesDf(using DFC) extends DFDesign:
   // framebuffer (FB)
   val FB_WIDTH   = 320
   val FB_HEIGHT  = 180
@@ -57,11 +57,20 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val FB_IMAGE   = ""
   val FB_PALETTE = "16_colr_4bit_palette.mem"
 
-  val vga_hsync = DFBit     <> OUT
-  val vga_vsync = DFBit     <> OUT
-  val vga_r     = DFBits(4) <> OUT
-  val vga_g     = DFBits(4) <> OUT
-  val vga_b     = DFBits(4) <> OUT
+  val vga_hsync = DFBit <> OUT
+  val vga_vsync = DFBit <> OUT
+  val vga_r_3   = DFBit <> OUT
+  val vga_r_2   = DFBit <> OUT
+  val vga_r_1   = DFBit <> OUT
+  val vga_r_0   = DFBit <> OUT
+  val vga_g_3   = DFBit <> OUT
+  val vga_g_2   = DFBit <> OUT
+  val vga_g_1   = DFBit <> OUT
+  val vga_g_0   = DFBit <> OUT
+  val vga_b_3   = DFBit <> OUT
+  val vga_b_2   = DFBit <> OUT
+  val vga_b_1   = DFBit <> OUT
+  val vga_b_0   = DFBit <> OUT
 
   // display timings
   val CORDW = 16
@@ -182,14 +191,14 @@ class top_rectangles_df(using DFC) extends DFDesign:
   val hsync_p1 = DFBit <> VAR
   val vsync_p1 = DFBit <> VAR
 
-  vga_hsync := hsync.pipe(2)
-  vga_vsync := vsync.pipe(2)
-  vga_r     := fb_color.red.pipe.bits
-  vga_g     := fb_color.green.pipe.bits
-  vga_b     := fb_color.blue.pipe.bits
+  vga_hsync                            := hsync.pipe(2)
+  vga_vsync                            := vsync.pipe(2)
+  (vga_r_3, vga_r_2, vga_r_1, vga_r_0) := fb_color.red.pipe.bits
+  (vga_g_3, vga_g_2, vga_g_1, vga_g_0) := fb_color.green.pipe.bits
+  (vga_b_3, vga_b_2, vga_b_1, vga_b_0) := fb_color.blue.pipe.bits
 
-end top_rectangles_df
+end TopRectanglesDf
 
 // @main def hello: Unit =
-//   val top = new top_rectangles_df
+//   val top = new TopRectanglesDf
 //   top.printCodeString
